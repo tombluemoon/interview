@@ -1,0 +1,230 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 348 questions
+        - generic [ref=e7]:
+          - button "Expand All" [ref=e8] [cursor=pointer]
+          - button "Collapse" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e12] [cursor=pointer]:
+          - generic "Drag to reorder" [ref=e13]: ⋮⋮
+          - generic [ref=e14]: ▸
+          - generic [ref=e15]: AI
+          - generic [ref=e16]: "106"
+        - generic [ref=e18] [cursor=pointer]:
+          - generic "Drag to reorder" [ref=e19]: ⋮⋮
+          - generic [ref=e20]: ▸
+          - generic [ref=e21]: Behavioral
+          - generic [ref=e22]: "50"
+        - generic [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - generic "Drag to reorder" [ref=e25]: ⋮⋮
+            - generic [ref=e26]: ▾
+            - generic [ref=e27]: Java Core
+            - generic [ref=e28]: "73"
+          - generic [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]: A Spring Boot service starts slowly. How do you investigate?
+            - generic [ref=e31] [cursor=pointer]: Does readOnly = true really improve performance?
+            - generic [ref=e32] [cursor=pointer]: Does StringBuilder vs StringBuffer still matter in interviews?
+            - generic [ref=e33] [cursor=pointer]: Full GC suddenly became frequent after a release. What is your first instinct?
+            - generic [ref=e34] [cursor=pointer]: How do class loading, linking, and initialization differ in a practical explanation?
+            - generic [ref=e35] [cursor=pointer]: How do you actually investigate a Java memory leak?
+            - generic [ref=e36] [cursor=pointer]: How do you actually use checked vs unchecked exceptions in service code?
+            - generic [ref=e37] [cursor=pointer]: How do you answer “Tell me about your JVM tuning experience” without sounding shallow?
+            - generic [ref=e38] [cursor=pointer]: How do you answer “Why is String immutable?” in a non-generic way?
+            - generic [ref=e39] [cursor=pointer]: How do you answer questions about modern Java features without sounding like you memorized release notes?
+            - generic [ref=e40] [cursor=pointer]: How do you answer Spring Security questions like someone who has used it?
+            - generic [ref=e41] [cursor=pointer]: How do you choose between G1GC and ZGC?
+            - generic [ref=e42] [cursor=pointer]: How do you choose between HashMap and ConcurrentHashMap in real code?
+            - generic [ref=e43] [cursor=pointer]: How do you choose between synchronized, volatile, and atomic classes?
+            - generic [ref=e44] [cursor=pointer]: How do you diagnose deadlock or thread starvation in production?
+            - generic [ref=e45] [cursor=pointer]: How do you distinguish Filter, Interceptor, and AOP?
+            - generic [ref=e46] [cursor=pointer]: How do you explain ? extends and ? super clearly?
+            - generic [ref=e47] [cursor=pointer]: How do you explain concurrency vs parallelism in a useful way?
+            - generic [ref=e48] [cursor=pointer]: How do you explain deep copy vs shallow copy without sounding theoretical?
+            - generic [ref=e49] [cursor=pointer]: How do you explain fail-fast vs fail-safe in a practical way?
+            - generic [ref=e50] [cursor=pointer]: How do you explain final, finally, and finalize() like a senior engineer?
+            - generic [ref=e51] [cursor=pointer]: How do you explain happens-before in a practical way?
+            - generic [ref=e52] [cursor=pointer]: How do you explain Spring AOP without sounding abstract?
+            - generic [ref=e53] [cursor=pointer]: How do you explain the Bean lifecycle in a way that sounds practical?
+            - generic [ref=e54] [cursor=pointer]: How do you think about circular dependency issues?
+            - generic [ref=e55] [cursor=pointer]: How do you think about thread pool sizing?
+            - generic [ref=e56] [cursor=pointer]: How would you implement LRU, and why is that question still common?
+            - generic [ref=e57] [cursor=pointer]: If the interviewer asks, “Have you ever seen a real collection-related bug?”, what would you say?
+            - generic [ref=e58] [cursor=pointer]: Is a Spring singleton bean automatically thread-safe?
+            - generic [ref=e59] [cursor=pointer]: Walk me through a normal Spring MVC request.
+            - generic [ref=e60] [cursor=pointer]: What actually happens when a Java object is created?
+            - generic [ref=e61] [cursor=pointer]: What are common CompletableFuture mistakes?
+            - generic [ref=e62] [cursor=pointer]: What exactly does the Spring container do for you?
+            - generic [ref=e63] [cursor=pointer]: What is safe publication, and why does it matter in backend services?
+            - generic [ref=e64] [cursor=pointer]: What is the most common fake “GC issue” you see in backend services?
+            - generic [ref=e65] [cursor=pointer]: What is the most common misuse of Optional in Java projects?
+            - generic [ref=e66] [cursor=pointer]: What is the most common reason HashSet deduplication fails?
+            - generic [ref=e67] [cursor=pointer]: What real scenarios can cause Metaspace OOM?
+            - generic [ref=e68] [cursor=pointer]: When are you especially careful with BigDecimal in real systems?
+            - generic [ref=e69] [cursor=pointer]: When CPU usage is high in production, how do you decide whether GC is the real problem?
+            - generic [ref=e70] [cursor=pointer]: When do you actually use ThreadLocal?
+            - generic [ref=e71] [cursor=pointer]: When do you proactively enable heap dumps and GC logs?
+            - generic [ref=e72] [cursor=pointer]: When do you use @ConfigurationProperties instead of @Value?
+            - generic [ref=e73] [cursor=pointer]: When do you use Spring application events?
+            - generic [ref=e74] [cursor=pointer]: When does Spring transaction rollback happen by default?
+            - generic [ref=e75] [cursor=pointer]: When does TreeMap genuinely make sense?
+            - generic [ref=e76] [cursor=pointer]: When is CopyOnWriteArrayList a good idea, and when is it not?
+            - generic [ref=e77] [cursor=pointer]: Where does ReentrantLock really beat synchronized?
+            - generic [ref=e78] [cursor=pointer]: Which JVM metrics do you check first besides heap usage?
+            - generic [ref=e79] [cursor=pointer]: Which thread pool parameters matter most in real incidents?
+            - generic [ref=e80] [cursor=pointer]: Which transaction propagation modes do you actually use most?
+            - generic [ref=e81] [cursor=pointer]: Why are equals() and hashCode() still such common interview topics?
+            - generic [ref=e82] [cursor=pointer]: Why can adding a thread pool actually make a system slower?
+            - generic [ref=e83] [cursor=pointer]: Why can ConcurrentHashMap still allow a race in business logic?
+            - generic [ref=e84] [cursor=pointer]: Why can ThreadLocal still leak even though its key is weakly referenced?
+            - generic [ref=e85] [cursor=pointer]: Why do static synchronized methods and instance synchronized methods not block each other?
+            - generic [ref=e86] [cursor=pointer]: Why do we usually restore interrupt status after catching InterruptedException?
+            - generic [ref=e87] [cursor=pointer]: Why does @Transactional sometimes appear to do nothing?
+            - generic [ref=e88] [cursor=pointer]: Why does HashMap not always treeify as soon as a bucket reaches length 8?
+            - generic [ref=e89] [cursor=pointer]: Why does increasing heap size not always fix OOM?
+            - generic [ref=e90] [cursor=pointer]: Why does volatile fix visibility but not compound actions?
+            - generic [ref=e91] [cursor=pointer]: Why does volatile not make i++ safe?
+            - generic [ref=e92] [cursor=pointer]: Why is “LinkedList has O(1) insertion” often an incomplete or misleading answer?
+            - generic [ref=e93] [cursor=pointer]: Why is @Async frequently misused?
+            - generic [ref=e94] [cursor=pointer]: Why is ArrayList growth behavior a useful interview topic?
+            - generic [ref=e95] [cursor=pointer]: Why is ConcurrentHashMap not enough to make business logic safe?
+            - generic [ref=e96] [cursor=pointer]: Why is field injection often discouraged?
+            - generic [ref=e97] [cursor=pointer]: Why is LinkedList rarely the best answer in business code?
+            - generic [ref=e98] [cursor=pointer]: Why is notifyAll() often safer than notify()?
+            - generic [ref=e99] [cursor=pointer]: Why is submit() vs execute() a useful detail question?
+            - generic [ref=e100] [cursor=pointer]: Why is volatile required in double-checked locking?
+            - generic [ref=e101] [cursor=pointer]: Why should a controller avoid mutable shared state?
+            - generic [ref=e102] [cursor=pointer]: Why should wait() usually be guarded by while, not if?
+        - generic [ref=e104] [cursor=pointer]:
+          - generic "Drag to reorder" [ref=e105]: ⋮⋮
+          - generic [ref=e106]: ▸
+          - generic [ref=e107]: SQL
+          - generic [ref=e108]: "20"
+        - generic [ref=e109]:
+          - generic [ref=e110] [cursor=pointer]:
+            - generic "Drag to reorder" [ref=e111]: ⋮⋮
+            - generic [ref=e112]: ▾
+            - generic [ref=e113]: System Design
+            - generic [ref=e114]: "99"
+          - generic [ref=e115]:
+            - generic [ref=e116] [cursor=pointer]: How do circuit breakers help, and what do they not solve?
+            - generic [ref=e117] [cursor=pointer]: How do you answer if you do not know the exact technology?
+            - generic [ref=e118] [cursor=pointer]: How do you approach rate limiting in distributed systems?
+            - generic [ref=e119] [cursor=pointer]: How do you choose between SQL and NoSQL in an interview?
+            - generic [ref=e120] [cursor=pointer]: How do you choose between synchronous calls and asynchronous messaging?
+            - generic [ref=e121] [cursor=pointer]: How do you decide service boundaries?
+            - generic [ref=e122] [cursor=pointer]: How do you decide where to put caching?
+            - generic [ref=e123] [cursor=pointer]: How do you decide which model goes on which workflow step?
+            - generic [ref=e124] [cursor=pointer]: How do you discuss consistency vs availability without sounding generic?
+            - generic [ref=e125] [cursor=pointer]: How do you distinguish cache penetration, breakdown, and avalanche?
+            - generic [ref=e126] [cursor=pointer]: How do you explain eventual consistency in a practical way?
+            - generic [ref=e127] [cursor=pointer]: How do you explain RDB vs AOF in Redis like someone who has operated it?
+            - generic [ref=e128] [cursor=pointer]: How do you explain the Saga pattern without sounding academic?
+            - generic [ref=e129] [cursor=pointer]: How do you handle a hot key problem?
+            - generic [ref=e130] [cursor=pointer]: How do you handle backward compatibility between services?
+            - generic [ref=e131] [cursor=pointer]: How do you implement idempotency with Redis?
+            - generic [ref=e132] [cursor=pointer]: How do you include observability in a design answer?
+            - generic [ref=e133] [cursor=pointer]: How do you judge whether an AI feature is actually worth shipping?
+            - generic [ref=e134] [cursor=pointer]: How do you keep cache and database reasonably consistent?
+            - generic [ref=e135] [cursor=pointer]: How do you keep your design answer from becoming too abstract?
+            - generic [ref=e136] [cursor=pointer]: How do you talk about CDN usage in system design?
+            - generic [ref=e137] [cursor=pointer]: How do you think about build versus buy for AI systems?
+            - generic [ref=e138] [cursor=pointer]: How do you think about ordering guarantees?
+            - generic [ref=e139] [cursor=pointer]: How do you think about retries in a production system?
+            - generic [ref=e140] [cursor=pointer]: How do you think about service discovery and API gateways?
+            - generic [ref=e141] [cursor=pointer]: How much estimation should you do?
+            - generic [ref=e142] [cursor=pointer]: How should you start a system design interview?
+            - generic [ref=e143] [cursor=pointer]: How would you design a document Q&A system for PDFs, tables, and screenshots?
+            - generic [ref=e144] [cursor=pointer]: How would you design a high-volume AI customer support assistant?
+            - generic [ref=e145] [cursor=pointer]: How would you design a permission system that limits which data can be retrieved?
+            - generic [ref=e146] [cursor=pointer]: How would you design an AI customer support system for millions of users while keeping it stable and cost-controlled?
+            - generic [ref=e147] [cursor=pointer]: How would you design an auditable LLM system, and what logs and traces are required?
+            - generic [ref=e148] [cursor=pointer]: How would you handle prompt version management and A/B testing?
+            - generic [ref=e149] [cursor=pointer]: How would you isolate data and resources in a multi-tenant AI platform?
+            - generic [ref=e150] [cursor=pointer]: Is Redis only a cache in your systems?
+            - generic [ref=e151] [cursor=pointer]: Should you design the API first or the database first?
+            - generic [ref=e152] [cursor=pointer]: Under high concurrency, how would you use caching and degradation so that the model does not become the bottleneck?
+            - generic [ref=e153] [cursor=pointer]: What detail makes your system design answers sound less generic immediately?
+            - generic [ref=e154] [cursor=pointer]: What do strong AI interview answers sound like?
+            - generic [ref=e155] [cursor=pointer]: What do you log in an AI system without creating a privacy mess?
+            - generic [ref=e156] [cursor=pointer]: What does a mature answer about graceful degradation sound like?
+            - generic [ref=e157] [cursor=pointer]: What does a strong scaling answer sound like?
+            - generic [ref=e158] [cursor=pointer]: What happens if Redis goes down?
+            - generic [ref=e159] [cursor=pointer]: What is a common multimodal failure mode in enterprise use?
+            - generic [ref=e160] [cursor=pointer]: What is a realistic answer to “How do you avoid duplicate message processing?”
+            - generic [ref=e161] [cursor=pointer]: What is context engineering, and why is it more important than prompt wording alone?
+            - generic [ref=e162] [cursor=pointer]: What is hard about building a speech assistant beyond speech-to-text?
+            - generic [ref=e163] [cursor=pointer]: What is the biggest mistake teams make with service-to-service calls?
+            - generic [ref=e164] [cursor=pointer]: What is the difference between a correlation ID and a trace ID in interviews?
+            - generic [ref=e165] [cursor=pointer]: What is the most realistic Redis incident answer you can give in an interview?
+            - generic [ref=e166] [cursor=pointer]: What is the outbox pattern, and why is it so useful?
+            - generic [ref=e167] [cursor=pointer]: What is the real challenge with message queues in production?
+            - generic [ref=e168] [cursor=pointer]: What kind of clarifying questions make you look strong?
+            - generic [ref=e169] [cursor=pointer]: What makes a good “trade-off” answer?
+            - generic [ref=e170] [cursor=pointer]: What makes a senior system design answer feel senior?
+            - generic [ref=e171] [cursor=pointer]: What makes a strong senior-level database answer feel detailed?
+            - generic [ref=e172] [cursor=pointer]: When do you introduce queues into a design?
+            - generic [ref=e173] [cursor=pointer]: When do you shard a database?
+            - generic [ref=e174] [cursor=pointer]: When should you not split a system into microservices?
+            - generic [ref=e175] [cursor=pointer]: When would you use OCR plus LLM versus a native multimodal model?
+            - generic [ref=e176] [cursor=pointer]: Why are big keys dangerous?
+            - generic [ref=e177] [cursor=pointer]: Why are distributed traces not enough by themselves?
+            - generic [ref=e178] [cursor=pointer]: Why are write-heavy systems harder to scale than read-heavy systems?
+            - generic [ref=e179] [cursor=pointer]: Why can "just add more context" make answer quality worse?
+            - generic [ref=e180] [cursor=pointer]: Why can a composite index stop helping after a certain column?
+            - generic [ref=e181] [cursor=pointer]: Why can a reranker upgrade beat a generator model upgrade?
+            - generic [ref=e182] [cursor=pointer]: Why can changing the embedding model break search quality even if benchmarks looked good?
+            - generic [ref=e183] [cursor=pointer]: Why can consumer commit timing create duplicate or lost work?
+            - generic [ref=e184] [cursor=pointer]: Why can conversation summarization degrade assistant quality?
+            - generic [ref=e185] [cursor=pointer]: Why can JSON mode or schema-constrained output still fail in real systems?
+            - generic [ref=e186] [cursor=pointer]: Why can retries make an AI workflow worse instead of better?
+            - generic [ref=e187] [cursor=pointer]: Why can retries make an outage worse?
+            - generic [ref=e188] [cursor=pointer]: Why can select * destroy the benefit of a covering index?
+            - generic [ref=e189] [cursor=pointer]: Why do agent loops happen even when each individual tool works?
+            - generic [ref=e190] [cursor=pointer]: Why do synchronous fan-out calls create risk?
+            - generic [ref=e191] [cursor=pointer]: Why do timeouts matter more than people think?
+            - generic [ref=e192] [cursor=pointer]: Why do you not cache everything?
+            - generic [ref=e193] [cursor=pointer]: Why does @Transactional usually not work on private methods?
+            - generic [ref=e194] [cursor=pointer]: Why does readOnly = true not guarantee “no locks”?
+            - generic [ref=e195] [cursor=pointer]: Why does rollback not happen for checked exceptions by default?
+            - generic [ref=e196] [cursor=pointer]: Why does self-invocation often break transaction behavior?
+            - generic [ref=e197] [cursor=pointer]: Why does using a function on an indexed column often kill index usage?
+            - generic [ref=e198] [cursor=pointer]: Why is “delete cache first, then write DB” risky?
+            - generic [ref=e199] [cursor=pointer]: Why is “double delete” not a perfect consistency solution?
+            - generic [ref=e200] [cursor=pointer]: Why is “eventual consistency” a weak answer unless you define the window and impact?
+            - generic [ref=e201] [cursor=pointer]: Why is “exactly once” usually a dangerous phrase?
+            - generic [ref=e202] [cursor=pointer]: Why is “just add a queue” sometimes the wrong answer?
+            - generic [ref=e203] [cursor=pointer]: Why is answer rate a misleading metric?
+            - generic [ref=e204] [cursor=pointer]: Why is API backward compatibility such an operational topic?
+            - generic [ref=e205] [cursor=pointer]: Why is at-least-once delivery often acceptable when exactly-once is not realistic?
+            - generic [ref=e206] [cursor=pointer]: Why is cache hit rate not enough as a health metric?
+            - generic [ref=e207] [cursor=pointer]: Why is idempotency key expiry a subtle design detail?
+            - generic [ref=e208] [cursor=pointer]: Why is idempotency such a central topic in distributed systems interviews?
+            - generic [ref=e209] [cursor=pointer]: Why is observability such a big part of distributed system interviews?
+            - generic [ref=e210] [cursor=pointer]: Why is service decomposition by database table often a weak design?
+            - generic [ref=e211] [cursor=pointer]: Why is SETNX alone not enough for a distributed lock?
+            - generic [ref=e212] [cursor=pointer]: Why is tool success rate not the same as task success rate?
+            - generic [ref=e213] [cursor=pointer]: Why must Redis unlock logic compare the stored token/value?
+            - generic [ref=e214] [cursor=pointer]: Why should you care about redrive and poison message strategy?
+    - main [ref=e215]:
+      - article [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]: Java Core
+          - generic [ref=e219]: Medium
+        - heading "How do you diagnose deadlock or thread starvation in production?" [level=1] [ref=e220]
+        - generic [ref=e222]: concurrency
+        - generic [ref=e224]:
+          - paragraph [ref=e225]: Capture thread dumps.
+          - paragraph [ref=e226]: Look at blocked/waiting distribution and lock ownership.
+          - paragraph [ref=e227]: Check lock ordering, long critical sections, and whether external calls are made while holding locks.
+        - generic [ref=e228]:
+          - heading "Reference Answer" [level=3] [ref=e229]
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: Capture thread dumps.
+            - paragraph [ref=e232]: Look at blocked/waiting distribution and lock ownership.
+            - paragraph [ref=e233]: Check lock ordering, long critical sections, and whether external calls are made while holding locks.
+  - button "Open Next.js Dev Tools" [ref=e239] [cursor=pointer]:
+    - img [ref=e240]
+  - alert [ref=e243]

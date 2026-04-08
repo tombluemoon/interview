@@ -2,48 +2,52 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { Category, Question } from "@/types/domain";
+import { renderMarkdown } from "@/lib/render-markdown";
 
 interface QuestionBankProps {
   categories: Category[];
   questions: Question[];
 }
 
-const STORAGE_KEY = "interview-review-category-order";
+const ORDER_KEY = "interview-review-category-order";
+const EXPANDED_KEY = "interview-review-expanded-categories";
+const SELECTED_KEY = "interview-review-selected-question";
 
-function loadCategoryOrder(): string[] | null {
+function loadFromStorage<T>(key: string, fallback: T): T {
   try {
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const stored = localStorage.getItem(key);
     if (stored) {
       return JSON.parse(stored);
     }
   } catch {
     // ignore
   }
-  return null;
+  return fallback;
 }
 
-function saveCategoryOrder(order: string[]) {
+function saveToStorage(key: string, value: unknown) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(order));
+    localStorage.setItem(key, JSON.stringify(value));
   } catch {
     // ignore
   }
 }
 
 export default function QuestionBankClient({ categories, questions }: QuestionBankProps) {
-  const [expandedIds, setExpandedIds] = useState<string[]>(() => categories.map((c) => c.id));
+  const [categoryOrder, setCategoryOrder] = useState<string[]>(() => categories.map((c) => c.id));
+  const [expandedIds, setExpandedIds] = useState<string[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [draggedId, setDraggedId] = useState<string | null>(null);
-  const [categoryOrder, setCategoryOrder] = useState<string[]>(() => categories.map((c) => c.id));
   const [isHydrated, setIsHydrated] = useState(false);
 
-  // Load order from localStorage after hydration
+  // Restore state from localStorage after hydration
   useEffect(() => {
-    const saved = loadCategoryOrder();
-    if (saved) {
-      const savedIds = new Set(saved);
+    // Restore category order
+    const savedOrder = loadFromStorage<string[] | null>(ORDER_KEY, null);
+    if (savedOrder) {
+      const savedIds = new Set(savedOrder);
       const allIds = categories.map((c) => c.id);
-      const merged = [...saved.filter((id) => allIds.includes(id))];
+      const merged = [...savedOrder.filter((id) => allIds.includes(id))];
       for (const id of allIds) {
         if (!savedIds.has(id)) {
           merged.push(id);
@@ -51,15 +55,57 @@ export default function QuestionBankClient({ categories, questions }: QuestionBa
       }
       setCategoryOrder(merged);
     }
-    setIsHydrated(true);
-  }, [categories]);
 
-  // Persist order whenever it changes
+    // Restore selected question
+    const savedSelected = loadFromStorage<string | null>(SELECTED_KEY, null);
+    let restoredSelectedId: string | null = null;
+    if (savedSelected) {
+      const exists = questions.some((q) => q.id === savedSelected);
+      if (exists) {
+        restoredSelectedId = savedSelected;
+      }
+    }
+
+    // Restore expanded categories
+    const savedExpanded = loadFromStorage<string[] | null>(EXPANDED_KEY, null);
+    if (savedExpanded) {
+      const allIds = new Set(categories.map((c) => c.id));
+      const restoredExpanded = savedExpanded.filter((id) => allIds.has(id));
+      // If a question is selected, ensure its category is expanded
+      if (restoredSelectedId) {
+        const selectedQuestion = questions.find((q) => q.id === restoredSelectedId);
+        if (selectedQuestion && !restoredExpanded.includes(selectedQuestion.categoryId)) {
+          restoredExpanded.push(selectedQuestion.categoryId);
+        }
+      }
+      setExpandedIds(restoredExpanded);
+    } else {
+      // Default: all expanded
+      setExpandedIds(categories.map((c) => c.id));
+    }
+
+    setSelectedId(restoredSelectedId);
+    setIsHydrated(true);
+  }, [categories, questions]);
+
+  // Persist state changes
   useEffect(() => {
     if (isHydrated) {
-      saveCategoryOrder(categoryOrder);
+      saveToStorage(ORDER_KEY, categoryOrder);
     }
   }, [categoryOrder, isHydrated]);
+
+  useEffect(() => {
+    if (isHydrated) {
+      saveToStorage(EXPANDED_KEY, expandedIds);
+    }
+  }, [expandedIds, isHydrated]);
+
+  useEffect(() => {
+    if (isHydrated) {
+      saveToStorage(SELECTED_KEY, selectedId);
+    }
+  }, [selectedId, isHydrated]);
 
   const toggleCategory = useCallback((categoryId: string) => {
     setExpandedIds((prev) => {
@@ -160,11 +206,15 @@ export default function QuestionBankClient({ categories, questions }: QuestionBa
             );
             const isExpanded = expandedIds.includes(category.id);
             const isDragging = draggedId === category.id;
+
+            // Check if any question in this category is selected
+            const hasSelectedQuestion = selectedId && catQuestions.some((q) => q.id === selectedId);
+
             return (
               <div
                 key={category.id}
                 data-category-id={category.id}
-                className={`qb-category${isDragging ? " qb-dragging" : ""}`}
+                className={`qb-category${isDragging ? " qb-dragging" : ""}${hasSelectedQuestion ? " qb-category-active" : ""}`}
                 draggable
                 onDragStart={(e) => handleDragStart(e, category.id)}
                 onDragOver={(e) => handleDragOver(e, category.id)}
@@ -215,10 +265,21 @@ export default function QuestionBankClient({ categories, questions }: QuestionBa
                 ))}
               </div>
             )}
+            {selectedQuestion.body && (
+              <div className="qb-detail-body">
+                <div
+                  className="qb-md-content"
+                  dangerouslySetInnerHTML={{ __html: renderMarkdown(selectedQuestion.body) }}
+                />
+              </div>
+            )}
             {selectedQuestion.referenceAnswer && (
               <div className="qb-detail-answer">
                 <h3>Reference Answer</h3>
-                <pre>{selectedQuestion.referenceAnswer}</pre>
+                <div
+                  className="qb-md-content"
+                  dangerouslySetInnerHTML={{ __html: renderMarkdown(selectedQuestion.referenceAnswer) }}
+                />
               </div>
             )}
           </article>
