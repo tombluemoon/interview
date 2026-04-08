@@ -1,0 +1,116 @@
+services:
+  db:
+    image: postgres:${POSTGRES_IMAGE_TAG:-16-alpine}
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\"",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - app_net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  app:
+    image: ${APP_IMAGE_NAME:-interview-review-web}:${APP_IMAGE_TAG:-release}
+    build:
+      context: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      APP_TIME_ZONE: ${APP_TIME_ZONE:-Asia/Tokyo}
+      DATABASE_URL: ${DATABASE_URL}
+    ports:
+      - 127.0.0.1:${APP_PORT:-3000}:3000
+    networks:
+      - app_net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  migrate:
+    image: ${APP_IMAGE_NAME:-interview-review-web}:${APP_IMAGE_TAG:-release}
+    build:
+      context: .
+    profiles: ["ops"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      APP_TIME_ZONE: ${APP_TIME_ZONE:-Asia/Tokyo}
+      DATABASE_URL: ${DATABASE_URL}
+    command: ["npm", "run", "db:migrate"]
+    networks:
+      - app_net
+
+  caddy:
+    image: caddy:2-alpine
+    profiles: ["vps-proxy"]
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./ops/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - app_net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  cloudflared:
+    image: cloudflare/cloudflared:${CLOUDFLARED_IMAGE_TAG:-latest}
+    profiles: ["cloudflare"]
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    command: ["tunnel", "run", "--token", "${CLOUDFLARE_TUNNEL_TOKEN:-}"]
+    networks:
+      - app_net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:
+
+networks:
+  app_net:
+    driver: bridge

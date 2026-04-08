@@ -1,0 +1,34 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 348 questions
+        - generic [ref=e7]:
+          - button "Expand All" [ref=e8] [cursor=pointer]
+          - button "Collapse" [active] [ref=e9] [cursor=pointer]
+      - navigation [ref=e10]:
+        - button "▸ AI 106" [ref=e402] [cursor=pointer]:
+          - generic [ref=e13]: ▸
+          - generic [ref=e14]: AI
+          - generic [ref=e15]: "106"
+        - button "▸ Behavioral 50" [ref=e403] [cursor=pointer]:
+          - generic [ref=e125]: ▸
+          - generic [ref=e126]: Behavioral
+          - generic [ref=e127]: "50"
+        - button "▸ Java Core 73" [ref=e404] [cursor=pointer]:
+          - generic [ref=e181]: ▸
+          - generic [ref=e182]: Java Core
+          - generic [ref=e183]: "73"
+        - button "▸ SQL 20" [ref=e405] [cursor=pointer]:
+          - generic [ref=e260]: ▸
+          - generic [ref=e261]: SQL
+          - generic [ref=e262]: "20"
+        - button "▸ System Design 99" [ref=e406] [cursor=pointer]:
+          - generic [ref=e286]: ▸
+          - generic [ref=e287]: System Design
+          - generic [ref=e288]: "99"
+    - main [ref=e389]:
+      - paragraph [ref=e391]: Select a question from the left panel to view details.
+  - button "Open Next.js Dev Tools" [ref=e397] [cursor=pointer]:
+    - img [ref=e398]
+  - alert [ref=e401]

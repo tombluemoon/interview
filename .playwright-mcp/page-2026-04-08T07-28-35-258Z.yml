@@ -1,0 +1,400 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 348 questions
+        - generic [ref=e7]:
+          - button "Expand All" [ref=e8] [cursor=pointer]
+          - button "Collapse" [ref=e9] [cursor=pointer]
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - button "▾ AI 106" [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: ▾
+            - generic [ref=e14]: AI
+            - generic [ref=e15]: "106"
+          - list [ref=e16]:
+            - listitem [ref=e17] [cursor=pointer]: Given a log stream, how would you count error codes per minute and output the Top N?
+            - listitem [ref=e18] [cursor=pointer]: How do system prompt, user prompt, retrieved context, and tool results interact?
+            - listitem [ref=e19] [cursor=pointer]: How do temperature and top-p change model behavior?
+            - listitem [ref=e20] [cursor=pointer]: How do you break down LLM latency in production?
+            - listitem [ref=e21] [cursor=pointer]: How do you build a good test set for LLM systems?
+            - listitem [ref=e22] [cursor=pointer]: How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?
+            - listitem [ref=e23] [cursor=pointer]: How do you choose chunk size and chunk overlap?
+            - listitem [ref=e24] [cursor=pointer]: How do you connect offline evals to online experiments?
+            - listitem [ref=e25] [cursor=pointer]: How do you cut AI cost without wrecking quality?
+            - listitem [ref=e26] [cursor=pointer]: How do you debug an agent failure?
+            - listitem [ref=e27] [cursor=pointer]: How do you decide between hosted APIs and self-hosted models?
+            - listitem [ref=e28] [cursor=pointer]: How do you defend against prompt injection and jailbreak attempts?
+            - listitem [ref=e29] [cursor=pointer]: How do you design model routing and fallback?
+            - listitem [ref=e30] [cursor=pointer]: How do you diagnose an online performance problem, from metrics to root cause?
+            - listitem [ref=e31] [cursor=pointer]: How do you distinguish hallucination from retrieval failure or tool failure?
+            - listitem [ref=e32] [cursor=pointer]: How do you evaluate a RAG system beyond "the answer looks okay"?
+            - listitem [ref=e33] [cursor=pointer]: How do you evaluate whether fine-tuning was worth it?
+            - listitem [ref=e34] [cursor=pointer]: How do you explain a transformer like an engineer, not like a researcher?
+            - listitem [ref=e35] [cursor=pointer]: How do you explain LoRA or PEFT in a practical way?
+            - listitem [ref=e36] [cursor=pointer]: How do you explain precision vs recall in a way that sounds practical?
+            - listitem [ref=e37] [cursor=pointer]: How do you explain RLHF versus DPO?
+            - listitem [ref=e38] [cursor=pointer]: How do you explain the latency-quality-cost triangle?
+            - listitem [ref=e39] [cursor=pointer]: How do you handle embedding refresh and re-indexing when documents or chunking rules change?
+            - listitem [ref=e40] [cursor=pointer]: How do you handle PII and secrets in AI pipelines?
+            - listitem [ref=e41] [cursor=pointer]: How do you handle stale knowledge in a RAG system?
+            - listitem [ref=e42] [cursor=pointer]: How do you keep retrieval fresh and invalidate stale knowledge?
+            - listitem [ref=e43] [cursor=pointer]: How do you know your refusal policy is too strict or too weak?
+            - listitem [ref=e44] [cursor=pointer]: How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?
+            - listitem [ref=e45] [cursor=pointer]: How do you manage conversation memory and session state?
+            - listitem [ref=e46] [cursor=pointer]: How do you prevent destructive tool misuse?
+            - listitem [ref=e47] [cursor=pointer]: How do you roll out a new model version safely?
+            - listitem [ref=e48] [cursor=pointer]: How do you tell whether an AI problem is really a model problem or a product or data problem?
+            - listitem [ref=e49] [cursor=pointer]: How would you approach service decomposition and API contract management?
+            - listitem [ref=e50] [cursor=pointer]: How would you design a canary release and rollback mechanism for model systems?
+            - listitem [ref=e51] [cursor=pointer]: How would you design a concurrency-safe delayed task scheduler?
+            - listitem [ref=e52] [cursor=pointer]: How would you design a feature store that keeps offline and online features consistent?
+            - listitem [ref=e53] [cursor=pointer]: How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?
+            - listitem [ref=e54] [cursor=pointer]: How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?
+            - listitem [ref=e55] [cursor=pointer]: How would you design an idempotent write API?
+            - listitem [ref=e56] [cursor=pointer]: How would you design model routing and provider fallback?
+            - listitem [ref=e57] [cursor=pointer]: How would you design offline and online evaluation for answer quality and business impact?
+            - listitem [ref=e58] [cursor=pointer]: How would you design rate limiting and circuit breaking for a high-concurrency API?
+            - listitem [ref=e59] [cursor=pointer]: How would you design tool calling and agent orchestration safely?
+            - listitem [ref=e60] [cursor=pointer]: How would you handle backfills, replay, and reprocessing?
+            - listitem [ref=e61] [cursor=pointer]: How would you handle data version management and traceability?
+            - listitem [ref=e62] [cursor=pointer]: How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?
+            - listitem [ref=e63] [cursor=pointer]: How would you implement a rate limiter such as a token bucket or leaky bucket?
+            - listitem [ref=e64] [cursor=pointer]: How would you implement an O(1) LRU cache?
+            - listitem [ref=e65] [cursor=pointer]: How would you implement Top K frequency statistics, and what are the time and space complexities?
+            - listitem [ref=e66] [cursor=pointer]: How would you integrate model services into CI/CD and automated testing?
+            - listitem [ref=e67] [cursor=pointer]: How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?
+            - listitem [ref=e68] [cursor=pointer]: In Spring Boot, how do you think about transaction propagation and consistency trade-offs?
+            - listitem [ref=e69] [cursor=pointer]: What are common optimization strategies for large joins and slow queries?
+            - listitem [ref=e70] [cursor=pointer]: What are the most common RAG failure modes you have seen?
+            - listitem [ref=e71] [cursor=pointer]: What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?
+            - listitem [ref=e72] [cursor=pointer]: What are the real trade-offs of quantization?
+            - listitem [ref=e73] [cursor=pointer]: What are the trade-offs of streaming responses?
+            - listitem [ref=e74] [cursor=pointer]: What cost optimization methods would you use, and how would you keep spending under control?
+            - listitem [ref=e75] [cursor=pointer]: What data quality problem hurts AI systems the most?
+            - listitem [ref=e76] [cursor=pointer]: What does a serious eval strategy look like for an AI product?
+            - listitem [ref=e77] [cursor=pointer]: What does governance mean in an AI system beyond legal checkboxes?
+            - listitem [ref=e78] [cursor=pointer]: What does memory mean in an agent system?
+            - listitem [ref=e79] [cursor=pointer]: What does overfitting look like in an applied AI system, not just in a textbook?
+            - listitem [ref=e80] [cursor=pointer]: What engineering safeguards would you use when the model hallucinates?
+            - listitem [ref=e81] [cursor=pointer]: What is catastrophic forgetting, and how do you reduce it?
+            - listitem [ref=e82] [cursor=pointer]: What is distribution shift, and where does it show up in AI products?
+            - listitem [ref=e83] [cursor=pointer]: What is MCP, and where is it useful?
+            - listitem [ref=e84] [cursor=pointer]: What is multi-hop retrieval, and when do you need it?
+            - listitem [ref=e85] [cursor=pointer]: What is prefix or prompt caching, and where does it help?
+            - listitem [ref=e86] [cursor=pointer]: What is prompt injection, and why is it not just a prompt problem?
+            - listitem [ref=e87] [cursor=pointer]: What is speculative decoding, and when is it useful?
+            - listitem [ref=e88] [cursor=pointer]: What is the difference between prefill and decode?
+            - listitem [ref=e89] [cursor=pointer]: What is the difference between pretraining, instruction tuning, and preference alignment?
+            - listitem [ref=e90] [cursor=pointer]: What is the difference between static batching and continuous batching?
+            - listitem [ref=e91] [cursor=pointer]: What is the KV cache, and why should application engineers care?
+            - listitem [ref=e92] [cursor=pointer]: What is the minimum RAG pipeline you would trust in production?
+            - listitem [ref=e93] [cursor=pointer]: What is the real difference between prompt engineering and supervised fine-tuning?
+            - listitem [ref=e94] [cursor=pointer]: What is tool injection or data exfiltration risk?
+            - listitem [ref=e95] [cursor=pointer]: What is your approach to GC tuning, and which metrics do you watch?
+            - listitem [ref=e96] [cursor=pointer]: What is your emergency strategy when a model service fails or starts producing abnormal outputs?
+            - listitem [ref=e97] [cursor=pointer]: What makes a good tool definition for model tool calling?
+            - listitem [ref=e98] [cursor=pointer]: What metrics matter for agent systems besides model accuracy?
+            - listitem [ref=e99] [cursor=pointer]: What training data do you need before you fine-tune?
+            - listitem [ref=e100] [cursor=pointer]: When are model-graded evals useful, and when are they risky?
+            - listitem [ref=e101] [cursor=pointer]: When do you choose RAG over fine-tuning?
+            - listitem [ref=e102] [cursor=pointer]: When do you put a human in the loop?
+            - listitem [ref=e103] [cursor=pointer]: When do you use a reasoning-heavy model versus a faster general model?
+            - listitem [ref=e104] [cursor=pointer]: When does distillation make sense?
+            - listitem [ref=e105] [cursor=pointer]: When is a reranker worth the extra latency?
+            - listitem [ref=e106] [cursor=pointer]: When is a smaller model actually the better engineering choice?
+            - listitem [ref=e107] [cursor=pointer]: When is a workflow better than an agent?
+            - listitem [ref=e108] [cursor=pointer]: When is batch processing better than stream processing, and how would you explain the trade-offs?
+            - listitem [ref=e109] [cursor=pointer]: When is fine-tuning actually the right move?
+            - listitem [ref=e110] [cursor=pointer]: When is synthetic data helpful, and when is it dangerous?
+            - listitem [ref=e111] [cursor=pointer]: When should you route to different models instead of building one heavily tuned model?
+            - listitem [ref=e112] [cursor=pointer]: Which metrics would you monitor to judge model quality and drift?
+            - listitem [ref=e113] [cursor=pointer]: Why are metadata filters underrated in RAG?
+            - listitem [ref=e114] [cursor=pointer]: Why can GPU utilization stay mediocre even when traffic is high?
+            - listitem [ref=e115] [cursor=pointer]: Why can offline metrics improve while the product gets worse?
+            - listitem [ref=e116] [cursor=pointer]: Why do structured outputs matter?
+            - listitem [ref=e117] [cursor=pointer]: Why do you still build a non-LLM baseline for some AI tasks?
+            - listitem [ref=e118] [cursor=pointer]: Why does tokenization matter in real systems?
+            - listitem [ref=e119] [cursor=pointer]: Why is a long context window not a free win?
+            - listitem [ref=e120] [cursor=pointer]: Why is hybrid retrieval often better than embeddings alone?
+            - listitem [ref=e121] [cursor=pointer]: Why is idempotency critical in agent systems?
+            - listitem [ref=e122] [cursor=pointer]: Why is temperature 0 not the same as guaranteed determinism?
+        - generic [ref=e123]:
+          - button "▾ Behavioral 50" [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: ▾
+            - generic [ref=e126]: Behavioral
+            - generic [ref=e127]: "50"
+          - list [ref=e128]:
+            - listitem [ref=e129] [cursor=pointer]: “Tell me about a technical challenge you solved.” What do interviewers really want?
+            - listitem [ref=e130] [cursor=pointer]: “Tell me about yourself.” What makes this answer strong?
+            - listitem [ref=e131] [cursor=pointer]: How do international companies usually evaluate behavioral answers differently?
+            - listitem [ref=e132] [cursor=pointer]: How do you answer “Do you have any questions for us?” strategically?
+            - listitem [ref=e133] [cursor=pointer]: How do you answer “How do you handle competing priorities?”
+            - listitem [ref=e134] [cursor=pointer]: How do you answer “How do you handle stress?” without sounding weak or robotic?
+            - listitem [ref=e135] [cursor=pointer]: How do you answer “How do you work in cross-cultural teams?”
+            - listitem [ref=e136] [cursor=pointer]: How do you answer “Tell me about a conflict with another team” well?
+            - listitem [ref=e137] [cursor=pointer]: How do you answer “Tell me about a disagreement with your manager or team” well?
+            - listitem [ref=e138] [cursor=pointer]: How do you answer “Tell me about a failure” without sounding defensive?
+            - listitem [ref=e139] [cursor=pointer]: How do you answer “Tell me about a time you had no clear requirements”?
+            - listitem [ref=e140] [cursor=pointer]: How do you answer “Tell me about a time you had to say no” without sounding uncooperative?
+            - listitem [ref=e141] [cursor=pointer]: How do you answer “Tell me about a time you handled a production incident” credibly?
+            - listitem [ref=e142] [cursor=pointer]: How do you answer “Tell me about a time you helped your team succeed” in a strong way?
+            - listitem [ref=e143] [cursor=pointer]: How do you answer “Tell me about a time you improved quality” in a useful way?
+            - listitem [ref=e144] [cursor=pointer]: How do you answer “Tell me about a time you influenced without authority”?
+            - listitem [ref=e145] [cursor=pointer]: How do you answer “Tell me about a time you learned something quickly” without sounding generic?
+            - listitem [ref=e146] [cursor=pointer]: How do you answer “Tell me about a time you led something” if you were not a manager?
+            - listitem [ref=e147] [cursor=pointer]: How do you answer “Tell me about a time you made a bad estimate” in a mature way?
+            - listitem [ref=e148] [cursor=pointer]: How do you answer “Tell me about a time you made a decision with incomplete data”?
+            - listitem [ref=e149] [cursor=pointer]: How do you answer “Tell me about a time you mentored someone” in a grounded way?
+            - listitem [ref=e150] [cursor=pointer]: How do you answer “Tell me about a time you worked under pressure” like a senior engineer?
+            - listitem [ref=e151] [cursor=pointer]: How do you answer “What is your biggest weakness?” without sounding fake?
+            - listitem [ref=e152] [cursor=pointer]: How do you answer “What kind of manager/team environment helps you do your best work?”
+            - listitem [ref=e153] [cursor=pointer]: How do you answer “Where do you see yourself in five years?” without sounding politically risky?
+            - listitem [ref=e154] [cursor=pointer]: How do you answer “Why are you looking to leave your current company?”
+            - listitem [ref=e155] [cursor=pointer]: How do you answer “Why Japan?” or “Why an English-speaking role in Japan?”
+            - listitem [ref=e156] [cursor=pointer]: How do you answer “Why this company?” well?
+            - listitem [ref=e157] [cursor=pointer]: How do you answer in English when you are not fully sure about a technical detail?
+            - listitem [ref=e158] [cursor=pointer]: How do you buy time in English without sounding lost?
+            - listitem [ref=e159] [cursor=pointer]: How do you sound more natural in English interviews?
+            - listitem [ref=e160] [cursor=pointer]: How do you stop your English behavioral answers from becoming too long?
+            - listitem [ref=e161] [cursor=pointer]: What do Japanese companies often value in behavioral interviews?
+            - listitem [ref=e162] [cursor=pointer]: What does a strong ownership answer sound like?
+            - listitem [ref=e163] [cursor=pointer]: What is a good answer to “How do you give feedback?”
+            - listitem [ref=e164] [cursor=pointer]: What is a good answer to “How do you receive feedback?”
+            - listitem [ref=e165] [cursor=pointer]: What is a strong answer to “How do you communicate technical topics to non-technical stakeholders?”
+            - listitem [ref=e166] [cursor=pointer]: What is the strongest way to answer “Tell me about a time you improved a process”?
+            - listitem [ref=e167] [cursor=pointer]: What makes a “most proud achievement” answer convincing?
+            - listitem [ref=e168] [cursor=pointer]: What makes a behavioral answer memorable?
+            - listitem [ref=e169] [cursor=pointer]: What single detail makes behavioral answers sound much more senior?
+            - listitem [ref=e170] [cursor=pointer]: Why do over-polished STAR answers sometimes backfire?
+            - listitem [ref=e171] [cursor=pointer]: Why do some candidates fail even with strong stories?
+            - listitem [ref=e172] [cursor=pointer]: Why is “I’m a perfectionist” still a bad weakness answer?
+            - listitem [ref=e173] [cursor=pointer]: Why is a “pressure” answer weak if it only describes working harder?
+            - listitem [ref=e174] [cursor=pointer]: Why is a “why us?” answer weak if it could apply to any company?
+            - listitem [ref=e175] [cursor=pointer]: Why is a disagreement answer weak if you never acknowledge the other side’s reasoning?
+            - listitem [ref=e176] [cursor=pointer]: Why is a failure answer weaker if the “lesson learned” sounds generic?
+            - listitem [ref=e177] [cursor=pointer]: Why should you avoid answers where the team did everything and you did nothing specific?
+            - listitem [ref=e178] [cursor=pointer]: Why should you be careful with “hero story” answers?
+        - generic [ref=e179]:
+          - button "▾ Java Core 73" [ref=e180] [cursor=pointer]:
+            - generic [ref=e181]: ▾
+            - generic [ref=e182]: Java Core
+            - generic [ref=e183]: "73"
+          - list [ref=e184]:
+            - listitem [ref=e185] [cursor=pointer]: A Spring Boot service starts slowly. How do you investigate?
+            - listitem [ref=e186] [cursor=pointer]: Does readOnly = true really improve performance?
+            - listitem [ref=e187] [cursor=pointer]: Does StringBuilder vs StringBuffer still matter in interviews?
+            - listitem [ref=e188] [cursor=pointer]: Full GC suddenly became frequent after a release. What is your first instinct?
+            - listitem [ref=e189] [cursor=pointer]: How do class loading, linking, and initialization differ in a practical explanation?
+            - listitem [ref=e190] [cursor=pointer]: How do you actually investigate a Java memory leak?
+            - listitem [ref=e191] [cursor=pointer]: How do you actually use checked vs unchecked exceptions in service code?
+            - listitem [ref=e192] [cursor=pointer]: How do you answer “Tell me about your JVM tuning experience” without sounding shallow?
+            - listitem [ref=e193] [cursor=pointer]: How do you answer “Why is String immutable?” in a non-generic way?
+            - listitem [ref=e194] [cursor=pointer]: How do you answer questions about modern Java features without sounding like you memorized release notes?
+            - listitem [ref=e195] [cursor=pointer]: How do you answer Spring Security questions like someone who has used it?
+            - listitem [ref=e196] [cursor=pointer]: How do you choose between G1GC and ZGC?
+            - listitem [ref=e197] [cursor=pointer]: How do you choose between HashMap and ConcurrentHashMap in real code?
+            - listitem [ref=e198] [cursor=pointer]: How do you choose between synchronized, volatile, and atomic classes?
+            - listitem [ref=e199] [cursor=pointer]: How do you diagnose deadlock or thread starvation in production?
+            - listitem [ref=e200] [cursor=pointer]: How do you distinguish Filter, Interceptor, and AOP?
+            - listitem [ref=e201] [cursor=pointer]: How do you explain ? extends and ? super clearly?
+            - listitem [ref=e202] [cursor=pointer]: How do you explain concurrency vs parallelism in a useful way?
+            - listitem [ref=e203] [cursor=pointer]: How do you explain deep copy vs shallow copy without sounding theoretical?
+            - listitem [ref=e204] [cursor=pointer]: How do you explain fail-fast vs fail-safe in a practical way?
+            - listitem [ref=e205] [cursor=pointer]: How do you explain final, finally, and finalize() like a senior engineer?
+            - listitem [ref=e206] [cursor=pointer]: How do you explain happens-before in a practical way?
+            - listitem [ref=e207] [cursor=pointer]: How do you explain Spring AOP without sounding abstract?
+            - listitem [ref=e208] [cursor=pointer]: How do you explain the Bean lifecycle in a way that sounds practical?
+            - listitem [ref=e209] [cursor=pointer]: How do you think about circular dependency issues?
+            - listitem [ref=e210] [cursor=pointer]: How do you think about thread pool sizing?
+            - listitem [ref=e211] [cursor=pointer]: How would you implement LRU, and why is that question still common?
+            - listitem [ref=e212] [cursor=pointer]: If the interviewer asks, “Have you ever seen a real collection-related bug?”, what would you say?
+            - listitem [ref=e213] [cursor=pointer]: Is a Spring singleton bean automatically thread-safe?
+            - listitem [ref=e214] [cursor=pointer]: Walk me through a normal Spring MVC request.
+            - listitem [ref=e215] [cursor=pointer]: What actually happens when a Java object is created?
+            - listitem [ref=e216] [cursor=pointer]: What are common CompletableFuture mistakes?
+            - listitem [ref=e217] [cursor=pointer]: What exactly does the Spring container do for you?
+            - listitem [ref=e218] [cursor=pointer]: What is safe publication, and why does it matter in backend services?
+            - listitem [ref=e219] [cursor=pointer]: What is the most common fake “GC issue” you see in backend services?
+            - listitem [ref=e220] [cursor=pointer]: What is the most common misuse of Optional in Java projects?
+            - listitem [ref=e221] [cursor=pointer]: What is the most common reason HashSet deduplication fails?
+            - listitem [ref=e222] [cursor=pointer]: What real scenarios can cause Metaspace OOM?
+            - listitem [ref=e223] [cursor=pointer]: When are you especially careful with BigDecimal in real systems?
+            - listitem [ref=e224] [cursor=pointer]: When CPU usage is high in production, how do you decide whether GC is the real problem?
+            - listitem [ref=e225] [cursor=pointer]: When do you actually use ThreadLocal?
+            - listitem [ref=e226] [cursor=pointer]: When do you proactively enable heap dumps and GC logs?
+            - listitem [ref=e227] [cursor=pointer]: When do you use @ConfigurationProperties instead of @Value?
+            - listitem [ref=e228] [cursor=pointer]: When do you use Spring application events?
+            - listitem [ref=e229] [cursor=pointer]: When does Spring transaction rollback happen by default?
+            - listitem [ref=e230] [cursor=pointer]: When does TreeMap genuinely make sense?
+            - listitem [ref=e231] [cursor=pointer]: When is CopyOnWriteArrayList a good idea, and when is it not?
+            - listitem [ref=e232] [cursor=pointer]: Where does ReentrantLock really beat synchronized?
+            - listitem [ref=e233] [cursor=pointer]: Which JVM metrics do you check first besides heap usage?
+            - listitem [ref=e234] [cursor=pointer]: Which thread pool parameters matter most in real incidents?
+            - listitem [ref=e235] [cursor=pointer]: Which transaction propagation modes do you actually use most?
+            - listitem [ref=e236] [cursor=pointer]: Why are equals() and hashCode() still such common interview topics?
+            - listitem [ref=e237] [cursor=pointer]: Why can adding a thread pool actually make a system slower?
+            - listitem [ref=e238] [cursor=pointer]: Why can ConcurrentHashMap still allow a race in business logic?
+            - listitem [ref=e239] [cursor=pointer]: Why can ThreadLocal still leak even though its key is weakly referenced?
+            - listitem [ref=e240] [cursor=pointer]: Why do static synchronized methods and instance synchronized methods not block each other?
+            - listitem [ref=e241] [cursor=pointer]: Why do we usually restore interrupt status after catching InterruptedException?
+            - listitem [ref=e242] [cursor=pointer]: Why does @Transactional sometimes appear to do nothing?
+            - listitem [ref=e243] [cursor=pointer]: Why does HashMap not always treeify as soon as a bucket reaches length 8?
+            - listitem [ref=e244] [cursor=pointer]: Why does increasing heap size not always fix OOM?
+            - listitem [ref=e245] [cursor=pointer]: Why does volatile fix visibility but not compound actions?
+            - listitem [ref=e246] [cursor=pointer]: Why does volatile not make i++ safe?
+            - listitem [ref=e247] [cursor=pointer]: Why is “LinkedList has O(1) insertion” often an incomplete or misleading answer?
+            - listitem [ref=e248] [cursor=pointer]: Why is @Async frequently misused?
+            - listitem [ref=e249] [cursor=pointer]: Why is ArrayList growth behavior a useful interview topic?
+            - listitem [ref=e250] [cursor=pointer]: Why is ConcurrentHashMap not enough to make business logic safe?
+            - listitem [ref=e251] [cursor=pointer]: Why is field injection often discouraged?
+            - listitem [ref=e252] [cursor=pointer]: Why is LinkedList rarely the best answer in business code?
+            - listitem [ref=e253] [cursor=pointer]: Why is notifyAll() often safer than notify()?
+            - listitem [ref=e254] [cursor=pointer]: Why is submit() vs execute() a useful detail question?
+            - listitem [ref=e255] [cursor=pointer]: Why is volatile required in double-checked locking?
+            - listitem [ref=e256] [cursor=pointer]: Why should a controller avoid mutable shared state?
+            - listitem [ref=e257] [cursor=pointer]: Why should wait() usually be guarded by while, not if?
+        - generic [ref=e258]:
+          - button "▾ SQL 20" [ref=e259] [cursor=pointer]:
+            - generic [ref=e260]: ▾
+            - generic [ref=e261]: SQL
+            - generic [ref=e262]: "20"
+          - list [ref=e263]:
+            - listitem [ref=e264] [cursor=pointer]: How do you analyze a slow SQL query?
+            - listitem [ref=e265] [cursor=pointer]: How do you choose between optimistic and pessimistic locking?
+            - listitem [ref=e266] [cursor=pointer]: How do you decide the column order in a composite index?
+            - listitem [ref=e267] [cursor=pointer]: How do you explain count(*) vs count(1) vs count(column) like an engineer, not like a forum post?
+            - listitem [ref=e268] [cursor=pointer]: How do you explain MVCC and read view in MySQL?
+            - listitem [ref=e269] [cursor=pointer]: How do you handle database deadlocks in practice?
+            - listitem [ref=e270] [cursor=pointer]: How do you use window functions and CTEs in interview SQL?
+            - listitem [ref=e271] [cursor=pointer]: Walk me through a real EXPLAIN-based slow SQL diagnosis.
+            - listitem [ref=e272] [cursor=pointer]: What is the practical difference between snapshot read and current read?
+            - listitem [ref=e273] [cursor=pointer]: What ORM or MyBatis / JPA pitfalls do you watch for in real services?
+            - listitem [ref=e274] [cursor=pointer]: What problem does read/write splitting introduce most often?
+            - listitem [ref=e275] [cursor=pointer]: When do you prefer EXISTS, IN, or JOIN?
+            - listitem [ref=e276] [cursor=pointer]: Which transaction isolation level matters most in MySQL interviews?
+            - listitem [ref=e277] [cursor=pointer]: Why are gap locks and next-key locks important in interviews?
+            - listitem [ref=e278] [cursor=pointer]: Why can a query ignore an index even when the index exists?
+            - listitem [ref=e279] [cursor=pointer]: Why do you avoid oversized transactions?
+            - listitem [ref=e280] [cursor=pointer]: Why does a covering index often help so much?
+            - listitem [ref=e281] [cursor=pointer]: Why does InnoDB use B+Tree indexes?
+            - listitem [ref=e282] [cursor=pointer]: Why does LIMIT offset pagination become slow?
+            - listitem [ref=e283] [cursor=pointer]: Why should you avoid sharding too early?
+        - generic [ref=e284]:
+          - button "▾ System Design 99" [ref=e285] [cursor=pointer]:
+            - generic [ref=e286]: ▾
+            - generic [ref=e287]: System Design
+            - generic [ref=e288]: "99"
+          - list [ref=e289]:
+            - listitem [ref=e290] [cursor=pointer]: How do circuit breakers help, and what do they not solve?
+            - listitem [ref=e291] [cursor=pointer]: How do you answer if you do not know the exact technology?
+            - listitem [ref=e292] [cursor=pointer]: How do you approach rate limiting in distributed systems?
+            - listitem [ref=e293] [cursor=pointer]: How do you choose between SQL and NoSQL in an interview?
+            - listitem [ref=e294] [cursor=pointer]: How do you choose between synchronous calls and asynchronous messaging?
+            - listitem [ref=e295] [cursor=pointer]: How do you decide service boundaries?
+            - listitem [ref=e296] [cursor=pointer]: How do you decide where to put caching?
+            - listitem [ref=e297] [cursor=pointer]: How do you decide which model goes on which workflow step?
+            - listitem [ref=e298] [cursor=pointer]: How do you discuss consistency vs availability without sounding generic?
+            - listitem [ref=e299] [cursor=pointer]: How do you distinguish cache penetration, breakdown, and avalanche?
+            - listitem [ref=e300] [cursor=pointer]: How do you explain eventual consistency in a practical way?
+            - listitem [ref=e301] [cursor=pointer]: How do you explain RDB vs AOF in Redis like someone who has operated it?
+            - listitem [ref=e302] [cursor=pointer]: How do you explain the Saga pattern without sounding academic?
+            - listitem [ref=e303] [cursor=pointer]: How do you handle a hot key problem?
+            - listitem [ref=e304] [cursor=pointer]: How do you handle backward compatibility between services?
+            - listitem [ref=e305] [cursor=pointer]: How do you implement idempotency with Redis?
+            - listitem [ref=e306] [cursor=pointer]: How do you include observability in a design answer?
+            - listitem [ref=e307] [cursor=pointer]: How do you judge whether an AI feature is actually worth shipping?
+            - listitem [ref=e308] [cursor=pointer]: How do you keep cache and database reasonably consistent?
+            - listitem [ref=e309] [cursor=pointer]: How do you keep your design answer from becoming too abstract?
+            - listitem [ref=e310] [cursor=pointer]: How do you talk about CDN usage in system design?
+            - listitem [ref=e311] [cursor=pointer]: How do you think about build versus buy for AI systems?
+            - listitem [ref=e312] [cursor=pointer]: How do you think about ordering guarantees?
+            - listitem [ref=e313] [cursor=pointer]: How do you think about retries in a production system?
+            - listitem [ref=e314] [cursor=pointer]: How do you think about service discovery and API gateways?
+            - listitem [ref=e315] [cursor=pointer]: How much estimation should you do?
+            - listitem [ref=e316] [cursor=pointer]: How should you start a system design interview?
+            - listitem [ref=e317] [cursor=pointer]: How would you design a document Q&A system for PDFs, tables, and screenshots?
+            - listitem [ref=e318] [cursor=pointer]: How would you design a high-volume AI customer support assistant?
+            - listitem [ref=e319] [cursor=pointer]: How would you design a permission system that limits which data can be retrieved?
+            - listitem [ref=e320] [cursor=pointer]: How would you design an AI customer support system for millions of users while keeping it stable and cost-controlled?
+            - listitem [ref=e321] [cursor=pointer]: How would you design an auditable LLM system, and what logs and traces are required?
+            - listitem [ref=e322] [cursor=pointer]: How would you handle prompt version management and A/B testing?
+            - listitem [ref=e323] [cursor=pointer]: How would you isolate data and resources in a multi-tenant AI platform?
+            - listitem [ref=e324] [cursor=pointer]: Is Redis only a cache in your systems?
+            - listitem [ref=e325] [cursor=pointer]: Should you design the API first or the database first?
+            - listitem [ref=e326] [cursor=pointer]: Under high concurrency, how would you use caching and degradation so that the model does not become the bottleneck?
+            - listitem [ref=e327] [cursor=pointer]: What detail makes your system design answers sound less generic immediately?
+            - listitem [ref=e328] [cursor=pointer]: What do strong AI interview answers sound like?
+            - listitem [ref=e329] [cursor=pointer]: What do you log in an AI system without creating a privacy mess?
+            - listitem [ref=e330] [cursor=pointer]: What does a mature answer about graceful degradation sound like?
+            - listitem [ref=e331] [cursor=pointer]: What does a strong scaling answer sound like?
+            - listitem [ref=e332] [cursor=pointer]: What happens if Redis goes down?
+            - listitem [ref=e333] [cursor=pointer]: What is a common multimodal failure mode in enterprise use?
+            - listitem [ref=e334] [cursor=pointer]: What is a realistic answer to “How do you avoid duplicate message processing?”
+            - listitem [ref=e335] [cursor=pointer]: What is context engineering, and why is it more important than prompt wording alone?
+            - listitem [ref=e336] [cursor=pointer]: What is hard about building a speech assistant beyond speech-to-text?
+            - listitem [ref=e337] [cursor=pointer]: What is the biggest mistake teams make with service-to-service calls?
+            - listitem [ref=e338] [cursor=pointer]: What is the difference between a correlation ID and a trace ID in interviews?
+            - listitem [ref=e339] [cursor=pointer]: What is the most realistic Redis incident answer you can give in an interview?
+            - listitem [ref=e340] [cursor=pointer]: What is the outbox pattern, and why is it so useful?
+            - listitem [ref=e341] [cursor=pointer]: What is the real challenge with message queues in production?
+            - listitem [ref=e342] [cursor=pointer]: What kind of clarifying questions make you look strong?
+            - listitem [ref=e343] [cursor=pointer]: What makes a good “trade-off” answer?
+            - listitem [ref=e344] [cursor=pointer]: What makes a senior system design answer feel senior?
+            - listitem [ref=e345] [cursor=pointer]: What makes a strong senior-level database answer feel detailed?
+            - listitem [ref=e346] [cursor=pointer]: When do you introduce queues into a design?
+            - listitem [ref=e347] [cursor=pointer]: When do you shard a database?
+            - listitem [ref=e348] [cursor=pointer]: When should you not split a system into microservices?
+            - listitem [ref=e349] [cursor=pointer]: When would you use OCR plus LLM versus a native multimodal model?
+            - listitem [ref=e350] [cursor=pointer]: Why are big keys dangerous?
+            - listitem [ref=e351] [cursor=pointer]: Why are distributed traces not enough by themselves?
+            - listitem [ref=e352] [cursor=pointer]: Why are write-heavy systems harder to scale than read-heavy systems?
+            - listitem [ref=e353] [cursor=pointer]: Why can "just add more context" make answer quality worse?
+            - listitem [ref=e354] [cursor=pointer]: Why can a composite index stop helping after a certain column?
+            - listitem [ref=e355] [cursor=pointer]: Why can a reranker upgrade beat a generator model upgrade?
+            - listitem [ref=e356] [cursor=pointer]: Why can changing the embedding model break search quality even if benchmarks looked good?
+            - listitem [ref=e357] [cursor=pointer]: Why can consumer commit timing create duplicate or lost work?
+            - listitem [ref=e358] [cursor=pointer]: Why can conversation summarization degrade assistant quality?
+            - listitem [ref=e359] [cursor=pointer]: Why can JSON mode or schema-constrained output still fail in real systems?
+            - listitem [ref=e360] [cursor=pointer]: Why can retries make an AI workflow worse instead of better?
+            - listitem [ref=e361] [cursor=pointer]: Why can retries make an outage worse?
+            - listitem [ref=e362] [cursor=pointer]: Why can select * destroy the benefit of a covering index?
+            - listitem [ref=e363] [cursor=pointer]: Why do agent loops happen even when each individual tool works?
+            - listitem [ref=e364] [cursor=pointer]: Why do synchronous fan-out calls create risk?
+            - listitem [ref=e365] [cursor=pointer]: Why do timeouts matter more than people think?
+            - listitem [ref=e366] [cursor=pointer]: Why do you not cache everything?
+            - listitem [ref=e367] [cursor=pointer]: Why does @Transactional usually not work on private methods?
+            - listitem [ref=e368] [cursor=pointer]: Why does readOnly = true not guarantee “no locks”?
+            - listitem [ref=e369] [cursor=pointer]: Why does rollback not happen for checked exceptions by default?
+            - listitem [ref=e370] [cursor=pointer]: Why does self-invocation often break transaction behavior?
+            - listitem [ref=e371] [cursor=pointer]: Why does using a function on an indexed column often kill index usage?
+            - listitem [ref=e372] [cursor=pointer]: Why is “delete cache first, then write DB” risky?
+            - listitem [ref=e373] [cursor=pointer]: Why is “double delete” not a perfect consistency solution?
+            - listitem [ref=e374] [cursor=pointer]: Why is “eventual consistency” a weak answer unless you define the window and impact?
+            - listitem [ref=e375] [cursor=pointer]: Why is “exactly once” usually a dangerous phrase?
+            - listitem [ref=e376] [cursor=pointer]: Why is “just add a queue” sometimes the wrong answer?
+            - listitem [ref=e377] [cursor=pointer]: Why is answer rate a misleading metric?
+            - listitem [ref=e378] [cursor=pointer]: Why is API backward compatibility such an operational topic?
+            - listitem [ref=e379] [cursor=pointer]: Why is at-least-once delivery often acceptable when exactly-once is not realistic?
+            - listitem [ref=e380] [cursor=pointer]: Why is cache hit rate not enough as a health metric?
+            - listitem [ref=e381] [cursor=pointer]: Why is idempotency key expiry a subtle design detail?
+            - listitem [ref=e382] [cursor=pointer]: Why is idempotency such a central topic in distributed systems interviews?
+            - listitem [ref=e383] [cursor=pointer]: Why is observability such a big part of distributed system interviews?
+            - listitem [ref=e384] [cursor=pointer]: Why is service decomposition by database table often a weak design?
+            - listitem [ref=e385] [cursor=pointer]: Why is SETNX alone not enough for a distributed lock?
+            - listitem [ref=e386] [cursor=pointer]: Why is tool success rate not the same as task success rate?
+            - listitem [ref=e387] [cursor=pointer]: Why must Redis unlock logic compare the stored token/value?
+            - listitem [ref=e388] [cursor=pointer]: Why should you care about redrive and poison message strategy?
+    - main [ref=e389]:
+      - article [ref=e402]:
+        - generic [ref=e403]:
+          - generic [ref=e404]: AI
+          - generic [ref=e405]: Medium
+        - heading "Given a log stream, how would you count error codes per minute and output the Top N?" [level=1] [ref=e406]
+        - generic [ref=e408]: general
+        - generic [ref=e409]:
+          - heading "Reference Answer" [level=3] [ref=e410]
+          - generic [ref=e411]: I would model this as a windowed aggregation problem. For each event, I extract the event minute and error code, then update a counter keyed by minute plus error code. When a window closes, I compute Top N for that minute with a min-heap over the aggregated counts. If logs can arrive late, I would use event time plus a watermark and allow a small lateness window. That way the result is stable but still tolerates reordering. In a distributed setting, Kafka plus Flink or Spark Structured Streaming would be a natural fit. To scale, I would partition by time bucket and possibly by error code, perform local aggregation, then merge partial counts before computing the final Top N. That reduces the amount of data shuffled across nodes. The main complexity is O(events) for counting plus O(m log N) per minute where m is the number of distinct error codes in that window. I would also define retention, output format, and what happens when a minute has too many unique codes.
+  - button "Open Next.js Dev Tools" [ref=e398] [cursor=pointer]:
+    - img [ref=e399]
+  - alert [ref=e392]

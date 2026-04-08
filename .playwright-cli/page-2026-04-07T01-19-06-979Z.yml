@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e41]:
+    - complementary [ref=e42]:
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: Admin
+        - heading "Content Management" [level=2] [ref=e45]
+        - paragraph [ref=e46]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e47]:
+        - link "Questions" [ref=e48] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e49] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e50]:
+      - generic [ref=e313]:
+        - generic [ref=e314]: Category updated.
+        - generic [ref=e316]:
+          - heading "Categories" [level=1] [ref=e317]
+          - paragraph [ref=e318]: Version 1 only needs a simple list with lightweight edits.
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - heading "Current Categories" [level=3] [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - heading "AI" [level=3] [ref=e325]
+                  - generic [ref=e326]: 3 questions
+                - paragraph [ref=e327]: ai
+                - paragraph [ref=e328]: RAG, evaluation, deployment, and LLM application design.
+                - group [ref=e329]:
+                  - generic "Edit" [ref=e330] [cursor=pointer]
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - heading "API Smoke Category 20260407" [level=3] [ref=e333]
+                  - generic [ref=e334]: 0 questions
+                - paragraph [ref=e335]: api-smoke-category-20260407
+                - paragraph [ref=e336]: Temporary category created through admin API smoke test.
+                - group [ref=e337]:
+                  - generic "Edit" [ref=e338] [cursor=pointer]
+              - generic [ref=e339]:
+                - generic [ref=e340]:
+                  - heading "Algorithms" [level=3] [ref=e341]
+                  - generic [ref=e342]: 1 questions
+                - paragraph [ref=e343]: algorithms
+                - paragraph [ref=e344]: Core coding and data structure questions.
+                - group [ref=e345]:
+                  - generic "Edit" [ref=e346] [cursor=pointer]
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - heading "Java Core" [level=3] [ref=e349]
+                  - generic [ref=e350]: 0 questions
+                - paragraph [ref=e351]: java-core
+                - paragraph [ref=e352]: JVM, concurrency, collections, and Spring basics.
+                - group [ref=e353]:
+                  - generic "Edit" [ref=e354] [cursor=pointer]
+              - generic [ref=e355]:
+                - generic [ref=e356]:
+                  - heading "SQL" [level=3] [ref=e357]
+                  - generic [ref=e358]: 1 questions
+                - paragraph [ref=e359]: sql
+                - paragraph [ref=e360]: Transactions, indexing, query tuning, and modeling.
+                - group [ref=e361]:
+                  - generic "Edit" [ref=e362] [cursor=pointer]
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - heading "System Design" [level=3] [ref=e365]
+                  - generic [ref=e366]: 1 questions
+                - paragraph [ref=e367]: system-design
+                - paragraph [ref=e368]: Backend architecture, scaling, and distributed systems.
+                - group [ref=e369]:
+                  - generic "Edit" [ref=e370] [cursor=pointer]
+              - generic [ref=e371]:
+                - generic [ref=e372]:
+                  - heading "UI Smoke Category Edited 20260407" [level=3] [ref=e373]
+                  - generic [ref=e374]: 0 questions
+                - paragraph [ref=e375]: ui-smoke-category-edited-20260407
+                - paragraph [ref=e376]: Edited via admin category inline form smoke test.
+                - group [ref=e377]:
+                  - generic "Edit" [ref=e378] [cursor=pointer]
+          - generic [ref=e379]:
+            - heading "Create Category" [level=3] [ref=e380]
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - text: Name
+                - textbox "Name" [ref=e383]:
+                  - /placeholder: Behavioral
+              - generic [ref=e384]:
+                - text: Slug
+                - textbox "Slug" [ref=e385]:
+                  - /placeholder: Leave blank to auto-generate
+              - generic [ref=e386]:
+                - text: Description
+                - textbox "Description" [ref=e387]:
+                  - /placeholder: Short category explanation.
+              - button "Save Category" [ref=e389] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e36] [cursor=pointer]:
+    - img [ref=e37]
+  - alert [ref=e40]

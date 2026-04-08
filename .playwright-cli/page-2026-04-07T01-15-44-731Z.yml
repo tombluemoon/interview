@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Admin
+        - heading "Content Management" [level=2] [ref=e7]
+        - paragraph [ref=e8]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e9]:
+        - link "Questions" [ref=e10] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e11] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e12]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: Category save failed. Please review the form and try again.
+        - generic [ref=e86]:
+          - heading "Categories" [level=1] [ref=e87]
+          - paragraph [ref=e88]: Version 1 only needs a simple list with lightweight edits.
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - heading "Current Categories" [level=3] [ref=e91]
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - heading "AI" [level=3] [ref=e95]
+                  - generic [ref=e96]: 3 questions
+                - paragraph [ref=e97]: ai
+                - paragraph [ref=e98]: RAG, evaluation, deployment, and LLM application design.
+                - group [ref=e99]:
+                  - generic "Edit" [ref=e100] [cursor=pointer]
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - heading "Algorithms" [level=3] [ref=e103]
+                  - generic [ref=e104]: 1 questions
+                - paragraph [ref=e105]: algorithms
+                - paragraph [ref=e106]: Core coding and data structure questions.
+                - group [ref=e107]:
+                  - generic "Edit" [ref=e108] [cursor=pointer]
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - heading "Java Core" [level=3] [ref=e111]
+                  - generic [ref=e112]: 0 questions
+                - paragraph [ref=e113]: java-core
+                - paragraph [ref=e114]: JVM, concurrency, collections, and Spring basics.
+                - group [ref=e115]:
+                  - generic "Edit" [ref=e116] [cursor=pointer]
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - heading "SQL" [level=3] [ref=e119]
+                  - generic [ref=e120]: 1 questions
+                - paragraph [ref=e121]: sql
+                - paragraph [ref=e122]: Transactions, indexing, query tuning, and modeling.
+                - group [ref=e123]:
+                  - generic "Edit" [ref=e124] [cursor=pointer]
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - heading "System Design" [level=3] [ref=e127]
+                  - generic [ref=e128]: 1 questions
+                - paragraph [ref=e129]: system-design
+                - paragraph [ref=e130]: Backend architecture, scaling, and distributed systems.
+                - group [ref=e131]:
+                  - generic "Edit" [ref=e132] [cursor=pointer]
+          - generic [ref=e133]:
+            - heading "Create Category" [level=3] [ref=e134]
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - text: Name
+                - textbox "Name" [ref=e137]:
+                  - /placeholder: Behavioral
+              - generic [ref=e138]:
+                - text: Slug
+                - textbox "Slug" [ref=e139]:
+                  - /placeholder: Leave blank to auto-generate
+              - generic [ref=e140]:
+                - text: Description
+                - textbox "Description" [ref=e141]:
+                  - /placeholder: Short category explanation.
+              - button "Save Category" [ref=e143] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e78] [cursor=pointer]:
+    - img [ref=e79]
+  - alert [ref=e82]

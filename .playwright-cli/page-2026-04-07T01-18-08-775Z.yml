@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e41]:
+    - complementary [ref=e42]:
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: Admin
+        - heading "Content Management" [level=2] [ref=e45]
+        - paragraph [ref=e46]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e47]:
+        - link "Questions" [ref=e48] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e49] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - heading "Admin Questions" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Search, filter, and maintain interview question content.
+          - link "Create Question" [ref=e57] [cursor=pointer]:
+            - /url: /admin/questions/new
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: Keep admin controls practical
+          - heading "Filters" [level=3] [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - text: Search
+              - textbox "Search" [ref=e63]:
+                - /placeholder: LRU cache, MVCC, RAG...
+            - generic [ref=e64]:
+              - text: Category
+              - combobox "Category" [ref=e65]:
+                - option "All" [selected]
+                - option "AI"
+                - option "API Smoke Category 20260407"
+                - option "Algorithms"
+                - option "Java Core"
+                - option "SQL"
+                - option "System Design"
+            - generic [ref=e66]:
+              - text: Status
+              - combobox "Status" [ref=e67]:
+                - option "All" [selected]
+                - option "Published"
+                - option "Draft"
+                - option "Archived"
+            - button "Apply Filters" [ref=e70] [cursor=pointer]
+        - table [ref=e72]:
+          - rowgroup [ref=e73]:
+            - row "Title Category Difficulty Status Actions" [ref=e74]:
+              - columnheader "Title" [ref=e75]
+              - columnheader "Category" [ref=e76]
+              - columnheader "Difficulty" [ref=e77]
+              - columnheader "Status" [ref=e78]
+              - columnheader "Actions" [ref=e79]
+          - rowgroup [ref=e80]:
+            - row "Design a RAG service end to end. rag-service AI Medium Published Edit Archive" [ref=e81]:
+              - cell "Design a RAG service end to end. rag-service" [ref=e82]:
+                - generic [ref=e83]:
+                  - strong [ref=e84]: Design a RAG service end to end.
+                  - generic [ref=e85]: rag-service
+              - cell "AI" [ref=e86]
+              - cell "Medium" [ref=e87]
+              - cell "Published" [ref=e88]
+              - cell "Edit Archive" [ref=e89]:
+                - generic [ref=e90]:
+                  - link "Edit" [ref=e91] [cursor=pointer]:
+                    - /url: /admin/questions/q_rag/edit
+                  - button "Archive" [ref=e93] [cursor=pointer]
+            - row "Design a rate limiter using token bucket or leaky bucket. rate-limiter System Design Medium Published Edit Archive" [ref=e94]:
+              - cell "Design a rate limiter using token bucket or leaky bucket. rate-limiter" [ref=e95]:
+                - generic [ref=e96]:
+                  - strong [ref=e97]: Design a rate limiter using token bucket or leaky bucket.
+                  - generic [ref=e98]: rate-limiter
+              - cell "System Design" [ref=e99]
+              - cell "Medium" [ref=e100]
+              - cell "Published" [ref=e101]
+              - cell "Edit Archive" [ref=e102]:
+                - generic [ref=e103]:
+                  - link "Edit" [ref=e104] [cursor=pointer]:
+                    - /url: /admin/questions/q_rate_limiter/edit
+                  - button "Archive" [ref=e106] [cursor=pointer]
+            - row "How do you design an auditable LLM system? audit-ready-llm AI Medium Published Edit Archive" [ref=e107]:
+              - cell "How do you design an auditable LLM system? audit-ready-llm" [ref=e108]:
+                - generic [ref=e109]:
+                  - strong [ref=e110]: How do you design an auditable LLM system?
+                  - generic [ref=e111]: audit-ready-llm
+              - cell "AI" [ref=e112]
+              - cell "Medium" [ref=e113]
+              - cell "Published" [ref=e114]
+              - cell "Edit Archive" [ref=e115]:
+                - generic [ref=e116]:
+                  - link "Edit" [ref=e117] [cursor=pointer]:
+                    - /url: /admin/questions/q_audit/edit
+                  - button "Archive" [ref=e119] [cursor=pointer]
+            - row "How do you explain MVCC in practical interview language? mvcc-explained SQL Medium Published Edit Archive" [ref=e120]:
+              - cell "How do you explain MVCC in practical interview language? mvcc-explained" [ref=e121]:
+                - generic [ref=e122]:
+                  - strong [ref=e123]: How do you explain MVCC in practical interview language?
+                  - generic [ref=e124]: mvcc-explained
+              - cell "SQL" [ref=e125]
+              - cell "Medium" [ref=e126]
+              - cell "Published" [ref=e127]
+              - cell "Edit Archive" [ref=e128]:
+                - generic [ref=e129]:
+                  - link "Edit" [ref=e130] [cursor=pointer]:
+                    - /url: /admin/questions/q_mvcc/edit
+                  - button "Archive" [ref=e132] [cursor=pointer]
+            - row "How do you keep offline and online feature stores consistent? feature-store-consistency AI Medium Published Edit Archive" [ref=e133]:
+              - cell "How do you keep offline and online feature stores consistent? feature-store-consistency" [ref=e134]:
+                - generic [ref=e135]:
+                  - strong [ref=e136]: How do you keep offline and online feature stores consistent?
+                  - generic [ref=e137]: feature-store-consistency
+              - cell "AI" [ref=e138]
+              - cell "Medium" [ref=e139]
+              - cell "Published" [ref=e140]
+              - cell "Edit Archive" [ref=e141]:
+                - generic [ref=e142]:
+                  - link "Edit" [ref=e143] [cursor=pointer]:
+                    - /url: /admin/questions/q_feature_store/edit
+                  - button "Archive" [ref=e145] [cursor=pointer]
+            - row "How would you implement an O(1) LRU cache? lru-cache Algorithms Medium Published Edit Archive" [ref=e146]:
+              - cell "How would you implement an O(1) LRU cache? lru-cache" [ref=e147]:
+                - generic [ref=e148]:
+                  - strong [ref=e149]: How would you implement an O(1) LRU cache?
+                  - generic [ref=e150]: lru-cache
+              - cell "Algorithms" [ref=e151]
+              - cell "Medium" [ref=e152]
+              - cell "Published" [ref=e153]
+              - cell "Edit Archive" [ref=e154]:
+                - generic [ref=e155]:
+                  - link "Edit" [ref=e156] [cursor=pointer]:
+                    - /url: /admin/questions/q_lru/edit
+                  - button "Archive" [ref=e158] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e36] [cursor=pointer]:
+    - img [ref=e37]
+  - alert [ref=e40]

@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Interview Review" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e6]:
+          - link "Questions" [ref=e7] [cursor=pointer]:
+            - /url: /questions
+          - link "Login" [ref=e8] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e9] [cursor=pointer]:
+            - /url: /signup
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]: Simple V1 auth screen
+          - heading "Log In" [level=3] [ref=e14]
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - text: Email
+              - textbox "Email" [ref=e17]:
+                - /placeholder: user@example.com
+                - text: alex@example.com
+            - generic [ref=e18]:
+              - text: Password
+              - textbox "Password" [ref=e19]:
+                - /placeholder: Enter your password
+                - text: demo1234
+            - button "Log In" [ref=e21] [cursor=pointer]
+          - paragraph [ref=e22]:
+            - text: No account yet?
+            - link "Create one here." [ref=e23] [cursor=pointer]:
+              - /url: /signup
+        - generic [ref=e24]:
+          - paragraph [ref=e25]: Ready after db:init
+          - heading "Seeded local accounts" [level=3] [ref=e26]
+          - list [ref=e27]:
+            - listitem [ref=e28]: "User: `alex@example.com` / `demo1234`"
+            - listitem [ref=e29]: "Admin: `admin@example.com` / `admin1234`"
+            - listitem [ref=e30]: New sign-ups create a separate PostgreSQL-backed account.
+  - alert [ref=e31]

@@ -1,0 +1,1346 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4292]:
+      - generic [ref=e4293]:
+        - link "Interview Review" [ref=e4294] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e4295]:
+          - link "Questions" [ref=e4296] [cursor=pointer]:
+            - /url: /questions
+          - link "Login" [ref=e4297] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e4298] [cursor=pointer]:
+            - /url: /signup
+    - main [ref=e4299]:
+      - generic [ref=e4300]:
+        - generic [ref=e4301]:
+          - heading "Question Bank" [level=1] [ref=e4302]
+          - paragraph [ref=e4303]: Browse public interview questions, then add logged-in context like planning and progress.
+        - link "Log In to Track Progress" [ref=e4305] [cursor=pointer]:
+          - /url: /login?next=/questions
+      - generic [ref=e4306]:
+        - generic [ref=e4307]:
+          - paragraph [ref=e4308]: Simple V1 controls
+          - heading "Filters" [level=3] [ref=e4309]
+          - generic [ref=e4310]:
+            - generic [ref=e4311]:
+              - text: Search
+              - textbox "Search" [ref=e4312]:
+                - /placeholder: LRU cache, MVCC, RAG...
+            - generic [ref=e4313]:
+              - text: Category
+              - combobox "Category" [ref=e4314]:
+                - option "All categories"
+                - option "AI" [selected]
+                - option "Behavioral"
+                - option "Java Core"
+                - option "SQL"
+                - option "System Design"
+            - button "Apply Filters" [ref=e4317] [cursor=pointer]
+          - generic [ref=e4318]:
+            - link "All" [ref=e4319] [cursor=pointer]:
+              - /url: /questions
+            - link "AI" [ref=e4320] [cursor=pointer]:
+              - /url: /questions?category=cat_ai
+            - link "Behavioral" [ref=e4321] [cursor=pointer]:
+              - /url: /questions?category=cat_behavioral
+            - link "Java Core" [ref=e4322] [cursor=pointer]:
+              - /url: /questions?category=cat_java
+            - link "SQL" [ref=e4323] [cursor=pointer]:
+              - /url: /questions?category=cat_sql
+            - link "System Design" [ref=e4324] [cursor=pointer]:
+              - /url: /questions?category=cat_system
+        - generic [ref=e4325]:
+          - generic [ref=e4326]:
+            - paragraph [ref=e4327]: Filtered by AI
+            - heading "106 questions found" [level=3] [ref=e4328]
+            - paragraph [ref=e4329]: This page is shared by anonymous and logged-in users. Logged-in users simply get extra actions.
+          - generic [ref=e4330]:
+            - generic [ref=e4331]:
+              - generic [ref=e4333]:
+                - heading "Given a log stream, how would you count error codes per minute and output the Top N?" [level=3] [ref=e4334]:
+                  - link "Given a log stream, how would you count error codes per minute and output the Top N?" [ref=e4335] [cursor=pointer]:
+                    - /url: /questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+                - generic [ref=e4336]:
+                  - generic [ref=e4337]: AI
+                  - generic [ref=e4338]: Medium
+              - paragraph [ref=e4339]: I would model this as a windowed aggregation problem. For each event, I extract the event minute and error code, then update a counter keyed by minute plus error code. When a window closes, I compute
+              - generic [ref=e4341]: general
+              - link "View Full Content" [ref=e4343] [cursor=pointer]:
+                - /url: /questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+            - generic [ref=e4344]:
+              - generic [ref=e4346]:
+                - heading "How do system prompt, user prompt, retrieved context, and tool results interact?" [level=3] [ref=e4347]:
+                  - link "How do system prompt, user prompt, retrieved context, and tool results interact?" [ref=e4348] [cursor=pointer]:
+                    - /url: /questions/how-do-system-prompt-user-prompt-retrieved-context-and-tool-results-interact-231
+                - generic [ref=e4349]:
+                  - generic [ref=e4350]: AI
+                  - generic [ref=e4351]: Medium
+              - paragraph [ref=e4352]: The system prompt sets high-level policy and task framing.
+              - generic [ref=e4354]: llm
+              - link "View Full Content" [ref=e4356] [cursor=pointer]:
+                - /url: /questions/how-do-system-prompt-user-prompt-retrieved-context-and-tool-results-interact-231
+            - generic [ref=e4357]:
+              - generic [ref=e4359]:
+                - heading "How do temperature and top-p change model behavior?" [level=3] [ref=e4360]:
+                  - link "How do temperature and top-p change model behavior?" [ref=e4361] [cursor=pointer]:
+                    - /url: /questions/how-do-temperature-and-top-p-change-model-behavior-228
+                - generic [ref=e4362]:
+                  - generic [ref=e4363]: AI
+                  - generic [ref=e4364]: Medium
+              - paragraph [ref=e4365]: Temperature changes how sharp or random the distribution is.
+              - generic [ref=e4367]: llm
+              - link "View Full Content" [ref=e4369] [cursor=pointer]:
+                - /url: /questions/how-do-temperature-and-top-p-change-model-behavior-228
+            - generic [ref=e4370]:
+              - generic [ref=e4372]:
+                - heading "How do you break down LLM latency in production?" [level=3] [ref=e4373]:
+                  - link "How do you break down LLM latency in production?" [ref=e4374] [cursor=pointer]:
+                    - /url: /questions/how-do-you-break-down-llm-latency-in-production-266
+                - generic [ref=e4375]:
+                  - generic [ref=e4376]: AI
+                  - generic [ref=e4377]: Medium
+              - paragraph [ref=e4378]: Network and queueing
+              - generic [ref=e4380]: llm
+              - link "View Full Content" [ref=e4382] [cursor=pointer]:
+                - /url: /questions/how-do-you-break-down-llm-latency-in-production-266
+            - generic [ref=e4383]:
+              - generic [ref=e4385]:
+                - heading "How do you build a good test set for LLM systems?" [level=3] [ref=e4386]:
+                  - link "How do you build a good test set for LLM systems?" [ref=e4387] [cursor=pointer]:
+                    - /url: /questions/how-do-you-build-a-good-test-set-for-llm-systems-277
+                - generic [ref=e4388]:
+                  - generic [ref=e4389]: AI
+                  - generic [ref=e4390]: Medium
+              - paragraph [ref=e4391]: Include normal traffic, hard cases, ambiguous cases, adversarial cases, and recent incidents.
+              - generic [ref=e4393]: llm
+              - link "View Full Content" [ref=e4395] [cursor=pointer]:
+                - /url: /questions/how-do-you-build-a-good-test-set-for-llm-systems-277
+            - generic [ref=e4396]:
+              - generic [ref=e4398]:
+                - heading "How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?" [level=3] [ref=e4399]:
+                  - link "How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?" [ref=e4400] [cursor=pointer]:
+                    - /url: /questions/how-do-you-choose-a-thread-pool-strategy-and-how-do-you-avoid-thread-leaks-and-d-336
+                - generic [ref=e4401]:
+                  - generic [ref=e4402]: AI
+                  - generic [ref=e4403]: Medium
+              - paragraph [ref=e4404]: I choose thread pools by workload type. CPU-bound work usually needs a small pool near the number of cores, while IO-bound work can tolerate more concurrency because threads spend time waiting. Schedu
+              - generic [ref=e4406]: concurrency
+              - link "View Full Content" [ref=e4408] [cursor=pointer]:
+                - /url: /questions/how-do-you-choose-a-thread-pool-strategy-and-how-do-you-avoid-thread-leaks-and-d-336
+            - generic [ref=e4409]:
+              - generic [ref=e4411]:
+                - heading "How do you choose chunk size and chunk overlap?" [level=3] [ref=e4412]:
+                  - link "How do you choose chunk size and chunk overlap?" [ref=e4413] [cursor=pointer]:
+                    - /url: /questions/how-do-you-choose-chunk-size-and-chunk-overlap-238
+                - generic [ref=e4414]:
+                  - generic [ref=e4415]: AI
+                  - generic [ref=e4416]: Medium
+              - paragraph [ref=e4417]: Based on meaning boundaries, not one universal number.
+              - generic [ref=e4419]: rag
+              - link "View Full Content" [ref=e4421] [cursor=pointer]:
+                - /url: /questions/how-do-you-choose-chunk-size-and-chunk-overlap-238
+            - generic [ref=e4422]:
+              - generic [ref=e4424]:
+                - heading "How do you connect offline evals to online experiments?" [level=3] [ref=e4425]:
+                  - link "How do you connect offline evals to online experiments?" [ref=e4426] [cursor=pointer]:
+                    - /url: /questions/how-do-you-connect-offline-evals-to-online-experiments-279
+                - generic [ref=e4427]:
+                  - generic [ref=e4428]: AI
+                  - generic [ref=e4429]: Medium
+              - paragraph [ref=e4430]: I use offline evals to block bad changes and online tests to measure user impact.
+              - generic [ref=e4432]: general
+              - link "View Full Content" [ref=e4434] [cursor=pointer]:
+                - /url: /questions/how-do-you-connect-offline-evals-to-online-experiments-279
+            - generic [ref=e4435]:
+              - generic [ref=e4437]:
+                - heading "How do you cut AI cost without wrecking quality?" [level=3] [ref=e4438]:
+                  - link "How do you cut AI cost without wrecking quality?" [ref=e4439] [cursor=pointer]:
+                    - /url: /questions/how-do-you-cut-ai-cost-without-wrecking-quality-275
+                - generic [ref=e4440]:
+                  - generic [ref=e4441]: AI
+                  - generic [ref=e4442]: Medium
+              - paragraph [ref=e4443]: Reduce unnecessary tokens before changing models.
+              - generic [ref=e4445]: general
+              - link "View Full Content" [ref=e4447] [cursor=pointer]:
+                - /url: /questions/how-do-you-cut-ai-cost-without-wrecking-quality-275
+            - generic [ref=e4448]:
+              - generic [ref=e4450]:
+                - heading "How do you debug an agent failure?" [level=3] [ref=e4451]:
+                  - link "How do you debug an agent failure?" [ref=e4452] [cursor=pointer]:
+                    - /url: /questions/how-do-you-debug-an-agent-failure-251
+                - generic [ref=e4453]:
+                  - generic [ref=e4454]: AI
+                  - generic [ref=e4455]: Medium
+              - paragraph [ref=e4456]: "Reconstruct the trace: prompt, retrieved context, tool calls, tool outputs, and final decision."
+              - generic [ref=e4458]: general
+              - link "View Full Content" [ref=e4460] [cursor=pointer]:
+                - /url: /questions/how-do-you-debug-an-agent-failure-251
+            - generic [ref=e4461]:
+              - generic [ref=e4463]:
+                - heading "How do you decide between hosted APIs and self-hosted models?" [level=3] [ref=e4464]:
+                  - link "How do you decide between hosted APIs and self-hosted models?" [ref=e4465] [cursor=pointer]:
+                    - /url: /questions/how-do-you-decide-between-hosted-apis-and-self-hosted-models-274
+                - generic [ref=e4466]:
+                  - generic [ref=e4467]: AI
+                  - generic [ref=e4468]: Medium
+              - paragraph [ref=e4469]: Hosted APIs win on speed of adoption and lower ops burden.
+              - generic [ref=e4471]: general
+              - link "View Full Content" [ref=e4473] [cursor=pointer]:
+                - /url: /questions/how-do-you-decide-between-hosted-apis-and-self-hosted-models-274
+            - generic [ref=e4474]:
+              - generic [ref=e4476]:
+                - heading "How do you defend against prompt injection and jailbreak attempts?" [level=3] [ref=e4477]:
+                  - link "How do you defend against prompt injection and jailbreak attempts?" [ref=e4478] [cursor=pointer]:
+                    - /url: /questions/how-do-you-defend-against-prompt-injection-and-jailbreak-attempts-343
+                - generic [ref=e4479]:
+                  - generic [ref=e4480]: AI
+                  - generic [ref=e4481]: Medium
+              - paragraph [ref=e4482]: I treat retrieved documents, web content, and user-provided text as untrusted data rather than trusted instructions.
+              - generic [ref=e4484]: general
+              - link "View Full Content" [ref=e4486] [cursor=pointer]:
+                - /url: /questions/how-do-you-defend-against-prompt-injection-and-jailbreak-attempts-343
+            - generic [ref=e4487]:
+              - generic [ref=e4489]:
+                - heading "How do you design model routing and fallback?" [level=3] [ref=e4490]:
+                  - link "How do you design model routing and fallback?" [ref=e4491] [cursor=pointer]:
+                    - /url: /questions/how-do-you-design-model-routing-and-fallback-272
+                - generic [ref=e4492]:
+                  - generic [ref=e4493]: AI
+                  - generic [ref=e4494]: Hard
+              - paragraph [ref=e4495]: Start with task classification and clear failure criteria.
+              - generic [ref=e4497]: design
+              - link "View Full Content" [ref=e4499] [cursor=pointer]:
+                - /url: /questions/how-do-you-design-model-routing-and-fallback-272
+            - generic [ref=e4500]:
+              - generic [ref=e4502]:
+                - heading "How do you diagnose an online performance problem, from metrics to root cause?" [level=3] [ref=e4503]:
+                  - link "How do you diagnose an online performance problem, from metrics to root cause?" [ref=e4504] [cursor=pointer]:
+                    - /url: /questions/how-do-you-diagnose-an-online-performance-problem-from-metrics-to-root-cause-340
+                - generic [ref=e4505]:
+                  - generic [ref=e4506]: AI
+                  - generic [ref=e4507]: Medium
+              - paragraph [ref=e4508]: I start broad and narrow down. First I look at service-level metrics such as latency, error rate, throughput, saturation, and recent changes. That tells me whether the issue is local, downstream, infr
+              - generic [ref=e4510]: general
+              - link "View Full Content" [ref=e4512] [cursor=pointer]:
+                - /url: /questions/how-do-you-diagnose-an-online-performance-problem-from-metrics-to-root-cause-340
+            - generic [ref=e4513]:
+              - generic [ref=e4515]:
+                - heading "How do you distinguish hallucination from retrieval failure or tool failure?" [level=3] [ref=e4516]:
+                  - link "How do you distinguish hallucination from retrieval failure or tool failure?" [ref=e4517] [cursor=pointer]:
+                    - /url: /questions/how-do-you-distinguish-hallucination-from-retrieval-failure-or-tool-failure-220
+                - generic [ref=e4518]:
+                  - generic [ref=e4519]: AI
+                  - generic [ref=e4520]: Medium
+              - paragraph [ref=e4521]: If the relevant fact never entered the context, it is usually a retrieval or context-assembly problem.
+              - generic [ref=e4523]: general
+              - link "View Full Content" [ref=e4525] [cursor=pointer]:
+                - /url: /questions/how-do-you-distinguish-hallucination-from-retrieval-failure-or-tool-failure-220
+            - generic [ref=e4526]:
+              - generic [ref=e4528]:
+                - heading "How do you evaluate a RAG system beyond \"the answer looks okay\"?" [level=3] [ref=e4529]:
+                  - link "How do you evaluate a RAG system beyond \"the answer looks okay\"?" [ref=e4530] [cursor=pointer]:
+                    - /url: /questions/how-do-you-evaluate-a-rag-system-beyond-the-answer-looks-okay-242
+                - generic [ref=e4531]:
+                  - generic [ref=e4532]: AI
+                  - generic [ref=e4533]: Medium
+              - paragraph [ref=e4534]: I evaluate retrieval separately from generation.
+              - generic [ref=e4536]: rag
+              - link "View Full Content" [ref=e4538] [cursor=pointer]:
+                - /url: /questions/how-do-you-evaluate-a-rag-system-beyond-the-answer-looks-okay-242
+            - generic [ref=e4539]:
+              - generic [ref=e4541]:
+                - heading "How do you evaluate whether fine-tuning was worth it?" [level=3] [ref=e4542]:
+                  - link "How do you evaluate whether fine-tuning was worth it?" [ref=e4543] [cursor=pointer]:
+                    - /url: /questions/how-do-you-evaluate-whether-fine-tuning-was-worth-it-265
+                - generic [ref=e4544]:
+                  - generic [ref=e4545]: AI
+                  - generic [ref=e4546]: Medium
+              - paragraph [ref=e4547]: Compare against the best prompt-only and RAG baselines, not against a weak baseline.
+              - generic [ref=e4549]: general
+              - link "View Full Content" [ref=e4551] [cursor=pointer]:
+                - /url: /questions/how-do-you-evaluate-whether-fine-tuning-was-worth-it-265
+            - generic [ref=e4552]:
+              - generic [ref=e4554]:
+                - heading "How do you explain LoRA or PEFT in a practical way?" [level=3] [ref=e4555]:
+                  - link "How do you explain LoRA or PEFT in a practical way?" [ref=e4556] [cursor=pointer]:
+                    - /url: /questions/how-do-you-explain-lora-or-peft-in-a-practical-way-258
+                - generic [ref=e4557]:
+                  - generic [ref=e4558]: AI
+                  - generic [ref=e4559]: Medium
+              - paragraph [ref=e4560]: They adapt part of the model behavior with far fewer trainable parameters than full fine-tuning.
+              - generic [ref=e4562]: general
+              - link "View Full Content" [ref=e4564] [cursor=pointer]:
+                - /url: /questions/how-do-you-explain-lora-or-peft-in-a-practical-way-258
+            - generic [ref=e4565]:
+              - generic [ref=e4567]:
+                - heading "How do you explain RLHF versus DPO?" [level=3] [ref=e4568]:
+                  - link "How do you explain RLHF versus DPO?" [ref=e4569] [cursor=pointer]:
+                    - /url: /questions/how-do-you-explain-rlhf-versus-dpo-261
+                - generic [ref=e4570]:
+                  - generic [ref=e4571]: AI
+                  - generic [ref=e4572]: Medium
+              - paragraph [ref=e4573]: Both aim to align model behavior with human preferences.
+              - generic [ref=e4575]: general
+              - link "View Full Content" [ref=e4577] [cursor=pointer]:
+                - /url: /questions/how-do-you-explain-rlhf-versus-dpo-261
+            - generic [ref=e4578]:
+              - generic [ref=e4580]:
+                - heading "How do you explain a transformer like an engineer, not like a researcher?" [level=3] [ref=e4581]:
+                  - link "How do you explain a transformer like an engineer, not like a researcher?" [ref=e4582] [cursor=pointer]:
+                    - /url: /questions/how-do-you-explain-a-transformer-like-an-engineer-not-like-a-researcher-226
+                - generic [ref=e4583]:
+                  - generic [ref=e4584]: AI
+                  - generic [ref=e4585]: Medium
+              - paragraph [ref=e4586]: It converts text into tokens, builds contextual representations with attention, then predicts the next token repeatedly.
+              - generic [ref=e4588]: llm
+              - link "View Full Content" [ref=e4590] [cursor=pointer]:
+                - /url: /questions/how-do-you-explain-a-transformer-like-an-engineer-not-like-a-researcher-226
+            - generic [ref=e4591]:
+              - generic [ref=e4593]:
+                - heading "How do you explain precision vs recall in a way that sounds practical?" [level=3] [ref=e4594]:
+                  - link "How do you explain precision vs recall in a way that sounds practical?" [ref=e4595] [cursor=pointer]:
+                    - /url: /questions/how-do-you-explain-precision-vs-recall-in-a-way-that-sounds-practical-218
+                - generic [ref=e4596]:
+                  - generic [ref=e4597]: AI
+                  - generic [ref=e4598]: Medium
+              - paragraph [ref=e4599]: It depends on the business cost of false positives versus false negatives.
+              - generic [ref=e4601]: general
+              - link "View Full Content" [ref=e4603] [cursor=pointer]:
+                - /url: /questions/how-do-you-explain-precision-vs-recall-in-a-way-that-sounds-practical-218
+            - generic [ref=e4604]:
+              - generic [ref=e4606]:
+                - heading "How do you explain the latency-quality-cost triangle?" [level=3] [ref=e4607]:
+                  - link "How do you explain the latency-quality-cost triangle?" [ref=e4608] [cursor=pointer]:
+                    - /url: /questions/how-do-you-explain-the-latency-quality-cost-triangle-224
+                - generic [ref=e4609]:
+                  - generic [ref=e4610]: AI
+                  - generic [ref=e4611]: Medium
+              - paragraph [ref=e4612]: Better quality often means more tokens, larger models, more tools, or more retrieval steps.
+              - generic [ref=e4614]: general
+              - link "View Full Content" [ref=e4616] [cursor=pointer]:
+                - /url: /questions/how-do-you-explain-the-latency-quality-cost-triangle-224
+            - generic [ref=e4617]:
+              - generic [ref=e4619]:
+                - heading "How do you handle PII and secrets in AI pipelines?" [level=3] [ref=e4620]:
+                  - link "How do you handle PII and secrets in AI pipelines?" [ref=e4621] [cursor=pointer]:
+                    - /url: /questions/how-do-you-handle-pii-and-secrets-in-ai-pipelines-282
+                - generic [ref=e4622]:
+                  - generic [ref=e4623]: AI
+                  - generic [ref=e4624]: Medium
+              - paragraph [ref=e4625]: Minimize what enters the prompt in the first place.
+              - generic [ref=e4627]: general
+              - link "View Full Content" [ref=e4629] [cursor=pointer]:
+                - /url: /questions/how-do-you-handle-pii-and-secrets-in-ai-pipelines-282
+            - generic [ref=e4630]:
+              - generic [ref=e4632]:
+                - heading "How do you handle embedding refresh and re-indexing when documents or chunking rules change?" [level=3] [ref=e4633]:
+                  - link "How do you handle embedding refresh and re-indexing when documents or chunking rules change?" [ref=e4634] [cursor=pointer]:
+                    - /url: /questions/how-do-you-handle-embedding-refresh-and-re-indexing-when-documents-or-chunking-r-346
+                - generic [ref=e4635]:
+                  - generic [ref=e4636]: AI
+                  - generic [ref=e4637]: Medium
+              - paragraph [ref=e4638]: I version chunking logic, embedding models, and indexes so old and new retrieval artifacts can coexist safely during rollout.
+              - generic [ref=e4639]:
+                - generic [ref=e4640]: indexing
+                - generic [ref=e4641]: embeddings
+              - link "View Full Content" [ref=e4643] [cursor=pointer]:
+                - /url: /questions/how-do-you-handle-embedding-refresh-and-re-indexing-when-documents-or-chunking-r-346
+            - generic [ref=e4644]:
+              - generic [ref=e4646]:
+                - heading "How do you handle stale knowledge in a RAG system?" [level=3] [ref=e4647]:
+                  - link "How do you handle stale knowledge in a RAG system?" [ref=e4648] [cursor=pointer]:
+                    - /url: /questions/how-do-you-handle-stale-knowledge-in-a-rag-system-243
+                - generic [ref=e4649]:
+                  - generic [ref=e4650]: AI
+                  - generic [ref=e4651]: Medium
+              - paragraph [ref=e4652]: I track document freshness and make it visible in the answer when relevant.
+              - generic [ref=e4654]: rag
+              - link "View Full Content" [ref=e4656] [cursor=pointer]:
+                - /url: /questions/how-do-you-handle-stale-knowledge-in-a-rag-system-243
+            - generic [ref=e4657]:
+              - generic [ref=e4659]:
+                - heading "How do you keep retrieval fresh and invalidate stale knowledge?" [level=3] [ref=e4660]:
+                  - link "How do you keep retrieval fresh and invalidate stale knowledge?" [ref=e4661] [cursor=pointer]:
+                    - /url: /questions/how-do-you-keep-retrieval-fresh-and-invalidate-stale-knowledge-347
+                - generic [ref=e4662]:
+                  - generic [ref=e4663]: AI
+                  - generic [ref=e4664]: Medium
+              - paragraph [ref=e4665]: I use document versioning, delete signals, and freshness metadata so stale chunks can be invalidated or down-ranked when source data changes.
+              - generic [ref=e4667]: general
+              - link "View Full Content" [ref=e4669] [cursor=pointer]:
+                - /url: /questions/how-do-you-keep-retrieval-fresh-and-invalidate-stale-knowledge-347
+            - generic [ref=e4670]:
+              - generic [ref=e4672]:
+                - heading "How do you know your refusal policy is too strict or too weak?" [level=3] [ref=e4673]:
+                  - link "How do you know your refusal policy is too strict or too weak?" [ref=e4674] [cursor=pointer]:
+                    - /url: /questions/how-do-you-know-your-refusal-policy-is-too-strict-or-too-weak-284
+                - generic [ref=e4675]:
+                  - generic [ref=e4676]: AI
+                  - generic [ref=e4677]: Medium
+              - paragraph [ref=e4678]: Too strict means useful legitimate requests are blocked and users learn to bypass the system.
+              - generic [ref=e4680]: general
+              - link "View Full Content" [ref=e4682] [cursor=pointer]:
+                - /url: /questions/how-do-you-know-your-refusal-policy-is-too-strict-or-too-weak-284
+            - generic [ref=e4683]:
+              - generic [ref=e4685]:
+                - heading "How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?" [level=3] [ref=e4686]:
+                  - link "How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?" [ref=e4687] [cursor=pointer]:
+                    - /url: /questions/how-do-you-make-llm-output-stable-and-safely-consumable-by-downstream-systems-in-313
+                - generic [ref=e4688]:
+                  - generic [ref=e4689]: AI
+                  - generic [ref=e4690]: Medium
+              - paragraph [ref=e4691]: I never rely on free-form text when the output is intended for another system. I define an explicit schema, prefer structured output or function-calling features when available, and make field require
+              - generic [ref=e4693]: llm
+              - link "View Full Content" [ref=e4695] [cursor=pointer]:
+                - /url: /questions/how-do-you-make-llm-output-stable-and-safely-consumable-by-downstream-systems-in-313
+            - generic [ref=e4696]:
+              - generic [ref=e4698]:
+                - heading "How do you manage conversation memory and session state?" [level=3] [ref=e4699]:
+                  - link "How do you manage conversation memory and session state?" [ref=e4700] [cursor=pointer]:
+                    - /url: /questions/how-do-you-manage-conversation-memory-and-session-state-345
+                - generic [ref=e4701]:
+                  - generic [ref=e4702]: AI
+                  - generic [ref=e4703]: Medium
+              - paragraph [ref=e4704]: I separate short-term working context, durable user state, and retrieval context instead of mixing them into one giant prompt history.
+              - generic [ref=e4706]: memory
+              - link "View Full Content" [ref=e4708] [cursor=pointer]:
+                - /url: /questions/how-do-you-manage-conversation-memory-and-session-state-345
+            - generic [ref=e4709]:
+              - generic [ref=e4711]:
+                - heading "How do you prevent destructive tool misuse?" [level=3] [ref=e4712]:
+                  - link "How do you prevent destructive tool misuse?" [ref=e4713] [cursor=pointer]:
+                    - /url: /questions/how-do-you-prevent-destructive-tool-misuse-248
+                - generic [ref=e4714]:
+                  - generic [ref=e4715]: AI
+                  - generic [ref=e4716]: Medium
+              - paragraph [ref=e4717]: Separate read tools from write tools.
+              - generic [ref=e4719]: general
+              - link "View Full Content" [ref=e4721] [cursor=pointer]:
+                - /url: /questions/how-do-you-prevent-destructive-tool-misuse-248
+            - generic [ref=e4722]:
+              - generic [ref=e4724]:
+                - heading "How do you roll out a new model version safely?" [level=3] [ref=e4725]:
+                  - link "How do you roll out a new model version safely?" [ref=e4726] [cursor=pointer]:
+                    - /url: /questions/how-do-you-roll-out-a-new-model-version-safely-283
+                - generic [ref=e4727]:
+                  - generic [ref=e4728]: AI
+                  - generic [ref=e4729]: Medium
+              - paragraph [ref=e4730]: Shadow evaluation on stored traffic or replay traffic
+              - generic [ref=e4732]: general
+              - link "View Full Content" [ref=e4734] [cursor=pointer]:
+                - /url: /questions/how-do-you-roll-out-a-new-model-version-safely-283
+            - generic [ref=e4735]:
+              - generic [ref=e4737]:
+                - heading "How do you tell whether an AI problem is really a model problem or a product or data problem?" [level=3] [ref=e4738]:
+                  - link "How do you tell whether an AI problem is really a model problem or a product or data problem?" [ref=e4739] [cursor=pointer]:
+                    - /url: /questions/how-do-you-tell-whether-an-ai-problem-is-really-a-model-problem-or-a-product-or--216
+                - generic [ref=e4740]:
+                  - generic [ref=e4741]: AI
+                  - generic [ref=e4742]: Medium
+              - paragraph [ref=e4743]: Many failures blamed on the model are actually weak data, vague task definition, poor UX, or missing fallback logic.
+              - generic [ref=e4745]: general
+              - link "View Full Content" [ref=e4747] [cursor=pointer]:
+                - /url: /questions/how-do-you-tell-whether-an-ai-problem-is-really-a-model-problem-or-a-product-or--216
+            - generic [ref=e4748]:
+              - generic [ref=e4750]:
+                - heading "How would you approach service decomposition and API contract management?" [level=3] [ref=e4751]:
+                  - link "How would you approach service decomposition and API contract management?" [ref=e4752] [cursor=pointer]:
+                    - /url: /questions/how-would-you-approach-service-decomposition-and-api-contract-management-341
+                - generic [ref=e4753]:
+                  - generic [ref=e4754]: AI
+                  - generic [ref=e4755]: Medium
+              - paragraph [ref=e4756]: I decompose services around business capabilities and team ownership, not just by technical layer. If the boundaries do not match real ownership and change patterns, the architecture may look clean on
+              - generic [ref=e4758]: general
+              - link "View Full Content" [ref=e4760] [cursor=pointer]:
+                - /url: /questions/how-would-you-approach-service-decomposition-and-api-contract-management-341
+            - generic [ref=e4761]:
+              - generic [ref=e4763]:
+                - heading "How would you design a canary release and rollback mechanism for model systems?" [level=3] [ref=e4764]:
+                  - link "How would you design a canary release and rollback mechanism for model systems?" [ref=e4765] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-a-canary-release-and-rollback-mechanism-for-model-systems-326
+                - generic [ref=e4766]:
+                  - generic [ref=e4767]: AI
+                  - generic [ref=e4768]: Hard
+              - paragraph [ref=e4769]: I would release new models, prompts, or retrieval logic behind explicit versioning and traffic routing. First I run shadow traffic or offline replay, then a small canary percentage, and only then broa
+              - generic [ref=e4771]: design
+              - link "View Full Content" [ref=e4773] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-a-canary-release-and-rollback-mechanism-for-model-systems-326
+            - generic [ref=e4774]:
+              - generic [ref=e4776]:
+                - heading "How would you design a concurrency-safe delayed task scheduler?" [level=3] [ref=e4777]:
+                  - link "How would you design a concurrency-safe delayed task scheduler?" [ref=e4778] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-a-concurrency-safe-delayed-task-scheduler-308
+                - generic [ref=e4779]:
+                  - generic [ref=e4780]: AI
+                  - generic [ref=e4781]: Hard
+              - paragraph [ref=e4782]: The core structure is a priority queue or DelayQueue ordered by executeAt. A scheduler thread waits for the earliest due task, then hands the work to a worker pool so that long-running tasks never blo
+              - generic [ref=e4784]: design
+              - link "View Full Content" [ref=e4786] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-a-concurrency-safe-delayed-task-scheduler-308
+            - generic [ref=e4787]:
+              - generic [ref=e4789]:
+                - heading "How would you design a feature store that keeps offline and online features consistent?" [level=3] [ref=e4790]:
+                  - link "How would you design a feature store that keeps offline and online features consistent?" [ref=e4791] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-a-feature-store-that-keeps-offline-and-online-features-cons-321
+                - generic [ref=e4792]:
+                  - generic [ref=e4793]: AI
+                  - generic [ref=e4794]: Hard
+              - paragraph [ref=e4795]: The key principle is “define once, serve twice.” Feature definitions should come from the same transformation logic or at least the same semantic specification, so the offline training feature and the
+              - generic [ref=e4797]: design
+              - link "View Full Content" [ref=e4799] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-a-feature-store-that-keeps-offline-and-online-features-cons-321
+            - generic [ref=e4800]:
+              - generic [ref=e4802]:
+                - heading "How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?" [level=3] [ref=e4803]:
+                  - link "How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?" [ref=e4804] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-a-pipeline-from-an-operational-database-to-a-data-lake-or-w-318
+                - generic [ref=e4805]:
+                  - generic [ref=e4806]: AI
+                  - generic [ref=e4807]: Hard
+              - paragraph [ref=e4808]: I usually start with an initial snapshot plus CDC for incremental changes. Raw data lands in a bronze layer, cleaned and standardized data moves to silver, and business-ready modeled data goes to gold
+              - generic [ref=e4809]:
+                - generic [ref=e4810]: database
+                - generic [ref=e4811]: design
+              - link "View Full Content" [ref=e4813] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-a-pipeline-from-an-operational-database-to-a-data-lake-or-w-318
+            - generic [ref=e4814]:
+              - generic [ref=e4816]:
+                - heading "How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?" [level=3] [ref=e4817]:
+                  - link "How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?" [ref=e4818] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-an-end-to-end-rag-service-including-chunking-retrieval-rera-312
+                - generic [ref=e4819]:
+                  - generic [ref=e4820]: AI
+                  - generic [ref=e4821]: Hard
+              - paragraph [ref=e4822]: I split the design into an offline ingestion path and an online serving path. Offline, I clean documents, preserve structure such as headings and tables, chunk them into semantically coherent spans, g
+              - generic [ref=e4823]:
+                - generic [ref=e4824]: design
+                - generic [ref=e4825]: rag
+                - generic [ref=e4826]: llm
+              - link "View Full Content" [ref=e4828] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-an-end-to-end-rag-service-including-chunking-retrieval-rera-312
+            - generic [ref=e4829]:
+              - generic [ref=e4831]:
+                - heading "How would you design an idempotent write API?" [level=3] [ref=e4832]:
+                  - link "How would you design an idempotent write API?" [ref=e4833] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-an-idempotent-write-api-311
+                - generic [ref=e4834]:
+                  - generic [ref=e4835]: AI
+                  - generic [ref=e4836]: Hard
+              - paragraph [ref=e4837]: I would require the client to send an idempotency key and store that key together with request hash, status, response payload, and timestamps in a durable store. The first successful request performs
+              - generic [ref=e4839]: design
+              - link "View Full Content" [ref=e4841] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-an-idempotent-write-api-311
+            - generic [ref=e4842]:
+              - generic [ref=e4844]:
+                - heading "How would you design model routing and provider fallback?" [level=3] [ref=e4845]:
+                  - link "How would you design model routing and provider fallback?" [ref=e4846] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-model-routing-and-provider-fallback-344
+                - generic [ref=e4847]:
+                  - generic [ref=e4848]: AI
+                  - generic [ref=e4849]: Hard
+              - paragraph [ref=e4850]: I route simpler work to smaller or cheaper models and reserve premium models for tasks that need stronger reasoning, tools, or higher answer quality.
+              - generic [ref=e4852]: design
+              - link "View Full Content" [ref=e4854] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-model-routing-and-provider-fallback-344
+            - generic [ref=e4855]:
+              - generic [ref=e4857]:
+                - heading "How would you design offline and online evaluation for answer quality and business impact?" [level=3] [ref=e4858]:
+                  - link "How would you design offline and online evaluation for answer quality and business impact?" [ref=e4859] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-offline-and-online-evaluation-for-answer-quality-and-busine-315
+                - generic [ref=e4860]:
+                  - generic [ref=e4861]: AI
+                  - generic [ref=e4862]: Hard
+              - paragraph [ref=e4863]: "Offline evaluation starts with a representative dataset: real user questions, expected answers, retrieved evidence, and edge cases such as ambiguity, outdated docs, and missing permissions. I would me"
+              - generic [ref=e4864]:
+                - generic [ref=e4865]: design
+                - generic [ref=e4866]: llm
+              - link "View Full Content" [ref=e4868] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-offline-and-online-evaluation-for-answer-quality-and-busine-315
+            - generic [ref=e4869]:
+              - generic [ref=e4871]:
+                - heading "How would you design rate limiting and circuit breaking for a high-concurrency API?" [level=3] [ref=e4872]:
+                  - link "How would you design rate limiting and circuit breaking for a high-concurrency API?" [ref=e4873] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-rate-limiting-and-circuit-breaking-for-a-high-concurrency-a-339
+                - generic [ref=e4874]:
+                  - generic [ref=e4875]: AI
+                  - generic [ref=e4876]: Hard
+              - paragraph [ref=e4877]: I would layer protections. At the edge, I want coarse global and tenant-level rate limits. Inside the service, I want finer limits for expensive endpoints or downstream dependencies such as databases,
+              - generic [ref=e4879]: design
+              - link "View Full Content" [ref=e4881] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-rate-limiting-and-circuit-breaking-for-a-high-concurrency-a-339
+            - generic [ref=e4882]:
+              - generic [ref=e4884]:
+                - heading "How would you design tool calling and agent orchestration safely?" [level=3] [ref=e4885]:
+                  - link "How would you design tool calling and agent orchestration safely?" [ref=e4886] [cursor=pointer]:
+                    - /url: /questions/how-would-you-design-tool-calling-and-agent-orchestration-safely-342
+                - generic [ref=e4887]:
+                  - generic [ref=e4888]: AI
+                  - generic [ref=e4889]: Hard
+              - paragraph [ref=e4890]: I separate planning from execution and keep every tool schema explicit so the model cannot improvise undocumented actions.
+              - generic [ref=e4892]: design
+              - link "View Full Content" [ref=e4894] [cursor=pointer]:
+                - /url: /questions/how-would-you-design-tool-calling-and-agent-orchestration-safely-342
+            - generic [ref=e4895]:
+              - generic [ref=e4897]:
+                - heading "How would you handle backfills, replay, and reprocessing?" [level=3] [ref=e4898]:
+                  - link "How would you handle backfills, replay, and reprocessing?" [ref=e4899] [cursor=pointer]:
+                    - /url: /questions/how-would-you-handle-backfills-replay-and-reprocessing-323
+                - generic [ref=e4900]:
+                  - generic [ref=e4901]: AI
+                  - generic [ref=e4902]: Medium
+              - paragraph [ref=e4903]: I design for replay from day one by keeping an immutable raw layer or event log. If the transformation logic changes, I can recompute from raw inputs instead of trying to patch already-aggregated outp
+              - generic [ref=e4905]: general
+              - link "View Full Content" [ref=e4907] [cursor=pointer]:
+                - /url: /questions/how-would-you-handle-backfills-replay-and-reprocessing-323
+            - generic [ref=e4908]:
+              - generic [ref=e4910]:
+                - heading "How would you handle data version management and traceability?" [level=3] [ref=e4911]:
+                  - link "How would you handle data version management and traceability?" [ref=e4912] [cursor=pointer]:
+                    - /url: /questions/how-would-you-handle-data-version-management-and-traceability-322
+                - generic [ref=e4913]:
+                  - generic [ref=e4914]: AI
+                  - generic [ref=e4915]: Medium
+              - paragraph [ref=e4916]: "I want every meaningful artifact to be versioned: raw inputs, derived datasets, schemas, transformation code, features, and models. That does not always mean copying all data, but it does mean having"
+              - generic [ref=e4918]: general
+              - link "View Full Content" [ref=e4920] [cursor=pointer]:
+                - /url: /questions/how-would-you-handle-data-version-management-and-traceability-322
+            - generic [ref=e4921]:
+              - generic [ref=e4923]:
+                - heading "How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?" [level=3] [ref=e4924]:
+                  - link "How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?" [ref=e4925] [cursor=pointer]:
+                    - /url: /questions/how-would-you-handle-sensitive-data-and-permissions-so-that-model-calls-and-retr-316
+                - generic [ref=e4926]:
+                  - generic [ref=e4927]: AI
+                  - generic [ref=e4928]: Medium
+              - paragraph [ref=e4929]: I would propagate user identity and tenant context from the start and enforce authorization before retrieval, not after generation. Documents and chunks should carry ACL metadata so that the retriever
+              - generic [ref=e4931]: llm
+              - link "View Full Content" [ref=e4933] [cursor=pointer]:
+                - /url: /questions/how-would-you-handle-sensitive-data-and-permissions-so-that-model-calls-and-retr-316
+            - generic [ref=e4934]:
+              - generic [ref=e4936]:
+                - heading "How would you implement Top K frequency statistics, and what are the time and space complexities?" [level=3] [ref=e4937]:
+                  - link "How would you implement Top K frequency statistics, and what are the time and space complexities?" [ref=e4938] [cursor=pointer]:
+                    - /url: /questions/how-would-you-implement-top-k-frequency-statistics-and-what-are-the-time-and-spa-309
+                - generic [ref=e4939]:
+                  - generic [ref=e4940]: AI
+                  - generic [ref=e4941]: Hard
+              - paragraph [ref=e4942]: The most common exact solution is HashMap for counts plus a min-heap of size K. I count every element in O(n), then push counts into the heap, evicting the smallest when the heap grows past K. That gi
+              - generic [ref=e4944]: general
+              - link "View Full Content" [ref=e4946] [cursor=pointer]:
+                - /url: /questions/how-would-you-implement-top-k-frequency-statistics-and-what-are-the-time-and-spa-309
+            - generic [ref=e4947]:
+              - generic [ref=e4949]:
+                - heading "How would you implement a rate limiter such as a token bucket or leaky bucket?" [level=3] [ref=e4950]:
+                  - link "How would you implement a rate limiter such as a token bucket or leaky bucket?" [ref=e4951] [cursor=pointer]:
+                    - /url: /questions/how-would-you-implement-a-rate-limiter-such-as-a-token-bucket-or-leaky-bucket-307
+                - generic [ref=e4952]:
+                  - generic [ref=e4953]: AI
+                  - generic [ref=e4954]: Medium
+              - paragraph [ref=e4955]: I usually start with token bucket because it is simple and supports bursts. The bucket has a refill rate and a maximum capacity. Every request consumes one or more tokens, and requests are rejected or
+              - generic [ref=e4957]: general
+              - link "View Full Content" [ref=e4959] [cursor=pointer]:
+                - /url: /questions/how-would-you-implement-a-rate-limiter-such-as-a-token-bucket-or-leaky-bucket-307
+            - generic [ref=e4960]:
+              - generic [ref=e4962]:
+                - heading "How would you implement an O(1) LRU cache?" [level=3] [ref=e4963]:
+                  - link "How would you implement an O(1) LRU cache?" [ref=e4964] [cursor=pointer]:
+                    - /url: /questions/how-would-you-implement-an-o1-lru-cache-306
+                - generic [ref=e4965]:
+                  - generic [ref=e4966]: AI
+                  - generic [ref=e4967]: Medium
+              - paragraph [ref=e4968]: The standard design is a HashMap plus a doubly linked list. The map gives O(1) key lookup, and the list keeps items ordered by recency so that move-to-front and tail eviction are both O(1).
+              - generic [ref=e4970]: general
+              - link "View Full Content" [ref=e4972] [cursor=pointer]:
+                - /url: /questions/how-would-you-implement-an-o1-lru-cache-306
+            - generic [ref=e4973]:
+              - generic [ref=e4975]:
+                - heading "How would you integrate model services into CI/CD and automated testing?" [level=3] [ref=e4976]:
+                  - link "How would you integrate model services into CI/CD and automated testing?" [ref=e4977] [cursor=pointer]:
+                    - /url: /questions/how-would-you-integrate-model-services-into-cicd-and-automated-testing-329
+                - generic [ref=e4978]:
+                  - generic [ref=e4979]: AI
+                  - generic [ref=e4980]: Medium
+              - paragraph [ref=e4981]: I treat prompts, schemas, retrieval configs, and model routing rules as versioned artifacts, not as hidden application constants. CI should run unit tests for prompt builders, parsers, tool adapters,
+              - generic [ref=e4983]: general
+              - link "View Full Content" [ref=e4985] [cursor=pointer]:
+                - /url: /questions/how-would-you-integrate-model-services-into-cicd-and-automated-testing-329
+            - generic [ref=e4986]:
+              - generic [ref=e4988]:
+                - heading "How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?" [level=3] [ref=e4989]:
+                  - link "How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?" [ref=e4990] [cursor=pointer]:
+                    - /url: /questions/how-would-you-wrap-an-llm-client-inside-a-java-service-including-timeout-rate-li-317
+                - generic [ref=e4991]:
+                  - generic [ref=e4992]: AI
+                  - generic [ref=e4993]: Medium
+              - paragraph [ref=e4994]: I would hide provider differences behind a small interface so the rest of the application can call a stable internal client. The wrapper should standardize request building, prompt and tool metadata,
+              - generic [ref=e4996]: llm
+              - link "View Full Content" [ref=e4998] [cursor=pointer]:
+                - /url: /questions/how-would-you-wrap-an-llm-client-inside-a-java-service-including-timeout-rate-li-317
+            - generic [ref=e4999]:
+              - generic [ref=e5001]:
+                - heading "In Spring Boot, how do you think about transaction propagation and consistency trade-offs?" [level=3] [ref=e5002]:
+                  - link "In Spring Boot, how do you think about transaction propagation and consistency trade-offs?" [ref=e5003] [cursor=pointer]:
+                    - /url: /questions/in-spring-boot-how-do-you-think-about-transaction-propagation-and-consistency-tr-338
+                - generic [ref=e5004]:
+                  - generic [ref=e5005]: AI
+                  - generic [ref=e5006]: Medium
+              - paragraph [ref=e5007]: I use transaction propagation to express intent, not as a magic fix. REQUIRED is the normal default, REQUIRES_NEW is useful when I need an independent unit such as audit or outbox persistence, and NES
+              - generic [ref=e5008]:
+                - generic [ref=e5009]: spring
+                - generic [ref=e5010]: transactions
+              - link "View Full Content" [ref=e5012] [cursor=pointer]:
+                - /url: /questions/in-spring-boot-how-do-you-think-about-transaction-propagation-and-consistency-tr-338
+            - generic [ref=e5013]:
+              - generic [ref=e5015]:
+                - heading "What are common optimization strategies for large joins and slow queries?" [level=3] [ref=e5016]:
+                  - link "What are common optimization strategies for large joins and slow queries?" [ref=e5017] [cursor=pointer]:
+                    - /url: /questions/what-are-common-optimization-strategies-for-large-joins-and-slow-queries-320
+                - generic [ref=e5018]:
+                  - generic [ref=e5019]: AI
+                  - generic [ref=e5020]: Medium
+              - paragraph [ref=e5021]: I start with the execution plan, because tuning without the plan is guesswork. I look for full scans, bad join order, missing partition pruning, data skew, spilling to disk, and filters that are appli
+              - generic [ref=e5023]: general
+              - link "View Full Content" [ref=e5025] [cursor=pointer]:
+                - /url: /questions/what-are-common-optimization-strategies-for-large-joins-and-slow-queries-320
+            - generic [ref=e5026]:
+              - generic [ref=e5028]:
+                - heading "What are the most common RAG failure modes you have seen?" [level=3] [ref=e5029]:
+                  - link "What are the most common RAG failure modes you have seen?" [ref=e5030] [cursor=pointer]:
+                    - /url: /questions/what-are-the-most-common-rag-failure-modes-you-have-seen-245
+                - generic [ref=e5031]:
+                  - generic [ref=e5032]: AI
+                  - generic [ref=e5033]: Medium
+              - paragraph [ref=e5034]: Wrong chunk retrieved because of bad chunk boundaries
+              - generic [ref=e5036]: rag
+              - link "View Full Content" [ref=e5038] [cursor=pointer]:
+                - /url: /questions/what-are-the-most-common-rag-failure-modes-you-have-seen-245
+            - generic [ref=e5039]:
+              - generic [ref=e5041]:
+                - heading "What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?" [level=3] [ref=e5042]:
+                  - link "What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?" [ref=e5043] [cursor=pointer]:
+                    - /url: /questions/what-are-the-pros-cons-and-best-fit-scenarios-for-real-time-asynchronous-and-bat-324
+                - generic [ref=e5044]:
+                  - generic [ref=e5045]: AI
+                  - generic [ref=e5046]: Medium
+              - paragraph [ref=e5047]: Real-time inference is best when the user is actively waiting for a result, such as chat, fraud checks, or ranking. The advantage is low latency and direct UX impact, but the downside is higher infras
+              - generic [ref=e5049]: general
+              - link "View Full Content" [ref=e5051] [cursor=pointer]:
+                - /url: /questions/what-are-the-pros-cons-and-best-fit-scenarios-for-real-time-asynchronous-and-bat-324
+            - generic [ref=e5052]:
+              - generic [ref=e5054]:
+                - heading "What are the real trade-offs of quantization?" [level=3] [ref=e5055]:
+                  - link "What are the real trade-offs of quantization?" [ref=e5056] [cursor=pointer]:
+                    - /url: /questions/what-are-the-real-trade-offs-of-quantization-268
+                - generic [ref=e5057]:
+                  - generic [ref=e5058]: AI
+                  - generic [ref=e5059]: Medium
+              - paragraph [ref=e5060]: Lower memory use and cheaper serving
+              - generic [ref=e5062]: general
+              - link "View Full Content" [ref=e5064] [cursor=pointer]:
+                - /url: /questions/what-are-the-real-trade-offs-of-quantization-268
+            - generic [ref=e5065]:
+              - generic [ref=e5067]:
+                - heading "What are the trade-offs of streaming responses?" [level=3] [ref=e5068]:
+                  - link "What are the trade-offs of streaming responses?" [ref=e5069] [cursor=pointer]:
+                    - /url: /questions/what-are-the-trade-offs-of-streaming-responses-273
+                - generic [ref=e5070]:
+                  - generic [ref=e5071]: AI
+                  - generic [ref=e5072]: Medium
+              - paragraph [ref=e5073]: Better perceived latency and UX
+              - generic [ref=e5075]: general
+              - link "View Full Content" [ref=e5077] [cursor=pointer]:
+                - /url: /questions/what-are-the-trade-offs-of-streaming-responses-273
+            - generic [ref=e5078]:
+              - generic [ref=e5080]:
+                - heading "What cost optimization methods would you use, and how would you keep spending under control?" [level=3] [ref=e5081]:
+                  - link "What cost optimization methods would you use, and how would you keep spending under control?" [ref=e5082] [cursor=pointer]:
+                    - /url: /questions/what-cost-optimization-methods-would-you-use-and-how-would-you-keep-spending-und-327
+                - generic [ref=e5083]:
+                  - generic [ref=e5084]: AI
+                  - generic [ref=e5085]: Medium
+              - paragraph [ref=e5086]: I start with model routing. Not every request needs the largest model. I route simple tasks to smaller or cheaper models, reserve premium models for hard cases, and use retrieval, reranking, caching,
+              - generic [ref=e5088]: general
+              - link "View Full Content" [ref=e5090] [cursor=pointer]:
+                - /url: /questions/what-cost-optimization-methods-would-you-use-and-how-would-you-keep-spending-und-327
+            - generic [ref=e5091]:
+              - generic [ref=e5093]:
+                - heading "What data quality problem hurts AI systems the most?" [level=3] [ref=e5094]:
+                  - link "What data quality problem hurts AI systems the most?" [ref=e5095] [cursor=pointer]:
+                    - /url: /questions/what-data-quality-problem-hurts-ai-systems-the-most-223
+                - generic [ref=e5096]:
+                  - generic [ref=e5097]: AI
+                  - generic [ref=e5098]: Medium
+              - paragraph [ref=e5099]: Ambiguous labels and inconsistent ground truth.
+              - generic [ref=e5101]: general
+              - link "View Full Content" [ref=e5103] [cursor=pointer]:
+                - /url: /questions/what-data-quality-problem-hurts-ai-systems-the-most-223
+            - generic [ref=e5104]:
+              - generic [ref=e5106]:
+                - heading "What does a serious eval strategy look like for an AI product?" [level=3] [ref=e5107]:
+                  - link "What does a serious eval strategy look like for an AI product?" [ref=e5108] [cursor=pointer]:
+                    - /url: /questions/what-does-a-serious-eval-strategy-look-like-for-an-ai-product-276
+                - generic [ref=e5109]:
+                  - generic [ref=e5110]: AI
+                  - generic [ref=e5111]: Medium
+              - paragraph [ref=e5112]: A fixed regression suite for core tasks
+              - generic [ref=e5114]: general
+              - link "View Full Content" [ref=e5116] [cursor=pointer]:
+                - /url: /questions/what-does-a-serious-eval-strategy-look-like-for-an-ai-product-276
+            - generic [ref=e5117]:
+              - generic [ref=e5119]:
+                - heading "What does governance mean in an AI system beyond legal checkboxes?" [level=3] [ref=e5120]:
+                  - link "What does governance mean in an AI system beyond legal checkboxes?" [ref=e5121] [cursor=pointer]:
+                    - /url: /questions/what-does-governance-mean-in-an-ai-system-beyond-legal-checkboxes-285
+                - generic [ref=e5122]:
+                  - generic [ref=e5123]: AI
+                  - generic [ref=e5124]: Medium
+              - paragraph [ref=e5125]: Clear ownership of models, prompts, tools, data, and evals
+              - generic [ref=e5127]: general
+              - link "View Full Content" [ref=e5129] [cursor=pointer]:
+                - /url: /questions/what-does-governance-mean-in-an-ai-system-beyond-legal-checkboxes-285
+            - generic [ref=e5130]:
+              - generic [ref=e5132]:
+                - heading "What does memory mean in an agent system?" [level=3] [ref=e5133]:
+                  - link "What does memory mean in an agent system?" [ref=e5134] [cursor=pointer]:
+                    - /url: /questions/what-does-memory-mean-in-an-agent-system-250
+                - generic [ref=e5135]:
+                  - generic [ref=e5136]: AI
+                  - generic [ref=e5137]: Medium
+              - paragraph [ref=e5138]: Short-term memory is the working context for the current task.
+              - generic [ref=e5140]: memory
+              - link "View Full Content" [ref=e5142] [cursor=pointer]:
+                - /url: /questions/what-does-memory-mean-in-an-agent-system-250
+            - generic [ref=e5143]:
+              - generic [ref=e5145]:
+                - heading "What does overfitting look like in an applied AI system, not just in a textbook?" [level=3] [ref=e5146]:
+                  - link "What does overfitting look like in an applied AI system, not just in a textbook?" [ref=e5147] [cursor=pointer]:
+                    - /url: /questions/what-does-overfitting-look-like-in-an-applied-ai-system-not-just-in-a-textbook-217
+                - generic [ref=e5148]:
+                  - generic [ref=e5149]: AI
+                  - generic [ref=e5150]: Medium
+              - paragraph [ref=e5151]: Offline scores look great on a narrow eval set, but real users ask messier questions.
+              - generic [ref=e5153]: general
+              - link "View Full Content" [ref=e5155] [cursor=pointer]:
+                - /url: /questions/what-does-overfitting-look-like-in-an-applied-ai-system-not-just-in-a-textbook-217
+            - generic [ref=e5156]:
+              - generic [ref=e5158]:
+                - heading "What engineering safeguards would you use when the model hallucinates?" [level=3] [ref=e5159]:
+                  - link "What engineering safeguards would you use when the model hallucinates?" [ref=e5160] [cursor=pointer]:
+                    - /url: /questions/what-engineering-safeguards-would-you-use-when-the-model-hallucinates-314
+                - generic [ref=e5161]:
+                  - generic [ref=e5162]: AI
+                  - generic [ref=e5163]: Medium
+              - paragraph [ref=e5164]: "I think about hallucination in three layers: prevention, detection, and fallback. Prevention means narrowing the task, retrieving grounded evidence, requiring citations, and telling the model to absta"
+              - generic [ref=e5166]: llm
+              - link "View Full Content" [ref=e5168] [cursor=pointer]:
+                - /url: /questions/what-engineering-safeguards-would-you-use-when-the-model-hallucinates-314
+            - generic [ref=e5169]:
+              - generic [ref=e5171]:
+                - heading "What is MCP, and where is it useful?" [level=3] [ref=e5172]:
+                  - link "What is MCP, and where is it useful?" [ref=e5173] [cursor=pointer]:
+                    - /url: /questions/what-is-mcp-and-where-is-it-useful-253
+                - generic [ref=e5174]:
+                  - generic [ref=e5175]: AI
+                  - generic [ref=e5176]: Easy
+              - paragraph [ref=e5177]: It standardizes how tools and context providers are exposed to AI applications.
+              - generic [ref=e5179]: general
+              - link "View Full Content" [ref=e5181] [cursor=pointer]:
+                - /url: /questions/what-is-mcp-and-where-is-it-useful-253
+            - generic [ref=e5182]:
+              - generic [ref=e5184]:
+                - heading "What is catastrophic forgetting, and how do you reduce it?" [level=3] [ref=e5185]:
+                  - link "What is catastrophic forgetting, and how do you reduce it?" [ref=e5186] [cursor=pointer]:
+                    - /url: /questions/what-is-catastrophic-forgetting-and-how-do-you-reduce-it-262
+                - generic [ref=e5187]:
+                  - generic [ref=e5188]: AI
+                  - generic [ref=e5189]: Easy
+              - paragraph [ref=e5190]: The model gets better at the fine-tuned task but worse at general capabilities or earlier skills.
+              - generic [ref=e5192]: general
+              - link "View Full Content" [ref=e5194] [cursor=pointer]:
+                - /url: /questions/what-is-catastrophic-forgetting-and-how-do-you-reduce-it-262
+            - generic [ref=e5195]:
+              - generic [ref=e5197]:
+                - heading "What is distribution shift, and where does it show up in AI products?" [level=3] [ref=e5198]:
+                  - link "What is distribution shift, and where does it show up in AI products?" [ref=e5199] [cursor=pointer]:
+                    - /url: /questions/what-is-distribution-shift-and-where-does-it-show-up-in-ai-products-222
+                - generic [ref=e5200]:
+                  - generic [ref=e5201]: AI
+                  - generic [ref=e5202]: Easy
+              - paragraph [ref=e5203]: The data in production changes from what the system was evaluated or trained on.
+              - generic [ref=e5205]: general
+              - link "View Full Content" [ref=e5207] [cursor=pointer]:
+                - /url: /questions/what-is-distribution-shift-and-where-does-it-show-up-in-ai-products-222
+            - generic [ref=e5208]:
+              - generic [ref=e5210]:
+                - heading "What is multi-hop retrieval, and when do you need it?" [level=3] [ref=e5211]:
+                  - link "What is multi-hop retrieval, and when do you need it?" [ref=e5212] [cursor=pointer]:
+                    - /url: /questions/what-is-multi-hop-retrieval-and-when-do-you-need-it-244
+                - generic [ref=e5213]:
+                  - generic [ref=e5214]: AI
+                  - generic [ref=e5215]: Easy
+              - paragraph [ref=e5216]: Some questions require finding one fact that points to a second fact in another source.
+              - generic [ref=e5218]: rag
+              - link "View Full Content" [ref=e5220] [cursor=pointer]:
+                - /url: /questions/what-is-multi-hop-retrieval-and-when-do-you-need-it-244
+            - generic [ref=e5221]:
+              - generic [ref=e5223]:
+                - heading "What is prefix or prompt caching, and where does it help?" [level=3] [ref=e5224]:
+                  - link "What is prefix or prompt caching, and where does it help?" [ref=e5225] [cursor=pointer]:
+                    - /url: /questions/what-is-prefix-or-prompt-caching-and-where-does-it-help-270
+                - generic [ref=e5226]:
+                  - generic [ref=e5227]: AI
+                  - generic [ref=e5228]: Easy
+              - paragraph [ref=e5229]: If many requests share the same long prefix, the system can reuse work instead of recomputing from scratch.
+              - generic [ref=e5231]: general
+              - link "View Full Content" [ref=e5233] [cursor=pointer]:
+                - /url: /questions/what-is-prefix-or-prompt-caching-and-where-does-it-help-270
+            - generic [ref=e5234]:
+              - generic [ref=e5236]:
+                - heading "What is prompt injection, and why is it not just a prompt problem?" [level=3] [ref=e5237]:
+                  - link "What is prompt injection, and why is it not just a prompt problem?" [ref=e5238] [cursor=pointer]:
+                    - /url: /questions/what-is-prompt-injection-and-why-is-it-not-just-a-prompt-problem-280
+                - generic [ref=e5239]:
+                  - generic [ref=e5240]: AI
+                  - generic [ref=e5241]: Easy
+              - paragraph [ref=e5242]: Untrusted content tries to change model behavior or override instructions.
+              - generic [ref=e5244]: general
+              - link "View Full Content" [ref=e5246] [cursor=pointer]:
+                - /url: /questions/what-is-prompt-injection-and-why-is-it-not-just-a-prompt-problem-280
+            - generic [ref=e5247]:
+              - generic [ref=e5249]:
+                - heading "What is speculative decoding, and when is it useful?" [level=3] [ref=e5250]:
+                  - link "What is speculative decoding, and when is it useful?" [ref=e5251] [cursor=pointer]:
+                    - /url: /questions/what-is-speculative-decoding-and-when-is-it-useful-269
+                - generic [ref=e5252]:
+                  - generic [ref=e5253]: AI
+                  - generic [ref=e5254]: Easy
+              - paragraph [ref=e5255]: A smaller draft model proposes tokens and a larger target model verifies them.
+              - generic [ref=e5257]: general
+              - link "View Full Content" [ref=e5259] [cursor=pointer]:
+                - /url: /questions/what-is-speculative-decoding-and-when-is-it-useful-269
+            - generic [ref=e5260]:
+              - generic [ref=e5262]:
+                - heading "What is the KV cache, and why should application engineers care?" [level=3] [ref=e5263]:
+                  - link "What is the KV cache, and why should application engineers care?" [ref=e5264] [cursor=pointer]:
+                    - /url: /questions/what-is-the-kv-cache-and-why-should-application-engineers-care-233
+                - generic [ref=e5265]:
+                  - generic [ref=e5266]: AI
+                  - generic [ref=e5267]: Easy
+              - paragraph [ref=e5268]: It stores intermediate attention states so the model does not recompute the whole prefix for every generated token.
+              - generic [ref=e5270]: llm
+              - link "View Full Content" [ref=e5272] [cursor=pointer]:
+                - /url: /questions/what-is-the-kv-cache-and-why-should-application-engineers-care-233
+            - generic [ref=e5273]:
+              - generic [ref=e5275]:
+                - heading "What is the difference between prefill and decode?" [level=3] [ref=e5276]:
+                  - link "What is the difference between prefill and decode?" [ref=e5277] [cursor=pointer]:
+                    - /url: /questions/what-is-the-difference-between-prefill-and-decode-234
+                - generic [ref=e5278]:
+                  - generic [ref=e5279]: AI
+                  - generic [ref=e5280]: Easy
+              - paragraph [ref=e5281]: Prefill processes the input prompt and usually uses compute efficiently.
+              - generic [ref=e5283]: llm
+              - link "View Full Content" [ref=e5285] [cursor=pointer]:
+                - /url: /questions/what-is-the-difference-between-prefill-and-decode-234
+            - generic [ref=e5286]:
+              - generic [ref=e5288]:
+                - heading "What is the difference between pretraining, instruction tuning, and preference alignment?" [level=3] [ref=e5289]:
+                  - link "What is the difference between pretraining, instruction tuning, and preference alignment?" [ref=e5290] [cursor=pointer]:
+                    - /url: /questions/what-is-the-difference-between-pretraining-instruction-tuning-and-preference-ali-230
+                - generic [ref=e5291]:
+                  - generic [ref=e5292]: AI
+                  - generic [ref=e5293]: Easy
+              - paragraph [ref=e5294]: Pretraining builds general language and world knowledge.
+              - generic [ref=e5296]: llm
+              - link "View Full Content" [ref=e5298] [cursor=pointer]:
+                - /url: /questions/what-is-the-difference-between-pretraining-instruction-tuning-and-preference-ali-230
+            - generic [ref=e5299]:
+              - generic [ref=e5301]:
+                - heading "What is the difference between static batching and continuous batching?" [level=3] [ref=e5302]:
+                  - link "What is the difference between static batching and continuous batching?" [ref=e5303] [cursor=pointer]:
+                    - /url: /questions/what-is-the-difference-between-static-batching-and-continuous-batching-267
+                - generic [ref=e5304]:
+                  - generic [ref=e5305]: AI
+                  - generic [ref=e5306]: Easy
+              - paragraph [ref=e5307]: Static batching groups requests together at fixed boundaries.
+              - generic [ref=e5309]: general
+              - link "View Full Content" [ref=e5311] [cursor=pointer]:
+                - /url: /questions/what-is-the-difference-between-static-batching-and-continuous-batching-267
+            - generic [ref=e5312]:
+              - generic [ref=e5314]:
+                - heading "What is the minimum RAG pipeline you would trust in production?" [level=3] [ref=e5315]:
+                  - link "What is the minimum RAG pipeline you would trust in production?" [ref=e5316] [cursor=pointer]:
+                    - /url: /questions/what-is-the-minimum-rag-pipeline-you-would-trust-in-production-237
+                - generic [ref=e5317]:
+                  - generic [ref=e5318]: AI
+                  - generic [ref=e5319]: Easy
+              - paragraph [ref=e5320]: Clean document ingestion
+              - generic [ref=e5322]: rag
+              - link "View Full Content" [ref=e5324] [cursor=pointer]:
+                - /url: /questions/what-is-the-minimum-rag-pipeline-you-would-trust-in-production-237
+            - generic [ref=e5325]:
+              - generic [ref=e5327]:
+                - heading "What is the real difference between prompt engineering and supervised fine-tuning?" [level=3] [ref=e5328]:
+                  - link "What is the real difference between prompt engineering and supervised fine-tuning?" [ref=e5329] [cursor=pointer]:
+                    - /url: /questions/what-is-the-real-difference-between-prompt-engineering-and-supervised-fine-tunin-257
+                - generic [ref=e5330]:
+                  - generic [ref=e5331]: AI
+                  - generic [ref=e5332]: Easy
+              - paragraph [ref=e5333]: Prompting changes the instructions at inference time.
+              - generic [ref=e5335]: general
+              - link "View Full Content" [ref=e5337] [cursor=pointer]:
+                - /url: /questions/what-is-the-real-difference-between-prompt-engineering-and-supervised-fine-tunin-257
+            - generic [ref=e5338]:
+              - generic [ref=e5340]:
+                - heading "What is tool injection or data exfiltration risk?" [level=3] [ref=e5341]:
+                  - link "What is tool injection or data exfiltration risk?" [ref=e5342] [cursor=pointer]:
+                    - /url: /questions/what-is-tool-injection-or-data-exfiltration-risk-281
+                - generic [ref=e5343]:
+                  - generic [ref=e5344]: AI
+                  - generic [ref=e5345]: Easy
+              - paragraph [ref=e5346]: The model can be manipulated into calling tools with unsafe parameters or leaking sensitive data across boundaries.
+              - generic [ref=e5348]: general
+              - link "View Full Content" [ref=e5350] [cursor=pointer]:
+                - /url: /questions/what-is-tool-injection-or-data-exfiltration-risk-281
+            - generic [ref=e5351]:
+              - generic [ref=e5353]:
+                - heading "What is your approach to GC tuning, and which metrics do you watch?" [level=3] [ref=e5354]:
+                  - link "What is your approach to GC tuning, and which metrics do you watch?" [ref=e5355] [cursor=pointer]:
+                    - /url: /questions/what-is-your-approach-to-gc-tuning-and-which-metrics-do-you-watch-337
+                - generic [ref=e5356]:
+                  - generic [ref=e5357]: AI
+                  - generic [ref=e5358]: Easy
+              - paragraph [ref=e5359]: "I do not start with JVM flags. I start with symptoms and data: pause times, throughput loss, allocation rate, heap occupancy, old-generation pressure, promotion failures, and GC logs. Without that, tu"
+              - generic [ref=e5361]: gc
+              - link "View Full Content" [ref=e5363] [cursor=pointer]:
+                - /url: /questions/what-is-your-approach-to-gc-tuning-and-which-metrics-do-you-watch-337
+            - generic [ref=e5364]:
+              - generic [ref=e5366]:
+                - heading "What is your emergency strategy when a model service fails or starts producing abnormal outputs?" [level=3] [ref=e5367]:
+                  - link "What is your emergency strategy when a model service fails or starts producing abnormal outputs?" [ref=e5368] [cursor=pointer]:
+                    - /url: /questions/what-is-your-emergency-strategy-when-a-model-service-fails-or-starts-producing-a-328
+                - generic [ref=e5369]:
+                  - generic [ref=e5370]: AI
+                  - generic [ref=e5371]: Easy
+              - paragraph [ref=e5372]: The first step is fast detection with useful signals, not just generic 500 alerts. I want alerts for provider timeout spikes, malformed outputs, unsupported-claim spikes, refusal anomalies, and sudden
+              - generic [ref=e5374]: general
+              - link "View Full Content" [ref=e5376] [cursor=pointer]:
+                - /url: /questions/what-is-your-emergency-strategy-when-a-model-service-fails-or-starts-producing-a-328
+            - generic [ref=e5377]:
+              - generic [ref=e5379]:
+                - heading "What makes a good tool definition for model tool calling?" [level=3] [ref=e5380]:
+                  - link "What makes a good tool definition for model tool calling?" [ref=e5381] [cursor=pointer]:
+                    - /url: /questions/what-makes-a-good-tool-definition-for-model-tool-calling-247
+                - generic [ref=e5382]:
+                  - generic [ref=e5383]: AI
+                  - generic [ref=e5384]: Medium
+              - paragraph [ref=e5385]: Narrow purpose, clear parameters, explicit constraints, and predictable outputs.
+              - generic [ref=e5387]: general
+              - link "View Full Content" [ref=e5389] [cursor=pointer]:
+                - /url: /questions/what-makes-a-good-tool-definition-for-model-tool-calling-247
+            - generic [ref=e5390]:
+              - generic [ref=e5392]:
+                - heading "What metrics matter for agent systems besides model accuracy?" [level=3] [ref=e5393]:
+                  - link "What metrics matter for agent systems besides model accuracy?" [ref=e5394] [cursor=pointer]:
+                    - /url: /questions/what-metrics-matter-for-agent-systems-besides-model-accuracy-255
+                - generic [ref=e5395]:
+                  - generic [ref=e5396]: AI
+                  - generic [ref=e5397]: Medium
+              - paragraph [ref=e5398]: Task completion rate
+              - generic [ref=e5400]: general
+              - link "View Full Content" [ref=e5402] [cursor=pointer]:
+                - /url: /questions/what-metrics-matter-for-agent-systems-besides-model-accuracy-255
+            - generic [ref=e5403]:
+              - generic [ref=e5405]:
+                - heading "What training data do you need before you fine-tune?" [level=3] [ref=e5406]:
+                  - link "What training data do you need before you fine-tune?" [ref=e5407] [cursor=pointer]:
+                    - /url: /questions/what-training-data-do-you-need-before-you-fine-tune-259
+                - generic [ref=e5408]:
+                  - generic [ref=e5409]: AI
+                  - generic [ref=e5410]: Medium
+              - paragraph [ref=e5411]: A clear task definition
+              - generic [ref=e5413]: general
+              - link "View Full Content" [ref=e5415] [cursor=pointer]:
+                - /url: /questions/what-training-data-do-you-need-before-you-fine-tune-259
+            - generic [ref=e5416]:
+              - generic [ref=e5418]:
+                - heading "When are model-graded evals useful, and when are they risky?" [level=3] [ref=e5419]:
+                  - link "When are model-graded evals useful, and when are they risky?" [ref=e5420] [cursor=pointer]:
+                    - /url: /questions/when-are-model-graded-evals-useful-and-when-are-they-risky-278
+                - generic [ref=e5421]:
+                  - generic [ref=e5422]: AI
+                  - generic [ref=e5423]: Medium
+              - paragraph [ref=e5424]: Useful for subjective criteria like tone, helpfulness, or partial completeness when exact matching is too brittle.
+              - generic [ref=e5426]: general
+              - link "View Full Content" [ref=e5428] [cursor=pointer]:
+                - /url: /questions/when-are-model-graded-evals-useful-and-when-are-they-risky-278
+            - generic [ref=e5429]:
+              - generic [ref=e5431]:
+                - heading "When do you choose RAG over fine-tuning?" [level=3] [ref=e5432]:
+                  - link "When do you choose RAG over fine-tuning?" [ref=e5433] [cursor=pointer]:
+                    - /url: /questions/when-do-you-choose-rag-over-fine-tuning-236
+                - generic [ref=e5434]:
+                  - generic [ref=e5435]: AI
+                  - generic [ref=e5436]: Medium
+              - paragraph [ref=e5437]: I use RAG when the main problem is changing knowledge, private knowledge, or citation needs.
+              - generic [ref=e5439]: rag
+              - link "View Full Content" [ref=e5441] [cursor=pointer]:
+                - /url: /questions/when-do-you-choose-rag-over-fine-tuning-236
+            - generic [ref=e5442]:
+              - generic [ref=e5444]:
+                - heading "When do you put a human in the loop?" [level=3] [ref=e5445]:
+                  - link "When do you put a human in the loop?" [ref=e5446] [cursor=pointer]:
+                    - /url: /questions/when-do-you-put-a-human-in-the-loop-254
+                - generic [ref=e5447]:
+                  - generic [ref=e5448]: AI
+                  - generic [ref=e5449]: Medium
+              - paragraph [ref=e5450]: High-risk actions
+              - generic [ref=e5452]: general
+              - link "View Full Content" [ref=e5454] [cursor=pointer]:
+                - /url: /questions/when-do-you-put-a-human-in-the-loop-254
+            - generic [ref=e5455]:
+              - generic [ref=e5457]:
+                - heading "When do you use a reasoning-heavy model versus a faster general model?" [level=3] [ref=e5458]:
+                  - link "When do you use a reasoning-heavy model versus a faster general model?" [ref=e5459] [cursor=pointer]:
+                    - /url: /questions/when-do-you-use-a-reasoning-heavy-model-versus-a-faster-general-model-235
+                - generic [ref=e5460]:
+                  - generic [ref=e5461]: AI
+                  - generic [ref=e5462]: Medium
+              - paragraph [ref=e5463]: I use stronger reasoning when the task needs planning, code generation, tool sequencing, or careful exception handling.
+              - generic [ref=e5465]: llm
+              - link "View Full Content" [ref=e5467] [cursor=pointer]:
+                - /url: /questions/when-do-you-use-a-reasoning-heavy-model-versus-a-faster-general-model-235
+            - generic [ref=e5468]:
+              - generic [ref=e5470]:
+                - heading "When does distillation make sense?" [level=3] [ref=e5471]:
+                  - link "When does distillation make sense?" [ref=e5472] [cursor=pointer]:
+                    - /url: /questions/when-does-distillation-make-sense-263
+                - generic [ref=e5473]:
+                  - generic [ref=e5474]: AI
+                  - generic [ref=e5475]: Medium
+              - paragraph [ref=e5476]: When you have a strong but slow or expensive teacher and a cheaper student can learn enough of the behavior for production.
+              - generic [ref=e5478]: general
+              - link "View Full Content" [ref=e5480] [cursor=pointer]:
+                - /url: /questions/when-does-distillation-make-sense-263
+            - generic [ref=e5481]:
+              - generic [ref=e5483]:
+                - heading "When is a reranker worth the extra latency?" [level=3] [ref=e5484]:
+                  - link "When is a reranker worth the extra latency?" [ref=e5485] [cursor=pointer]:
+                    - /url: /questions/when-is-a-reranker-worth-the-extra-latency-240
+                - generic [ref=e5486]:
+                  - generic [ref=e5487]: AI
+                  - generic [ref=e5488]: Medium
+              - paragraph [ref=e5489]: When first-stage recall is okay but ordering is poor.
+              - generic [ref=e5491]: rag
+              - link "View Full Content" [ref=e5493] [cursor=pointer]:
+                - /url: /questions/when-is-a-reranker-worth-the-extra-latency-240
+            - generic [ref=e5494]:
+              - generic [ref=e5496]:
+                - heading "When is a smaller model actually the better engineering choice?" [level=3] [ref=e5497]:
+                  - link "When is a smaller model actually the better engineering choice?" [ref=e5498] [cursor=pointer]:
+                    - /url: /questions/when-is-a-smaller-model-actually-the-better-engineering-choice-221
+                - generic [ref=e5499]:
+                  - generic [ref=e5500]: AI
+                  - generic [ref=e5501]: Medium
+              - paragraph [ref=e5502]: Extraction, classification, moderation, reranking, and short-format tasks often do not need the largest model.
+              - generic [ref=e5504]: general
+              - link "View Full Content" [ref=e5506] [cursor=pointer]:
+                - /url: /questions/when-is-a-smaller-model-actually-the-better-engineering-choice-221
+            - generic [ref=e5507]:
+              - generic [ref=e5509]:
+                - heading "When is a workflow better than an agent?" [level=3] [ref=e5510]:
+                  - link "When is a workflow better than an agent?" [ref=e5511] [cursor=pointer]:
+                    - /url: /questions/when-is-a-workflow-better-than-an-agent-246
+                - generic [ref=e5512]:
+                  - generic [ref=e5513]: AI
+                  - generic [ref=e5514]: Medium
+              - paragraph [ref=e5515]: When the steps are known, high-risk, or require consistent latency and explainability.
+              - generic [ref=e5517]: general
+              - link "View Full Content" [ref=e5519] [cursor=pointer]:
+                - /url: /questions/when-is-a-workflow-better-than-an-agent-246
+            - generic [ref=e5520]:
+              - generic [ref=e5522]:
+                - heading "When is batch processing better than stream processing, and how would you explain the trade-offs?" [level=3] [ref=e5523]:
+                  - link "When is batch processing better than stream processing, and how would you explain the trade-offs?" [ref=e5524] [cursor=pointer]:
+                    - /url: /questions/when-is-batch-processing-better-than-stream-processing-and-how-would-you-explain-319
+                - generic [ref=e5525]:
+                  - generic [ref=e5526]: AI
+                  - generic [ref=e5527]: Medium
+              - paragraph [ref=e5528]: Batch is usually better when latency requirements are loose, data volume is high, and simplicity matters more than freshness. It is cheaper to operate, easier to backfill, and often easier to reason a
+              - generic [ref=e5530]: general
+              - link "View Full Content" [ref=e5532] [cursor=pointer]:
+                - /url: /questions/when-is-batch-processing-better-than-stream-processing-and-how-would-you-explain-319
+            - generic [ref=e5533]:
+              - generic [ref=e5535]:
+                - heading "When is fine-tuning actually the right move?" [level=3] [ref=e5536]:
+                  - link "When is fine-tuning actually the right move?" [ref=e5537] [cursor=pointer]:
+                    - /url: /questions/when-is-fine-tuning-actually-the-right-move-256
+                - generic [ref=e5538]:
+                  - generic [ref=e5539]: AI
+                  - generic [ref=e5540]: Medium
+              - paragraph [ref=e5541]: When prompting and retrieval hit a plateau and the task pattern is repetitive enough to justify specialized model behavior.
+              - generic [ref=e5543]: general
+              - link "View Full Content" [ref=e5545] [cursor=pointer]:
+                - /url: /questions/when-is-fine-tuning-actually-the-right-move-256
+            - generic [ref=e5546]:
+              - generic [ref=e5548]:
+                - heading "When is synthetic data helpful, and when is it dangerous?" [level=3] [ref=e5549]:
+                  - link "When is synthetic data helpful, and when is it dangerous?" [ref=e5550] [cursor=pointer]:
+                    - /url: /questions/when-is-synthetic-data-helpful-and-when-is-it-dangerous-260
+                - generic [ref=e5551]:
+                  - generic [ref=e5552]: AI
+                  - generic [ref=e5553]: Medium
+              - paragraph [ref=e5554]: Helpful when you need coverage, variation, or bootstrapping for narrow tasks.
+              - generic [ref=e5556]: general
+              - link "View Full Content" [ref=e5558] [cursor=pointer]:
+                - /url: /questions/when-is-synthetic-data-helpful-and-when-is-it-dangerous-260
+            - generic [ref=e5559]:
+              - generic [ref=e5561]:
+                - heading "When should you route to different models instead of building one heavily tuned model?" [level=3] [ref=e5562]:
+                  - link "When should you route to different models instead of building one heavily tuned model?" [ref=e5563] [cursor=pointer]:
+                    - /url: /questions/when-should-you-route-to-different-models-instead-of-building-one-heavily-tuned--264
+                - generic [ref=e5564]:
+                  - generic [ref=e5565]: AI
+                  - generic [ref=e5566]: Medium
+              - paragraph [ref=e5567]: When task types are clearly different, latency budgets differ, or the expensive model is only needed for a subset of traffic.
+              - generic [ref=e5569]: general
+              - link "View Full Content" [ref=e5571] [cursor=pointer]:
+                - /url: /questions/when-should-you-route-to-different-models-instead-of-building-one-heavily-tuned--264
+            - generic [ref=e5572]:
+              - generic [ref=e5574]:
+                - heading "Which metrics would you monitor to judge model quality and drift?" [level=3] [ref=e5575]:
+                  - link "Which metrics would you monitor to judge model quality and drift?" [ref=e5576] [cursor=pointer]:
+                    - /url: /questions/which-metrics-would-you-monitor-to-judge-model-quality-and-drift-325
+                - generic [ref=e5577]:
+                  - generic [ref=e5578]: AI
+                  - generic [ref=e5579]: Medium
+              - paragraph [ref=e5580]: I separate system health metrics from model quality metrics. System metrics include latency, throughput, timeout rate, error rate, queue depth, token usage, and cost. These tell me whether the service
+              - generic [ref=e5582]: general
+              - link "View Full Content" [ref=e5584] [cursor=pointer]:
+                - /url: /questions/which-metrics-would-you-monitor-to-judge-model-quality-and-drift-325
+            - generic [ref=e5585]:
+              - generic [ref=e5587]:
+                - heading "Why are metadata filters underrated in RAG?" [level=3] [ref=e5588]:
+                  - link "Why are metadata filters underrated in RAG?" [ref=e5589] [cursor=pointer]:
+                    - /url: /questions/why-are-metadata-filters-underrated-in-rag-241
+                - generic [ref=e5590]:
+                  - generic [ref=e5591]: AI
+                  - generic [ref=e5592]: Medium
+              - paragraph [ref=e5593]: Retrieval quality is often destroyed by asking the model to search the entire universe.
+              - generic [ref=e5595]: rag
+              - link "View Full Content" [ref=e5597] [cursor=pointer]:
+                - /url: /questions/why-are-metadata-filters-underrated-in-rag-241
+            - generic [ref=e5598]:
+              - generic [ref=e5600]:
+                - heading "Why can GPU utilization stay mediocre even when traffic is high?" [level=3] [ref=e5601]:
+                  - link "Why can GPU utilization stay mediocre even when traffic is high?" [ref=e5602] [cursor=pointer]:
+                    - /url: /questions/why-can-gpu-utilization-stay-mediocre-even-when-traffic-is-high-271
+                - generic [ref=e5603]:
+                  - generic [ref=e5604]: AI
+                  - generic [ref=e5605]: Medium
+              - paragraph [ref=e5606]: Workload fragmentation, short requests, memory pressure, poor batching, slow retrieval, or tool waits can all starve the model server.
+              - generic [ref=e5608]: general
+              - link "View Full Content" [ref=e5610] [cursor=pointer]:
+                - /url: /questions/why-can-gpu-utilization-stay-mediocre-even-when-traffic-is-high-271
+            - generic [ref=e5611]:
+              - generic [ref=e5613]:
+                - heading "Why can offline metrics improve while the product gets worse?" [level=3] [ref=e5614]:
+                  - link "Why can offline metrics improve while the product gets worse?" [ref=e5615] [cursor=pointer]:
+                    - /url: /questions/why-can-offline-metrics-improve-while-the-product-gets-worse-219
+                - generic [ref=e5616]:
+                  - generic [ref=e5617]: AI
+                  - generic [ref=e5618]: Medium
+              - paragraph [ref=e5619]: Offline data is usually cleaner, shorter, and less adversarial than real traffic.
+              - generic [ref=e5621]: general
+              - link "View Full Content" [ref=e5623] [cursor=pointer]:
+                - /url: /questions/why-can-offline-metrics-improve-while-the-product-gets-worse-219
+            - generic [ref=e5624]:
+              - generic [ref=e5626]:
+                - heading "Why do structured outputs matter?" [level=3] [ref=e5627]:
+                  - link "Why do structured outputs matter?" [ref=e5628] [cursor=pointer]:
+                    - /url: /questions/why-do-structured-outputs-matter-252
+                - generic [ref=e5629]:
+                  - generic [ref=e5630]: AI
+                  - generic [ref=e5631]: Medium
+              - paragraph [ref=e5632]: Free text is easy for demos and painful for systems.
+              - generic [ref=e5634]: general
+              - link "View Full Content" [ref=e5636] [cursor=pointer]:
+                - /url: /questions/why-do-structured-outputs-matter-252
+            - generic [ref=e5637]:
+              - generic [ref=e5639]:
+                - heading "Why do you still build a non-LLM baseline for some AI tasks?" [level=3] [ref=e5640]:
+                  - link "Why do you still build a non-LLM baseline for some AI tasks?" [ref=e5641] [cursor=pointer]:
+                    - /url: /questions/why-do-you-still-build-a-non-llm-baseline-for-some-ai-tasks-225
+                - generic [ref=e5642]:
+                  - generic [ref=e5643]: AI
+                  - generic [ref=e5644]: Medium
+              - paragraph [ref=e5645]: Many tasks are partially structured, and a rules or classical ML baseline tells you whether the LLM is really earning its cost.
+              - generic [ref=e5647]: llm
+              - link "View Full Content" [ref=e5649] [cursor=pointer]:
+                - /url: /questions/why-do-you-still-build-a-non-llm-baseline-for-some-ai-tasks-225
+            - generic [ref=e5650]:
+              - generic [ref=e5652]:
+                - heading "Why does tokenization matter in real systems?" [level=3] [ref=e5653]:
+                  - link "Why does tokenization matter in real systems?" [ref=e5654] [cursor=pointer]:
+                    - /url: /questions/why-does-tokenization-matter-in-real-systems-227
+                - generic [ref=e5655]:
+                  - generic [ref=e5656]: AI
+                  - generic [ref=e5657]: Medium
+              - paragraph [ref=e5658]: Cost is billed per token, latency scales with tokens, and some inputs tokenize much worse than people expect.
+              - generic [ref=e5660]: llm
+              - link "View Full Content" [ref=e5662] [cursor=pointer]:
+                - /url: /questions/why-does-tokenization-matter-in-real-systems-227
+            - generic [ref=e5663]:
+              - generic [ref=e5665]:
+                - heading "Why is a long context window not a free win?" [level=3] [ref=e5666]:
+                  - link "Why is a long context window not a free win?" [ref=e5667] [cursor=pointer]:
+                    - /url: /questions/why-is-a-long-context-window-not-a-free-win-232
+                - generic [ref=e5668]:
+                  - generic [ref=e5669]: AI
+                  - generic [ref=e5670]: Medium
+              - paragraph [ref=e5671]: More context increases cost and latency, and it can bury the important evidence under noise.
+              - generic [ref=e5673]: llm
+              - link "View Full Content" [ref=e5675] [cursor=pointer]:
+                - /url: /questions/why-is-a-long-context-window-not-a-free-win-232
+            - generic [ref=e5676]:
+              - generic [ref=e5678]:
+                - heading "Why is hybrid retrieval often better than embeddings alone?" [level=3] [ref=e5679]:
+                  - link "Why is hybrid retrieval often better than embeddings alone?" [ref=e5680] [cursor=pointer]:
+                    - /url: /questions/why-is-hybrid-retrieval-often-better-than-embeddings-alone-239
+                - generic [ref=e5681]:
+                  - generic [ref=e5682]: AI
+                  - generic [ref=e5683]: Medium
+              - paragraph [ref=e5684]: Dense retrieval is good at semantic similarity but can miss exact terms, IDs, codes, and rare keywords.
+              - generic [ref=e5685]:
+                - generic [ref=e5686]: rag
+                - generic [ref=e5687]: embeddings
+              - link "View Full Content" [ref=e5689] [cursor=pointer]:
+                - /url: /questions/why-is-hybrid-retrieval-often-better-than-embeddings-alone-239
+            - generic [ref=e5690]:
+              - generic [ref=e5692]:
+                - heading "Why is idempotency critical in agent systems?" [level=3] [ref=e5693]:
+                  - link "Why is idempotency critical in agent systems?" [ref=e5694] [cursor=pointer]:
+                    - /url: /questions/why-is-idempotency-critical-in-agent-systems-249
+                - generic [ref=e5695]:
+                  - generic [ref=e5696]: AI
+                  - generic [ref=e5697]: Medium
+              - paragraph [ref=e5698]: Retries, duplicate tool calls, and loop bugs happen.
+              - generic [ref=e5700]: general
+              - link "View Full Content" [ref=e5702] [cursor=pointer]:
+                - /url: /questions/why-is-idempotency-critical-in-agent-systems-249
+            - generic [ref=e5703]:
+              - generic [ref=e5705]:
+                - heading "Why is temperature 0 not the same as guaranteed determinism?" [level=3] [ref=e5706]:
+                  - link "Why is temperature 0 not the same as guaranteed determinism?" [ref=e5707] [cursor=pointer]:
+                    - /url: /questions/why-is-temperature-0-not-the-same-as-guaranteed-determinism-229
+                - generic [ref=e5708]:
+                  - generic [ref=e5709]: AI
+                  - generic [ref=e5710]: Medium
+              - paragraph [ref=e5711]: There can still be implementation variance, tie-breaking differences, model version changes, or non-deterministic serving paths.
+              - generic [ref=e5713]: llm
+              - link "View Full Content" [ref=e5715] [cursor=pointer]:
+                - /url: /questions/why-is-temperature-0-not-the-same-as-guaranteed-determinism-229
+  - button "Open Next.js Dev Tools" [ref=e5721] [cursor=pointer]:
+    - img [ref=e5722]
+  - alert [ref=e5725]

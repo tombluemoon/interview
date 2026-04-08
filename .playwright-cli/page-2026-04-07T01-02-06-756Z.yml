@@ -1,0 +1,86 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Admin
+        - heading "Content Management" [level=2] [ref=e7]
+        - paragraph [ref=e8]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e9]:
+        - link "Questions" [ref=e10] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e11] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e12]:
+      - generic [ref=e227]:
+        - generic [ref=e228]: Question published.
+        - generic [ref=e230]:
+          - heading "Edit Question" [level=1] [ref=e231]
+          - paragraph [ref=e232]: This page reuses the same form structure as create-question.
+        - generic [ref=e233]:
+          - paragraph [ref=e234]: Editing existing content
+          - heading "Smoke Test Prompt Versioning Flow 20260407 Updated" [level=3] [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - text: Title
+              - textbox "Title" [ref=e238]:
+                - /placeholder: How would you implement an O(1) LRU cache?
+                - text: Smoke Test Prompt Versioning Flow 20260407 Updated
+            - generic [ref=e239]:
+              - text: Slug
+              - textbox "Slug" [ref=e240]:
+                - /placeholder: Leave blank to auto-generate
+                - text: smoke-test-prompt-versioning-flow-20260407
+            - generic [ref=e241]:
+              - text: Category
+              - combobox "Category" [ref=e242]:
+                - option "AI" [selected]
+                - option "Algorithms"
+                - option "Java Core"
+                - option "SQL"
+                - option "System Design"
+            - generic [ref=e243]:
+              - text: Difficulty
+              - combobox "Difficulty" [ref=e244]:
+                - option "Easy"
+                - option "Medium" [selected]
+                - option "Hard"
+            - generic [ref=e245]:
+              - text: Visibility
+              - combobox "Visibility" [ref=e246]:
+                - option "Public" [selected]
+                - option "Private"
+            - generic [ref=e247]:
+              - text: Tags
+              - textbox "Tags" [ref=e248]:
+                - /placeholder: hashmap, linked-list, design
+                - text: smoke-test, ai, prompts
+            - generic [ref=e249]:
+              - text: Excerpt
+              - textbox "Excerpt" [ref=e250]:
+                - /placeholder: Short summary shown in the question bank list.
+                - text: Explain how prompt versioning, approval, rollback, and environment promotion should work in an AI platform.
+            - generic [ref=e251]:
+              - text: Question Body
+              - textbox "Question Body" [ref=e252]:
+                - /placeholder: Write the interview question here.
+                - text: Explain how prompt versioning, approval, rollback, and environment promotion should work in an AI platform.
+            - generic [ref=e253]:
+              - text: Hint
+              - textbox "Hint" [ref=e254]:
+                - /placeholder: Optional hint text.
+                - text: Mention version promotion gates and fast rollback.
+            - generic [ref=e255]:
+              - text: Reference Answer
+              - textbox "Reference Answer" [ref=e256]:
+                - /placeholder: Optional reference answer.
+            - generic [ref=e257]:
+              - text: Related Slugs
+              - textbox "Related Slugs" [ref=e258]:
+                - /placeholder: rate-limiter, mvcc-explained
+            - generic [ref=e259]:
+              - button "Save Draft" [ref=e260] [cursor=pointer]
+              - button "Publish" [ref=e261] [cursor=pointer]
+              - button "Archive" [ref=e262] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e152] [cursor=pointer]:
+    - img [ref=e153]
+  - alert [ref=e156]

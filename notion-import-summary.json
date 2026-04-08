@@ -1,0 +1,3215 @@
+{
+  "generated": "2026-04-08T02:57:10.512Z",
+  "totalQuestions": 348,
+  "byCategory": {
+    "Java Core": 73,
+    "SQL": 20,
+    "System Design": 99,
+    "Behavioral": 50,
+    "AI": 106
+  },
+  "byDifficulty": {
+    "Medium": 285,
+    "Easy": 36,
+    "Hard": 27
+  },
+  "questions": [
+    {
+      "index": 0,
+      "title": "When CPU usage is high in production, how do you decide whether GC is the real problem?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 1,
+      "title": "Why does increasing heap size not always fix OOM?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "heap",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 2,
+      "title": "What is the most common fake “GC issue” you see in backend services?",
+      "category": "Java Core",
+      "difficulty": "Easy",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Which JVM metrics do you check first besides heap usage?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "heap",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 4,
+      "title": "How do you choose between G1GC and ZGC?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Full GC suddenly became frequent after a release. What is your first instinct?",
+      "category": "Java Core",
+      "difficulty": "Easy",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 6,
+      "title": "How do you actually investigate a Java memory leak?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 7,
+      "title": "What real scenarios can cause Metaspace OOM?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "memory",
+        "metaspace",
+        "jvm"
+      ]
+    },
+    {
+      "index": 8,
+      "title": "When do you proactively enable heap dumps and GC logs?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "heap",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 9,
+      "title": "How do you answer “Tell me about your JVM tuning experience” without sounding shallow?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "gc",
+        "memory",
+        "jvm"
+      ]
+    },
+    {
+      "index": 10,
+      "title": "Why are equals() and hashCode() still such common interview topics?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 11,
+      "title": "When are you especially careful with BigDecimal in real systems?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 12,
+      "title": "What is the most common misuse of Optional in Java projects?",
+      "category": "Java Core",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 13,
+      "title": "How do you answer “Why is String immutable?” in a non-generic way?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 14,
+      "title": "How do you explain final, finally, and finalize() like a senior engineer?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 15,
+      "title": "How do you actually use checked vs unchecked exceptions in service code?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 16,
+      "title": "How do you explain deep copy vs shallow copy without sounding theoretical?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 17,
+      "title": "Does StringBuilder vs StringBuffer still matter in interviews?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 18,
+      "title": "How do you explain ? extends and ? super clearly?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 19,
+      "title": "How do you answer questions about modern Java features without sounding like you memorized release notes?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 20,
+      "title": "How do you choose between HashMap and ConcurrentHashMap in real code?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "hashmap",
+        "collections",
+        "concurrency"
+      ]
+    },
+    {
+      "index": 21,
+      "title": "Why is LinkedList rarely the best answer in business code?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 22,
+      "title": "Why is ArrayList growth behavior a useful interview topic?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 23,
+      "title": "What is the most common reason HashSet deduplication fails?",
+      "category": "Java Core",
+      "difficulty": "Easy",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 24,
+      "title": "When does TreeMap genuinely make sense?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 25,
+      "title": "How do you explain fail-fast vs fail-safe in a practical way?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 26,
+      "title": "How would you implement LRU, and why is that question still common?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 27,
+      "title": "When is CopyOnWriteArrayList a good idea, and when is it not?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 28,
+      "title": "Why is ConcurrentHashMap not enough to make business logic safe?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "hashmap",
+        "collections",
+        "concurrency"
+      ]
+    },
+    {
+      "index": 29,
+      "title": "If the interviewer asks, “Have you ever seen a real collection-related bug?”, what would you say?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "collections"
+      ]
+    },
+    {
+      "index": 30,
+      "title": "How do you choose between synchronized, volatile, and atomic classes?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 31,
+      "title": "Why can adding a thread pool actually make a system slower?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 32,
+      "title": "How do you think about thread pool sizing?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 33,
+      "title": "Which thread pool parameters matter most in real incidents?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 34,
+      "title": "How do you diagnose deadlock or thread starvation in production?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 35,
+      "title": "Where does ReentrantLock really beat synchronized?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 36,
+      "title": "Why does volatile not make i++ safe?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 37,
+      "title": "When do you actually use ThreadLocal?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 38,
+      "title": "What are common CompletableFuture mistakes?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 39,
+      "title": "How do you explain concurrency vs parallelism in a useful way?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 40,
+      "title": "Why does HashMap not always treeify as soon as a bucket reaches length 8?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "hashmap"
+      ]
+    },
+    {
+      "index": 41,
+      "title": "Why is notifyAll() often safer than notify()?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 42,
+      "title": "Why should wait() usually be guarded by while, not if?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 43,
+      "title": "Why do we usually restore interrupt status after catching InterruptedException?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 44,
+      "title": "Why is submit() vs execute() a useful detail question?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 45,
+      "title": "Why can ConcurrentHashMap still allow a race in business logic?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "hashmap",
+        "concurrency"
+      ]
+    },
+    {
+      "index": 46,
+      "title": "Why is volatile required in double-checked locking?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 47,
+      "title": "Why do static synchronized methods and instance synchronized methods not block each other?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 48,
+      "title": "Why can ThreadLocal still leak even though its key is weakly referenced?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 49,
+      "title": "Why is “LinkedList has O(1) insertion” often an incomplete or misleading answer?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 50,
+      "title": "How do you explain happens-before in a practical way?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 51,
+      "title": "Why does volatile fix visibility but not compound actions?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 52,
+      "title": "How do class loading, linking, and initialization differ in a practical explanation?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 53,
+      "title": "What actually happens when a Java object is created?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 54,
+      "title": "What is safe publication, and why does it matter in backend services?",
+      "category": "Java Core",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 55,
+      "title": "What exactly does the Spring container do for you?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 56,
+      "title": "How do you explain the Bean lifecycle in a way that sounds practical?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 57,
+      "title": "Why is field injection often discouraged?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring",
+        "rag"
+      ]
+    },
+    {
+      "index": 58,
+      "title": "Is a Spring singleton bean automatically thread-safe?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency",
+        "spring"
+      ]
+    },
+    {
+      "index": 59,
+      "title": "Why does @Transactional sometimes appear to do nothing?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring",
+        "transactions"
+      ]
+    },
+    {
+      "index": 60,
+      "title": "When does Spring transaction rollback happen by default?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring",
+        "transactions"
+      ]
+    },
+    {
+      "index": 61,
+      "title": "Which transaction propagation modes do you actually use most?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring",
+        "transactions"
+      ]
+    },
+    {
+      "index": 62,
+      "title": "Does readOnly = true really improve performance?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 63,
+      "title": "How do you explain Spring AOP without sounding abstract?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 64,
+      "title": "How do you distinguish Filter, Interceptor, and AOP?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 65,
+      "title": "A Spring Boot service starts slowly. How do you investigate?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 66,
+      "title": "How do you think about circular dependency issues?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 67,
+      "title": "Why is @Async frequently misused?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 68,
+      "title": "When do you use @ConfigurationProperties instead of @Value?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 69,
+      "title": "Walk me through a normal Spring MVC request.",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 70,
+      "title": "Why should a controller avoid mutable shared state?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 71,
+      "title": "When do you use Spring application events?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 72,
+      "title": "How do you answer Spring Security questions like someone who has used it?",
+      "category": "Java Core",
+      "difficulty": "Medium",
+      "tags": [
+        "spring"
+      ]
+    },
+    {
+      "index": 73,
+      "title": "Why does InnoDB use B+Tree indexes?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "indexing",
+        "transactions"
+      ]
+    },
+    {
+      "index": 74,
+      "title": "How do you decide the column order in a composite index?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "indexing",
+        "transactions"
+      ]
+    },
+    {
+      "index": 75,
+      "title": "Why can a query ignore an index even when the index exists?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "indexing",
+        "transactions"
+      ]
+    },
+    {
+      "index": 76,
+      "title": "How do you analyze a slow SQL query?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 77,
+      "title": "Why does a covering index often help so much?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "indexing",
+        "transactions"
+      ]
+    },
+    {
+      "index": 78,
+      "title": "How do you explain count(*) vs count(1) vs count(column) like an engineer, not like a forum post?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 79,
+      "title": "Which transaction isolation level matters most in MySQL interviews?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 80,
+      "title": "Why are gap locks and next-key locks important in interviews?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 81,
+      "title": "How do you choose between optimistic and pessimistic locking?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 82,
+      "title": "How do you handle database deadlocks in practice?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 83,
+      "title": "What problem does read/write splitting introduce most often?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 84,
+      "title": "Why do you avoid oversized transactions?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 85,
+      "title": "Why does LIMIT offset pagination become slow?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 86,
+      "title": "Why should you avoid sharding too early?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "transactions"
+      ]
+    },
+    {
+      "index": 87,
+      "title": "Is Redis only a cache in your systems?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 88,
+      "title": "How do you distinguish cache penetration, breakdown, and avalanche?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 89,
+      "title": "How do you handle a hot key problem?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 90,
+      "title": "Why are big keys dangerous?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 91,
+      "title": "How do you keep cache and database reasonably consistent?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "redis"
+      ]
+    },
+    {
+      "index": 92,
+      "title": "Why is “delete cache first, then write DB” risky?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 93,
+      "title": "How do you explain RDB vs AOF in Redis like someone who has operated it?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 94,
+      "title": "Why is SETNX alone not enough for a distributed lock?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 95,
+      "title": "How do you implement idempotency with Redis?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 96,
+      "title": "Why do you not cache everything?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 97,
+      "title": "What happens if Redis goes down?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 98,
+      "title": "Why is cache hit rate not enough as a health metric?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 99,
+      "title": "What is the most realistic Redis incident answer you can give in an interview?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 100,
+      "title": "Why does @Transactional usually not work on private methods?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "transactions"
+      ]
+    },
+    {
+      "index": 101,
+      "title": "Why does self-invocation often break transaction behavior?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "transactions"
+      ]
+    },
+    {
+      "index": 102,
+      "title": "Why does rollback not happen for checked exceptions by default?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 103,
+      "title": "Why can a composite index stop helping after a certain column?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "indexing"
+      ]
+    },
+    {
+      "index": 104,
+      "title": "Why does using a function on an indexed column often kill index usage?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "indexing"
+      ]
+    },
+    {
+      "index": 105,
+      "title": "Why can select * destroy the benefit of a covering index?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "indexing"
+      ]
+    },
+    {
+      "index": 106,
+      "title": "Why must Redis unlock logic compare the stored token/value?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "redis"
+      ]
+    },
+    {
+      "index": 107,
+      "title": "Why does readOnly = true not guarantee “no locks”?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 108,
+      "title": "Why is “double delete” not a perfect consistency solution?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 109,
+      "title": "What makes a strong senior-level database answer feel detailed?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "index": 110,
+      "title": "What ORM or MyBatis / JPA pitfalls do you watch for in real services?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 111,
+      "title": "How do you explain MVCC and read view in MySQL?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "index": 112,
+      "title": "What is the practical difference between snapshot read and current read?",
+      "category": "SQL",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 113,
+      "title": "When do you prefer EXISTS, IN, or JOIN?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 114,
+      "title": "How do you use window functions and CTEs in interview SQL?",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 115,
+      "title": "Walk me through a real EXPLAIN-based slow SQL diagnosis.",
+      "category": "SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 116,
+      "title": "When should you not split a system into microservices?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 117,
+      "title": "How do you decide service boundaries?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 118,
+      "title": "How do you choose between synchronous calls and asynchronous messaging?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 119,
+      "title": "Why is idempotency such a central topic in distributed systems interviews?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 120,
+      "title": "How do you think about retries in a production system?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 121,
+      "title": "Why do timeouts matter more than people think?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 122,
+      "title": "How do circuit breakers help, and what do they not solve?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 123,
+      "title": "How do you explain eventual consistency in a practical way?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 124,
+      "title": "How do you explain the Saga pattern without sounding academic?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 125,
+      "title": "What is the outbox pattern, and why is it so useful?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 126,
+      "title": "What is the biggest mistake teams make with service-to-service calls?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 127,
+      "title": "How do you think about service discovery and API gateways?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 128,
+      "title": "Why is observability such a big part of distributed system interviews?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 129,
+      "title": "How do you handle backward compatibility between services?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 130,
+      "title": "How do you approach rate limiting in distributed systems?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "microservices"
+      ]
+    },
+    {
+      "index": 131,
+      "title": "How should you start a system design interview?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 132,
+      "title": "What kind of clarifying questions make you look strong?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 133,
+      "title": "How much estimation should you do?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 134,
+      "title": "Should you design the API first or the database first?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "database",
+        "design"
+      ]
+    },
+    {
+      "index": 135,
+      "title": "How do you decide where to put caching?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 136,
+      "title": "How do you choose between SQL and NoSQL in an interview?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 137,
+      "title": "What does a strong scaling answer sound like?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 138,
+      "title": "How do you discuss consistency vs availability without sounding generic?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 139,
+      "title": "When do you introduce queues into a design?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 140,
+      "title": "When do you shard a database?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "database",
+        "design"
+      ]
+    },
+    {
+      "index": 141,
+      "title": "How do you talk about CDN usage in system design?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 142,
+      "title": "How do you include observability in a design answer?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 143,
+      "title": "How do you answer if you do not know the exact technology?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 144,
+      "title": "What makes a good “trade-off” answer?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 145,
+      "title": "How do you keep your design answer from becoming too abstract?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 146,
+      "title": "Why is “exactly once” usually a dangerous phrase?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 147,
+      "title": "What is the real challenge with message queues in production?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 148,
+      "title": "Why can retries make an outage worse?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 149,
+      "title": "What is a realistic answer to “How do you avoid duplicate message processing?”",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 150,
+      "title": "How do you think about ordering guarantees?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 151,
+      "title": "Why are distributed traces not enough by themselves?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 152,
+      "title": "What is the difference between a correlation ID and a trace ID in interviews?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 153,
+      "title": "Why do synchronous fan-out calls create risk?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 154,
+      "title": "What does a mature answer about graceful degradation sound like?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 155,
+      "title": "What makes a senior system design answer feel senior?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 156,
+      "title": "Why is at-least-once delivery often acceptable when exactly-once is not realistic?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 157,
+      "title": "Why is idempotency key expiry a subtle design detail?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 158,
+      "title": "Why can consumer commit timing create duplicate or lost work?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 159,
+      "title": "Why is “just add a queue” sometimes the wrong answer?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 160,
+      "title": "Why is service decomposition by database table often a weak design?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "database",
+        "design"
+      ]
+    },
+    {
+      "index": 161,
+      "title": "Why are write-heavy systems harder to scale than read-heavy systems?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 162,
+      "title": "Why is “eventual consistency” a weak answer unless you define the window and impact?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 163,
+      "title": "Why is API backward compatibility such an operational topic?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 164,
+      "title": "Why should you care about redrive and poison message strategy?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 165,
+      "title": "What detail makes your system design answers sound less generic immediately?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 166,
+      "title": "“Tell me about yourself.” What makes this answer strong?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 167,
+      "title": "How do you answer “Why are you looking to leave your current company?”",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 168,
+      "title": "“Tell me about a technical challenge you solved.” What do interviewers really want?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 169,
+      "title": "How do you answer “Tell me about a failure” without sounding defensive?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 170,
+      "title": "How do you answer “Tell me about a disagreement with your manager or team” well?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 171,
+      "title": "What makes a “most proud achievement” answer convincing?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 172,
+      "title": "How do you answer “Tell me about a time you worked under pressure” like a senior engineer?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 173,
+      "title": "How do you answer “Tell me about a time you learned something quickly” without sounding generic?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 174,
+      "title": "What is the strongest way to answer “Tell me about a time you improved a process”?",
+      "category": "Behavioral",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 175,
+      "title": "How do you answer “Tell me about a time you handled a production incident” credibly?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 176,
+      "title": "How do you answer “Tell me about a time you mentored someone” in a grounded way?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 177,
+      "title": "How do you answer “What is your biggest weakness?” without sounding fake?",
+      "category": "Behavioral",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 178,
+      "title": "How do you answer “Why this company?” well?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 179,
+      "title": "How do you answer “Where do you see yourself in five years?” without sounding politically risky?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 180,
+      "title": "What makes a behavioral answer memorable?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 181,
+      "title": "How do you answer “How do you handle competing priorities?”",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 182,
+      "title": "How do you answer “Tell me about a time you had no clear requirements”?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 183,
+      "title": "What does a strong ownership answer sound like?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 184,
+      "title": "How do you answer “Tell me about a time you influenced without authority”?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 185,
+      "title": "How do you answer “Tell me about a time you had to say no” without sounding uncooperative?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 186,
+      "title": "How do you answer “Tell me about a conflict with another team” well?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 187,
+      "title": "How do you answer “Tell me about a time you made a bad estimate” in a mature way?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 188,
+      "title": "How do you answer “Tell me about a time you improved quality” in a useful way?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 189,
+      "title": "What is a good answer to “How do you give feedback?”",
+      "category": "Behavioral",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 190,
+      "title": "What is a good answer to “How do you receive feedback?”",
+      "category": "Behavioral",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 191,
+      "title": "How do you answer “Tell me about a time you led something” if you were not a manager?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 192,
+      "title": "How do you answer “Tell me about a time you made a decision with incomplete data”?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 193,
+      "title": "How do you answer “Tell me about a time you helped your team succeed” in a strong way?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 194,
+      "title": "How do you answer “What kind of manager/team environment helps you do your best work?”",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 195,
+      "title": "How do you answer “How do you handle stress?” without sounding weak or robotic?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 196,
+      "title": "How do you buy time in English without sounding lost?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 197,
+      "title": "How do you answer in English when you are not fully sure about a technical detail?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 198,
+      "title": "How do you stop your English behavioral answers from becoming too long?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 199,
+      "title": "How do you sound more natural in English interviews?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 200,
+      "title": "What do Japanese companies often value in behavioral interviews?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 201,
+      "title": "How do international companies usually evaluate behavioral answers differently?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 202,
+      "title": "How do you answer “Why Japan?” or “Why an English-speaking role in Japan?”",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 203,
+      "title": "How do you answer “How do you work in cross-cultural teams?”",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 204,
+      "title": "What is a strong answer to “How do you communicate technical topics to non-technical stakeholders?”",
+      "category": "Behavioral",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 205,
+      "title": "How do you answer “Do you have any questions for us?” strategically?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 206,
+      "title": "Why is a failure answer weaker if the “lesson learned” sounds generic?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 207,
+      "title": "Why is a disagreement answer weak if you never acknowledge the other side’s reasoning?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 208,
+      "title": "Why do over-polished STAR answers sometimes backfire?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 209,
+      "title": "Why should you avoid answers where the team did everything and you did nothing specific?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 210,
+      "title": "Why is a “pressure” answer weak if it only describes working harder?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 211,
+      "title": "Why is “I’m a perfectionist” still a bad weakness answer?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 212,
+      "title": "Why is a “why us?” answer weak if it could apply to any company?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 213,
+      "title": "Why do some candidates fail even with strong stories?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 214,
+      "title": "Why should you be careful with “hero story” answers?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 215,
+      "title": "What single detail makes behavioral answers sound much more senior?",
+      "category": "Behavioral",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 216,
+      "title": "How do you tell whether an AI problem is really a model problem or a product or data problem?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 217,
+      "title": "What does overfitting look like in an applied AI system, not just in a textbook?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 218,
+      "title": "How do you explain precision vs recall in a way that sounds practical?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 219,
+      "title": "Why can offline metrics improve while the product gets worse?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 220,
+      "title": "How do you distinguish hallucination from retrieval failure or tool failure?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 221,
+      "title": "When is a smaller model actually the better engineering choice?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 222,
+      "title": "What is distribution shift, and where does it show up in AI products?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 223,
+      "title": "What data quality problem hurts AI systems the most?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 224,
+      "title": "How do you explain the latency-quality-cost triangle?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 225,
+      "title": "Why do you still build a non-LLM baseline for some AI tasks?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 226,
+      "title": "How do you explain a transformer like an engineer, not like a researcher?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 227,
+      "title": "Why does tokenization matter in real systems?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 228,
+      "title": "How do temperature and top-p change model behavior?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 229,
+      "title": "Why is temperature 0 not the same as guaranteed determinism?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 230,
+      "title": "What is the difference between pretraining, instruction tuning, and preference alignment?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 231,
+      "title": "How do system prompt, user prompt, retrieved context, and tool results interact?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 232,
+      "title": "Why is a long context window not a free win?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 233,
+      "title": "What is the KV cache, and why should application engineers care?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 234,
+      "title": "What is the difference between prefill and decode?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 235,
+      "title": "When do you use a reasoning-heavy model versus a faster general model?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 236,
+      "title": "When do you choose RAG over fine-tuning?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 237,
+      "title": "What is the minimum RAG pipeline you would trust in production?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 238,
+      "title": "How do you choose chunk size and chunk overlap?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 239,
+      "title": "Why is hybrid retrieval often better than embeddings alone?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag",
+        "embeddings"
+      ]
+    },
+    {
+      "index": 240,
+      "title": "When is a reranker worth the extra latency?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 241,
+      "title": "Why are metadata filters underrated in RAG?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 242,
+      "title": "How do you evaluate a RAG system beyond \"the answer looks okay\"?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 243,
+      "title": "How do you handle stale knowledge in a RAG system?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 244,
+      "title": "What is multi-hop retrieval, and when do you need it?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 245,
+      "title": "What are the most common RAG failure modes you have seen?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "rag"
+      ]
+    },
+    {
+      "index": 246,
+      "title": "When is a workflow better than an agent?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 247,
+      "title": "What makes a good tool definition for model tool calling?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 248,
+      "title": "How do you prevent destructive tool misuse?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 249,
+      "title": "Why is idempotency critical in agent systems?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 250,
+      "title": "What does memory mean in an agent system?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "index": 251,
+      "title": "How do you debug an agent failure?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 252,
+      "title": "Why do structured outputs matter?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 253,
+      "title": "What is MCP, and where is it useful?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 254,
+      "title": "When do you put a human in the loop?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 255,
+      "title": "What metrics matter for agent systems besides model accuracy?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 256,
+      "title": "When is fine-tuning actually the right move?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 257,
+      "title": "What is the real difference between prompt engineering and supervised fine-tuning?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 258,
+      "title": "How do you explain LoRA or PEFT in a practical way?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 259,
+      "title": "What training data do you need before you fine-tune?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 260,
+      "title": "When is synthetic data helpful, and when is it dangerous?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 261,
+      "title": "How do you explain RLHF versus DPO?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 262,
+      "title": "What is catastrophic forgetting, and how do you reduce it?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 263,
+      "title": "When does distillation make sense?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 264,
+      "title": "When should you route to different models instead of building one heavily tuned model?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 265,
+      "title": "How do you evaluate whether fine-tuning was worth it?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 266,
+      "title": "How do you break down LLM latency in production?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 267,
+      "title": "What is the difference between static batching and continuous batching?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 268,
+      "title": "What are the real trade-offs of quantization?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 269,
+      "title": "What is speculative decoding, and when is it useful?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 270,
+      "title": "What is prefix or prompt caching, and where does it help?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 271,
+      "title": "Why can GPU utilization stay mediocre even when traffic is high?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 272,
+      "title": "How do you design model routing and fallback?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 273,
+      "title": "What are the trade-offs of streaming responses?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 274,
+      "title": "How do you decide between hosted APIs and self-hosted models?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 275,
+      "title": "How do you cut AI cost without wrecking quality?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 276,
+      "title": "What does a serious eval strategy look like for an AI product?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 277,
+      "title": "How do you build a good test set for LLM systems?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 278,
+      "title": "When are model-graded evals useful, and when are they risky?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 279,
+      "title": "How do you connect offline evals to online experiments?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 280,
+      "title": "What is prompt injection, and why is it not just a prompt problem?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 281,
+      "title": "What is tool injection or data exfiltration risk?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 282,
+      "title": "How do you handle PII and secrets in AI pipelines?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 283,
+      "title": "How do you roll out a new model version safely?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 284,
+      "title": "How do you know your refusal policy is too strict or too weak?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 285,
+      "title": "What does governance mean in an AI system beyond legal checkboxes?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 286,
+      "title": "When would you use OCR plus LLM versus a native multimodal model?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design",
+        "llm"
+      ]
+    },
+    {
+      "index": 287,
+      "title": "How would you design a document Q&A system for PDFs, tables, and screenshots?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 288,
+      "title": "What is hard about building a speech assistant beyond speech-to-text?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 289,
+      "title": "What is a common multimodal failure mode in enterprise use?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 290,
+      "title": "How do you judge whether an AI feature is actually worth shipping?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 291,
+      "title": "How do you think about build versus buy for AI systems?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 292,
+      "title": "How do you decide which model goes on which workflow step?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 293,
+      "title": "What is context engineering, and why is it more important than prompt wording alone?",
+      "category": "System Design",
+      "difficulty": "Easy",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 294,
+      "title": "What do you log in an AI system without creating a privacy mess?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 295,
+      "title": "How would you design a high-volume AI customer support assistant?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 296,
+      "title": "Why can \"just add more context\" make answer quality worse?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 297,
+      "title": "Why can retries make an AI workflow worse instead of better?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 298,
+      "title": "Why can JSON mode or schema-constrained output still fail in real systems?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 299,
+      "title": "Why can a reranker upgrade beat a generator model upgrade?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 300,
+      "title": "Why is answer rate a misleading metric?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 301,
+      "title": "Why do agent loops happen even when each individual tool works?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 302,
+      "title": "Why can changing the embedding model break search quality even if benchmarks looked good?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "embeddings"
+      ]
+    },
+    {
+      "index": 303,
+      "title": "Why can conversation summarization degrade assistant quality?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 304,
+      "title": "Why is tool success rate not the same as task success rate?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 305,
+      "title": "What do strong AI interview answers sound like?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 306,
+      "title": "How would you implement an O(1) LRU cache?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 307,
+      "title": "How would you implement a rate limiter such as a token bucket or leaky bucket?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 308,
+      "title": "How would you design a concurrency-safe delayed task scheduler?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 309,
+      "title": "How would you implement Top K frequency statistics, and what are the time and space complexities?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 310,
+      "title": "Given a log stream, how would you count error codes per minute and output the Top N?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 311,
+      "title": "How would you design an idempotent write API?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 312,
+      "title": "How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design",
+        "rag",
+        "llm"
+      ]
+    },
+    {
+      "index": 313,
+      "title": "How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 314,
+      "title": "What engineering safeguards would you use when the model hallucinates?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 315,
+      "title": "How would you design offline and online evaluation for answer quality and business impact?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design",
+        "llm"
+      ]
+    },
+    {
+      "index": 316,
+      "title": "How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 317,
+      "title": "How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "index": 318,
+      "title": "How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "database",
+        "design"
+      ]
+    },
+    {
+      "index": 319,
+      "title": "When is batch processing better than stream processing, and how would you explain the trade-offs?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 320,
+      "title": "What are common optimization strategies for large joins and slow queries?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 321,
+      "title": "How would you design a feature store that keeps offline and online features consistent?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 322,
+      "title": "How would you handle data version management and traceability?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 323,
+      "title": "How would you handle backfills, replay, and reprocessing?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 324,
+      "title": "What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 325,
+      "title": "Which metrics would you monitor to judge model quality and drift?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 326,
+      "title": "How would you design a canary release and rollback mechanism for model systems?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 327,
+      "title": "What cost optimization methods would you use, and how would you keep spending under control?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 328,
+      "title": "What is your emergency strategy when a model service fails or starts producing abnormal outputs?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 329,
+      "title": "How would you integrate model services into CI/CD and automated testing?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 330,
+      "title": "How would you design an AI customer support system for millions of users while keeping it stable and cost-controlled?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 331,
+      "title": "How would you design an auditable LLM system, and what logs and traces are required?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design",
+        "llm"
+      ]
+    },
+    {
+      "index": 332,
+      "title": "How would you isolate data and resources in a multi-tenant AI platform?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 333,
+      "title": "Under high concurrency, how would you use caching and degradation so that the model does not become the bottleneck?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 334,
+      "title": "How would you handle prompt version management and A/B testing?",
+      "category": "System Design",
+      "difficulty": "Medium",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 335,
+      "title": "How would you design a permission system that limits which data can be retrieved?",
+      "category": "System Design",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 336,
+      "title": "How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "concurrency"
+      ]
+    },
+    {
+      "index": 337,
+      "title": "What is your approach to GC tuning, and which metrics do you watch?",
+      "category": "AI",
+      "difficulty": "Easy",
+      "tags": [
+        "gc"
+      ]
+    },
+    {
+      "index": 338,
+      "title": "In Spring Boot, how do you think about transaction propagation and consistency trade-offs?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "spring",
+        "transactions"
+      ]
+    },
+    {
+      "index": 339,
+      "title": "How would you design rate limiting and circuit breaking for a high-concurrency API?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 340,
+      "title": "How do you diagnose an online performance problem, from metrics to root cause?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 341,
+      "title": "How would you approach service decomposition and API contract management?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 342,
+      "title": "How would you design tool calling and agent orchestration safely?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 343,
+      "title": "How do you defend against prompt injection and jailbreak attempts?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "index": 344,
+      "title": "How would you design model routing and provider fallback?",
+      "category": "AI",
+      "difficulty": "Hard",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "index": 345,
+      "title": "How do you manage conversation memory and session state?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "index": 346,
+      "title": "How do you handle embedding refresh and re-indexing when documents or chunking rules change?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "indexing",
+        "embeddings"
+      ]
+    },
+    {
+      "index": 347,
+      "title": "How do you keep retrieval fresh and invalidate stale knowledge?",
+      "category": "AI",
+      "difficulty": "Medium",
+      "tags": [
+        "general"
+      ]
+    }
+  ]
+}

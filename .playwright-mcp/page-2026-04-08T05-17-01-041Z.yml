@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4302]:
+      - generic [ref=e4303]:
+        - link "Interview Review" [ref=e4304] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e4305]:
+          - link "Questions" [ref=e4306] [cursor=pointer]:
+            - /url: /questions
+          - link "Login" [ref=e4307] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e4308] [cursor=pointer]:
+            - /url: /signup
+    - main [ref=e4309]:
+      - generic [ref=e4310]:
+        - generic [ref=e4311]:
+          - heading "Given a log stream, how would you count error codes per minute and output the Top N?" [level=1] [ref=e4312]
+          - paragraph [ref=e4313]: Full question content for AI.
+        - generic [ref=e4315]:
+          - link "Log In to Plan" [ref=e4316] [cursor=pointer]:
+            - /url: /login?next=/questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+          - link "Create Account" [ref=e4317] [cursor=pointer]:
+            - /url: /signup?next=/questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+      - generic [ref=e4318]:
+        - generic [ref=e4319]:
+          - paragraph [ref=e4320]: Full Question Content
+          - generic [ref=e4321]:
+            - generic [ref=e4322]: AI
+            - generic [ref=e4323]: Medium
+          - heading "Summary" [level=3] [ref=e4324]
+          - paragraph [ref=e4325]: I would model this as a windowed aggregation problem. For each event, I extract the event minute and error code, then update a counter keyed by minute plus error code. When a window closes, I compute
+          - heading "Question" [level=3] [ref=e4326]
+          - paragraph [ref=e4327]: I would model this as a windowed aggregation problem. For each event, I extract the event minute and error code, then update a counter keyed by minute plus error code. When a window closes, I compute Top N for that minute with a min-heap over the aggregated counts. If logs can arrive late, I would use event time plus a watermark and allow a small lateness window. That way the result is stable but still tolerates reordering. In a distributed setting, Kafka plus Flink or Spark Structured Streaming would be a natural fit. To scale, I would partition by time bucket and possibly by error code, perform local aggregation, then merge partial counts before computing the final Top N. That reduces the amount of data shuffled across nodes. The main complexity is O(events) for counting plus O(m log N) per minute where m is the number of distinct error codes in that window. I would also define retention, output format, and what happens when a minute has too many unique codes.
+          - heading "Reference answer" [level=3] [ref=e4328]
+          - paragraph [ref=e4329]: I would model this as a windowed aggregation problem. For each event, I extract the event minute and error code, then update a counter keyed by minute plus error code. When a window closes, I compute Top N for that minute with a min-heap over the aggregated counts. If logs can arrive late, I would use event time plus a watermark and allow a small lateness window. That way the result is stable but still tolerates reordering. In a distributed setting, Kafka plus Flink or Spark Structured Streaming would be a natural fit. To scale, I would partition by time bucket and possibly by error code, perform local aggregation, then merge partial counts before computing the final Top N. That reduces the amount of data shuffled across nodes. The main complexity is O(events) for counting plus O(m log N) per minute where m is the number of distinct error codes in that window. I would also define retention, output format, and what happens when a minute has too many unique codes.
+        - generic [ref=e4330]:
+          - generic [ref=e4331]:
+            - paragraph [ref=e4332]: Signed-in layer
+            - heading "Unlock planning and progress" [level=3] [ref=e4333]
+            - paragraph [ref=e4334]: Guests can browse every public question. Log in when you want to add this question to today's plan or save your progress.
+            - generic [ref=e4335]:
+              - link "Log In" [ref=e4336] [cursor=pointer]:
+                - /url: /login?next=/questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+              - link "Sign Up" [ref=e4337] [cursor=pointer]:
+                - /url: /signup?next=/questions/given-a-log-stream-how-would-you-count-error-codes-per-minute-and-output-the-top-310
+            - generic [ref=e4339]: general
+          - heading "Related questions" [level=3] [ref=e4341]
+  - button "Open Next.js Dev Tools" [ref=e4297] [cursor=pointer]:
+    - img [ref=e4298]
+  - alert [ref=e4301]

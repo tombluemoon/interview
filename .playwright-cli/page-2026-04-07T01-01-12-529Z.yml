@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Admin
+        - heading "Content Management" [level=2] [ref=e7]
+        - paragraph [ref=e8]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e9]:
+        - link "Questions" [ref=e10] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e11] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e12]:
+      - generic [ref=e157]:
+        - generic [ref=e159]:
+          - heading "Create Question" [level=1] [ref=e160]
+          - paragraph [ref=e161]: One editor form is enough for the first release.
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: Draft first, publish later
+          - heading "Question Editor" [level=3] [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - text: Title
+              - textbox "Title" [ref=e167]:
+                - /placeholder: How would you implement an O(1) LRU cache?
+            - generic [ref=e168]:
+              - text: Slug
+              - textbox "Slug" [ref=e169]:
+                - /placeholder: Leave blank to auto-generate
+            - generic [ref=e170]:
+              - text: Category
+              - combobox "Category" [ref=e171]:
+                - option "AI" [selected]
+                - option "Algorithms"
+                - option "Java Core"
+                - option "SQL"
+                - option "System Design"
+            - generic [ref=e172]:
+              - text: Difficulty
+              - combobox "Difficulty" [ref=e173]:
+                - option "Easy"
+                - option "Medium" [selected]
+                - option "Hard"
+            - generic [ref=e174]:
+              - text: Visibility
+              - combobox "Visibility" [ref=e175]:
+                - option "Public" [selected]
+                - option "Private"
+            - generic [ref=e176]:
+              - text: Tags
+              - textbox "Tags" [ref=e177]:
+                - /placeholder: hashmap, linked-list, design
+            - generic [ref=e178]:
+              - text: Excerpt
+              - textbox "Excerpt" [ref=e179]:
+                - /placeholder: Short summary shown in the question bank list.
+            - generic [ref=e180]:
+              - text: Question Body
+              - textbox "Question Body" [ref=e181]:
+                - /placeholder: Write the interview question here.
+            - generic [ref=e182]:
+              - text: Hint
+              - textbox "Hint" [ref=e183]:
+                - /placeholder: Optional hint text.
+            - generic [ref=e184]:
+              - text: Reference Answer
+              - textbox "Reference Answer" [ref=e185]:
+                - /placeholder: Optional reference answer.
+            - generic [ref=e186]:
+              - text: Related Slugs
+              - textbox "Related Slugs" [ref=e187]:
+                - /placeholder: rate-limiter, mvcc-explained
+            - generic [ref=e188]:
+              - button "Save Draft" [ref=e189] [cursor=pointer]
+              - button "Publish" [ref=e190] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e152] [cursor=pointer]:
+    - img [ref=e153]
+  - alert [ref=e156]

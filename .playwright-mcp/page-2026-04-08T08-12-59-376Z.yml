@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 348 questions
+        - generic [ref=e7]:
+          - button "Expand All" [ref=e8] [cursor=pointer]
+          - button "Collapse" [ref=e9] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: ▾
+            - generic [ref=e14]: AI
+            - generic [ref=e15]: "106"
+          - generic [ref=e402]:
+            - generic [ref=e403] [cursor=pointer]: Given a log stream, how would you count error codes per minute and output the Top N?
+            - generic [ref=e404] [cursor=pointer]: How do system prompt, user prompt, retrieved context, and tool results interact?
+            - generic [ref=e405] [cursor=pointer]: How do temperature and top-p change model behavior?
+            - generic [ref=e406] [cursor=pointer]: How do you break down LLM latency in production?
+            - generic [ref=e407] [cursor=pointer]: How do you build a good test set for LLM systems?
+            - generic [ref=e408] [cursor=pointer]: How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?
+            - generic [ref=e409] [cursor=pointer]: How do you choose chunk size and chunk overlap?
+            - generic [ref=e410] [cursor=pointer]: How do you connect offline evals to online experiments?
+            - generic [ref=e411] [cursor=pointer]: How do you cut AI cost without wrecking quality?
+            - generic [ref=e412] [cursor=pointer]: How do you debug an agent failure?
+            - generic [ref=e413] [cursor=pointer]: How do you decide between hosted APIs and self-hosted models?
+            - generic [ref=e414] [cursor=pointer]: How do you defend against prompt injection and jailbreak attempts?
+            - generic [ref=e415] [cursor=pointer]: How do you design model routing and fallback?
+            - generic [ref=e416] [cursor=pointer]: How do you diagnose an online performance problem, from metrics to root cause?
+            - generic [ref=e417] [cursor=pointer]: How do you distinguish hallucination from retrieval failure or tool failure?
+            - generic [ref=e418] [cursor=pointer]: How do you evaluate a RAG system beyond "the answer looks okay"?
+            - generic [ref=e419] [cursor=pointer]: How do you evaluate whether fine-tuning was worth it?
+            - generic [ref=e420] [cursor=pointer]: How do you explain a transformer like an engineer, not like a researcher?
+            - generic [ref=e421] [cursor=pointer]: How do you explain LoRA or PEFT in a practical way?
+            - generic [ref=e422] [cursor=pointer]: How do you explain precision vs recall in a way that sounds practical?
+            - generic [ref=e423] [cursor=pointer]: How do you explain RLHF versus DPO?
+            - generic [ref=e424] [cursor=pointer]: How do you explain the latency-quality-cost triangle?
+            - generic [ref=e425] [cursor=pointer]: How do you handle embedding refresh and re-indexing when documents or chunking rules change?
+            - generic [ref=e426] [cursor=pointer]: How do you handle PII and secrets in AI pipelines?
+            - generic [ref=e427] [cursor=pointer]: How do you handle stale knowledge in a RAG system?
+            - generic [ref=e428] [cursor=pointer]: How do you keep retrieval fresh and invalidate stale knowledge?
+            - generic [ref=e429] [cursor=pointer]: How do you know your refusal policy is too strict or too weak?
+            - generic [ref=e430] [cursor=pointer]: How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?
+            - generic [ref=e431] [cursor=pointer]: How do you manage conversation memory and session state?
+            - generic [ref=e432] [cursor=pointer]: How do you prevent destructive tool misuse?
+            - generic [ref=e433] [cursor=pointer]: How do you roll out a new model version safely?
+            - generic [ref=e434] [cursor=pointer]: How do you tell whether an AI problem is really a model problem or a product or data problem?
+            - generic [ref=e435] [cursor=pointer]: How would you approach service decomposition and API contract management?
+            - generic [ref=e436] [cursor=pointer]: How would you design a canary release and rollback mechanism for model systems?
+            - generic [ref=e437] [cursor=pointer]: How would you design a concurrency-safe delayed task scheduler?
+            - generic [ref=e438] [cursor=pointer]: How would you design a feature store that keeps offline and online features consistent?
+            - generic [ref=e439] [cursor=pointer]: How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?
+            - generic [ref=e440] [cursor=pointer]: How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?
+            - generic [ref=e441] [cursor=pointer]: How would you design an idempotent write API?
+            - generic [ref=e442] [cursor=pointer]: How would you design model routing and provider fallback?
+            - generic [ref=e443] [cursor=pointer]: How would you design offline and online evaluation for answer quality and business impact?
+            - generic [ref=e444] [cursor=pointer]: How would you design rate limiting and circuit breaking for a high-concurrency API?
+            - generic [ref=e445] [cursor=pointer]: How would you design tool calling and agent orchestration safely?
+            - generic [ref=e446] [cursor=pointer]: How would you handle backfills, replay, and reprocessing?
+            - generic [ref=e447] [cursor=pointer]: How would you handle data version management and traceability?
+            - generic [ref=e448] [cursor=pointer]: How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?
+            - generic [ref=e449] [cursor=pointer]: How would you implement a rate limiter such as a token bucket or leaky bucket?
+            - generic [ref=e450] [cursor=pointer]: How would you implement an O(1) LRU cache?
+            - generic [ref=e451] [cursor=pointer]: How would you implement Top K frequency statistics, and what are the time and space complexities?
+            - generic [ref=e452] [cursor=pointer]: How would you integrate model services into CI/CD and automated testing?
+            - generic [ref=e453] [cursor=pointer]: How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?
+            - generic [ref=e454] [cursor=pointer]: In Spring Boot, how do you think about transaction propagation and consistency trade-offs?
+            - generic [ref=e455] [cursor=pointer]: What are common optimization strategies for large joins and slow queries?
+            - generic [ref=e456] [cursor=pointer]: What are the most common RAG failure modes you have seen?
+            - generic [ref=e457] [cursor=pointer]: What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?
+            - generic [ref=e458] [cursor=pointer]: What are the real trade-offs of quantization?
+            - generic [ref=e459] [cursor=pointer]: What are the trade-offs of streaming responses?
+            - generic [ref=e460] [cursor=pointer]: What cost optimization methods would you use, and how would you keep spending under control?
+            - generic [ref=e461] [cursor=pointer]: What data quality problem hurts AI systems the most?
+            - generic [ref=e462] [cursor=pointer]: What does a serious eval strategy look like for an AI product?
+            - generic [ref=e463] [cursor=pointer]: What does governance mean in an AI system beyond legal checkboxes?
+            - generic [ref=e464] [cursor=pointer]: What does memory mean in an agent system?
+            - generic [ref=e465] [cursor=pointer]: What does overfitting look like in an applied AI system, not just in a textbook?
+            - generic [ref=e466] [cursor=pointer]: What engineering safeguards would you use when the model hallucinates?
+            - generic [ref=e467] [cursor=pointer]: What is catastrophic forgetting, and how do you reduce it?
+            - generic [ref=e468] [cursor=pointer]: What is distribution shift, and where does it show up in AI products?
+            - generic [ref=e469] [cursor=pointer]: What is MCP, and where is it useful?
+            - generic [ref=e470] [cursor=pointer]: What is multi-hop retrieval, and when do you need it?
+            - generic [ref=e471] [cursor=pointer]: What is prefix or prompt caching, and where does it help?
+            - generic [ref=e472] [cursor=pointer]: What is prompt injection, and why is it not just a prompt problem?
+            - generic [ref=e473] [cursor=pointer]: What is speculative decoding, and when is it useful?
+            - generic [ref=e474] [cursor=pointer]: What is the difference between prefill and decode?
+            - generic [ref=e475] [cursor=pointer]: What is the difference between pretraining, instruction tuning, and preference alignment?
+            - generic [ref=e476] [cursor=pointer]: What is the difference between static batching and continuous batching?
+            - generic [ref=e477] [cursor=pointer]: What is the KV cache, and why should application engineers care?
+            - generic [ref=e478] [cursor=pointer]: What is the minimum RAG pipeline you would trust in production?
+            - generic [ref=e479] [cursor=pointer]: What is the real difference between prompt engineering and supervised fine-tuning?
+            - generic [ref=e480] [cursor=pointer]: What is tool injection or data exfiltration risk?
+            - generic [ref=e481] [cursor=pointer]: What is your approach to GC tuning, and which metrics do you watch?
+            - generic [ref=e482] [cursor=pointer]: What is your emergency strategy when a model service fails or starts producing abnormal outputs?
+            - generic [ref=e483] [cursor=pointer]: What makes a good tool definition for model tool calling?
+            - generic [ref=e484] [cursor=pointer]: What metrics matter for agent systems besides model accuracy?
+            - generic [ref=e485] [cursor=pointer]: What training data do you need before you fine-tune?
+            - generic [ref=e486] [cursor=pointer]: When are model-graded evals useful, and when are they risky?
+            - generic [ref=e487] [cursor=pointer]: When do you choose RAG over fine-tuning?
+            - generic [ref=e488] [cursor=pointer]: When do you put a human in the loop?
+            - generic [ref=e489] [cursor=pointer]: When do you use a reasoning-heavy model versus a faster general model?
+            - generic [ref=e490] [cursor=pointer]: When does distillation make sense?
+            - generic [ref=e491] [cursor=pointer]: When is a reranker worth the extra latency?
+            - generic [ref=e492] [cursor=pointer]: When is a smaller model actually the better engineering choice?
+            - generic [ref=e493] [cursor=pointer]: When is a workflow better than an agent?
+            - generic [ref=e494] [cursor=pointer]: When is batch processing better than stream processing, and how would you explain the trade-offs?
+            - generic [ref=e495] [cursor=pointer]: When is fine-tuning actually the right move?
+            - generic [ref=e496] [cursor=pointer]: When is synthetic data helpful, and when is it dangerous?
+            - generic [ref=e497] [cursor=pointer]: When should you route to different models instead of building one heavily tuned model?
+            - generic [ref=e498] [cursor=pointer]: Which metrics would you monitor to judge model quality and drift?
+            - generic [ref=e499] [cursor=pointer]: Why are metadata filters underrated in RAG?
+            - generic [ref=e500] [cursor=pointer]: Why can GPU utilization stay mediocre even when traffic is high?
+            - generic [ref=e501] [cursor=pointer]: Why can offline metrics improve while the product gets worse?
+            - generic [ref=e502] [cursor=pointer]: Why do structured outputs matter?
+            - generic [ref=e503] [cursor=pointer]: Why do you still build a non-LLM baseline for some AI tasks?
+            - generic [ref=e504] [cursor=pointer]: Why does tokenization matter in real systems?
+            - generic [ref=e505] [cursor=pointer]: Why is a long context window not a free win?
+            - generic [ref=e506] [cursor=pointer]: Why is hybrid retrieval often better than embeddings alone?
+            - generic [ref=e507] [cursor=pointer]: Why is idempotency critical in agent systems?
+            - generic [ref=e508] [cursor=pointer]: Why is temperature 0 not the same as guaranteed determinism?
+        - generic [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: ▸
+          - generic [ref=e126]: Behavioral
+          - generic [ref=e127]: "50"
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e181]: ▸
+          - generic [ref=e182]: Java Core
+          - generic [ref=e183]: "73"
+        - generic [ref=e259] [cursor=pointer]:
+          - generic [ref=e260]: ▸
+          - generic [ref=e261]: SQL
+          - generic [ref=e262]: "20"
+        - generic [ref=e285] [cursor=pointer]:
+          - generic [ref=e286]: ▸
+          - generic [ref=e287]: System Design
+          - generic [ref=e288]: "99"
+    - main [ref=e389]:
+      - paragraph [ref=e391]: Select a question from the left panel to view details.
+  - button "Open Next.js Dev Tools" [ref=e397] [cursor=pointer]:
+    - img [ref=e398]
+  - alert [ref=e401]

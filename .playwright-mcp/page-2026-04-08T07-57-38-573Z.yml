@@ -1,0 +1,150 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 348 questions
+        - generic [ref=e7]:
+          - button "Expand All" [ref=e8] [cursor=pointer]
+          - button "Collapse" [ref=e9] [cursor=pointer]
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - button "▾ AI 106" [ref=e407] [cursor=pointer]:
+            - generic [ref=e13]: ▾
+            - generic [ref=e14]: AI
+            - generic [ref=e15]: "106"
+          - list [ref=e408]:
+            - button "Given a log stream, how would you count error codes per minute and output the Top N?" [ref=e409] [cursor=pointer]
+            - button "How do system prompt, user prompt, retrieved context, and tool results interact?" [active] [ref=e410] [cursor=pointer]
+            - button "How do temperature and top-p change model behavior?" [ref=e411] [cursor=pointer]
+            - button "How do you break down LLM latency in production?" [ref=e412] [cursor=pointer]
+            - button "How do you build a good test set for LLM systems?" [ref=e413] [cursor=pointer]
+            - button "How do you choose a thread pool strategy, and how do you avoid thread leaks and deadlocks?" [ref=e414] [cursor=pointer]
+            - button "How do you choose chunk size and chunk overlap?" [ref=e415] [cursor=pointer]
+            - button "How do you connect offline evals to online experiments?" [ref=e416] [cursor=pointer]
+            - button "How do you cut AI cost without wrecking quality?" [ref=e417] [cursor=pointer]
+            - button "How do you debug an agent failure?" [ref=e418] [cursor=pointer]
+            - button "How do you decide between hosted APIs and self-hosted models?" [ref=e419] [cursor=pointer]
+            - button "How do you defend against prompt injection and jailbreak attempts?" [ref=e420] [cursor=pointer]
+            - button "How do you design model routing and fallback?" [ref=e421] [cursor=pointer]
+            - button "How do you diagnose an online performance problem, from metrics to root cause?" [ref=e422] [cursor=pointer]
+            - button "How do you distinguish hallucination from retrieval failure or tool failure?" [ref=e423] [cursor=pointer]
+            - button "How do you evaluate a RAG system beyond \"the answer looks okay\"?" [ref=e424] [cursor=pointer]
+            - button "How do you evaluate whether fine-tuning was worth it?" [ref=e425] [cursor=pointer]
+            - button "How do you explain a transformer like an engineer, not like a researcher?" [ref=e426] [cursor=pointer]
+            - button "How do you explain LoRA or PEFT in a practical way?" [ref=e427] [cursor=pointer]
+            - button "How do you explain precision vs recall in a way that sounds practical?" [ref=e428] [cursor=pointer]
+            - button "How do you explain RLHF versus DPO?" [ref=e429] [cursor=pointer]
+            - button "How do you explain the latency-quality-cost triangle?" [ref=e430] [cursor=pointer]
+            - button "How do you handle embedding refresh and re-indexing when documents or chunking rules change?" [ref=e431] [cursor=pointer]
+            - button "How do you handle PII and secrets in AI pipelines?" [ref=e432] [cursor=pointer]
+            - button "How do you handle stale knowledge in a RAG system?" [ref=e433] [cursor=pointer]
+            - button "How do you keep retrieval fresh and invalidate stale knowledge?" [ref=e434] [cursor=pointer]
+            - button "How do you know your refusal policy is too strict or too weak?" [ref=e435] [cursor=pointer]
+            - button "How do you make LLM output stable and safely consumable by downstream systems, including strict JSON, validation, and retry strategy?" [ref=e436] [cursor=pointer]
+            - button "How do you manage conversation memory and session state?" [ref=e437] [cursor=pointer]
+            - button "How do you prevent destructive tool misuse?" [ref=e438] [cursor=pointer]
+            - button "How do you roll out a new model version safely?" [ref=e439] [cursor=pointer]
+            - button "How do you tell whether an AI problem is really a model problem or a product or data problem?" [ref=e440] [cursor=pointer]
+            - button "How would you approach service decomposition and API contract management?" [ref=e441] [cursor=pointer]
+            - button "How would you design a canary release and rollback mechanism for model systems?" [ref=e442] [cursor=pointer]
+            - button "How would you design a concurrency-safe delayed task scheduler?" [ref=e443] [cursor=pointer]
+            - button "How would you design a feature store that keeps offline and online features consistent?" [ref=e444] [cursor=pointer]
+            - button "How would you design a pipeline from an operational database to a data lake or warehouse, and how would you guarantee data quality?" [ref=e445] [cursor=pointer]
+            - button "How would you design an end-to-end RAG service, including chunking, retrieval, reranking, answer generation, and citations?" [ref=e446] [cursor=pointer]
+            - button "How would you design an idempotent write API?" [ref=e447] [cursor=pointer]
+            - button "How would you design model routing and provider fallback?" [ref=e448] [cursor=pointer]
+            - button "How would you design offline and online evaluation for answer quality and business impact?" [ref=e449] [cursor=pointer]
+            - button "How would you design rate limiting and circuit breaking for a high-concurrency API?" [ref=e450] [cursor=pointer]
+            - button "How would you design tool calling and agent orchestration safely?" [ref=e451] [cursor=pointer]
+            - button "How would you handle backfills, replay, and reprocessing?" [ref=e452] [cursor=pointer]
+            - button "How would you handle data version management and traceability?" [ref=e453] [cursor=pointer]
+            - button "How would you handle sensitive data and permissions so that model calls and retrieval stay compliant?" [ref=e454] [cursor=pointer]
+            - button "How would you implement a rate limiter such as a token bucket or leaky bucket?" [ref=e455] [cursor=pointer]
+            - button "How would you implement an O(1) LRU cache?" [ref=e456] [cursor=pointer]
+            - button "How would you implement Top K frequency statistics, and what are the time and space complexities?" [ref=e457] [cursor=pointer]
+            - button "How would you integrate model services into CI/CD and automated testing?" [ref=e458] [cursor=pointer]
+            - button "How would you wrap an LLM client inside a Java service, including timeout, rate limiting, circuit breaking, and degradation?" [ref=e459] [cursor=pointer]
+            - button "In Spring Boot, how do you think about transaction propagation and consistency trade-offs?" [ref=e460] [cursor=pointer]
+            - button "What are common optimization strategies for large joins and slow queries?" [ref=e461] [cursor=pointer]
+            - button "What are the most common RAG failure modes you have seen?" [ref=e462] [cursor=pointer]
+            - button "What are the pros, cons, and best-fit scenarios for real-time, asynchronous, and batch inference?" [ref=e463] [cursor=pointer]
+            - button "What are the real trade-offs of quantization?" [ref=e464] [cursor=pointer]
+            - button "What are the trade-offs of streaming responses?" [ref=e465] [cursor=pointer]
+            - button "What cost optimization methods would you use, and how would you keep spending under control?" [ref=e466] [cursor=pointer]
+            - button "What data quality problem hurts AI systems the most?" [ref=e467] [cursor=pointer]
+            - button "What does a serious eval strategy look like for an AI product?" [ref=e468] [cursor=pointer]
+            - button "What does governance mean in an AI system beyond legal checkboxes?" [ref=e469] [cursor=pointer]
+            - button "What does memory mean in an agent system?" [ref=e470] [cursor=pointer]
+            - button "What does overfitting look like in an applied AI system, not just in a textbook?" [ref=e471] [cursor=pointer]
+            - button "What engineering safeguards would you use when the model hallucinates?" [ref=e472] [cursor=pointer]
+            - button "What is catastrophic forgetting, and how do you reduce it?" [ref=e473] [cursor=pointer]
+            - button "What is distribution shift, and where does it show up in AI products?" [ref=e474] [cursor=pointer]
+            - button "What is MCP, and where is it useful?" [ref=e475] [cursor=pointer]
+            - button "What is multi-hop retrieval, and when do you need it?" [ref=e476] [cursor=pointer]
+            - button "What is prefix or prompt caching, and where does it help?" [ref=e477] [cursor=pointer]
+            - button "What is prompt injection, and why is it not just a prompt problem?" [ref=e478] [cursor=pointer]
+            - button "What is speculative decoding, and when is it useful?" [ref=e479] [cursor=pointer]
+            - button "What is the difference between prefill and decode?" [ref=e480] [cursor=pointer]
+            - button "What is the difference between pretraining, instruction tuning, and preference alignment?" [ref=e481] [cursor=pointer]
+            - button "What is the difference between static batching and continuous batching?" [ref=e482] [cursor=pointer]
+            - button "What is the KV cache, and why should application engineers care?" [ref=e483] [cursor=pointer]
+            - button "What is the minimum RAG pipeline you would trust in production?" [ref=e484] [cursor=pointer]
+            - button "What is the real difference between prompt engineering and supervised fine-tuning?" [ref=e485] [cursor=pointer]
+            - button "What is tool injection or data exfiltration risk?" [ref=e486] [cursor=pointer]
+            - button "What is your approach to GC tuning, and which metrics do you watch?" [ref=e487] [cursor=pointer]
+            - button "What is your emergency strategy when a model service fails or starts producing abnormal outputs?" [ref=e488] [cursor=pointer]
+            - button "What makes a good tool definition for model tool calling?" [ref=e489] [cursor=pointer]
+            - button "What metrics matter for agent systems besides model accuracy?" [ref=e490] [cursor=pointer]
+            - button "What training data do you need before you fine-tune?" [ref=e491] [cursor=pointer]
+            - button "When are model-graded evals useful, and when are they risky?" [ref=e492] [cursor=pointer]
+            - button "When do you choose RAG over fine-tuning?" [ref=e493] [cursor=pointer]
+            - button "When do you put a human in the loop?" [ref=e494] [cursor=pointer]
+            - button "When do you use a reasoning-heavy model versus a faster general model?" [ref=e495] [cursor=pointer]
+            - button "When does distillation make sense?" [ref=e496] [cursor=pointer]
+            - button "When is a reranker worth the extra latency?" [ref=e497] [cursor=pointer]
+            - button "When is a smaller model actually the better engineering choice?" [ref=e498] [cursor=pointer]
+            - button "When is a workflow better than an agent?" [ref=e499] [cursor=pointer]
+            - button "When is batch processing better than stream processing, and how would you explain the trade-offs?" [ref=e500] [cursor=pointer]
+            - button "When is fine-tuning actually the right move?" [ref=e501] [cursor=pointer]
+            - button "When is synthetic data helpful, and when is it dangerous?" [ref=e502] [cursor=pointer]
+            - button "When should you route to different models instead of building one heavily tuned model?" [ref=e503] [cursor=pointer]
+            - button "Which metrics would you monitor to judge model quality and drift?" [ref=e504] [cursor=pointer]
+            - button "Why are metadata filters underrated in RAG?" [ref=e505] [cursor=pointer]
+            - button "Why can GPU utilization stay mediocre even when traffic is high?" [ref=e506] [cursor=pointer]
+            - button "Why can offline metrics improve while the product gets worse?" [ref=e507] [cursor=pointer]
+            - button "Why do structured outputs matter?" [ref=e508] [cursor=pointer]
+            - button "Why do you still build a non-LLM baseline for some AI tasks?" [ref=e509] [cursor=pointer]
+            - button "Why does tokenization matter in real systems?" [ref=e510] [cursor=pointer]
+            - button "Why is a long context window not a free win?" [ref=e511] [cursor=pointer]
+            - button "Why is hybrid retrieval often better than embeddings alone?" [ref=e512] [cursor=pointer]
+            - button "Why is idempotency critical in agent systems?" [ref=e513] [cursor=pointer]
+            - button "Why is temperature 0 not the same as guaranteed determinism?" [ref=e514] [cursor=pointer]
+        - button "▸ Behavioral 50" [ref=e403] [cursor=pointer]:
+          - generic [ref=e125]: ▸
+          - generic [ref=e126]: Behavioral
+          - generic [ref=e127]: "50"
+        - button "▸ Java Core 73" [ref=e404] [cursor=pointer]:
+          - generic [ref=e181]: ▸
+          - generic [ref=e182]: Java Core
+          - generic [ref=e183]: "73"
+        - button "▸ SQL 20" [ref=e405] [cursor=pointer]:
+          - generic [ref=e260]: ▸
+          - generic [ref=e261]: SQL
+          - generic [ref=e262]: "20"
+        - button "▸ System Design 99" [ref=e406] [cursor=pointer]:
+          - generic [ref=e286]: ▸
+          - generic [ref=e287]: System Design
+          - generic [ref=e288]: "99"
+    - main [ref=e389]:
+      - article [ref=e515]:
+        - generic [ref=e516]:
+          - generic [ref=e517]: AI
+          - generic [ref=e518]: Medium
+        - heading "How do system prompt, user prompt, retrieved context, and tool results interact?" [level=1] [ref=e519]
+        - generic [ref=e521]: llm
+        - generic [ref=e522]:
+          - heading "Reference Answer" [level=3] [ref=e523]
+          - generic [ref=e524]: The system prompt sets high-level policy and task framing. User input expresses the actual request. Retrieved context and tool results provide grounding, but only if they are relevant and clean. In practice most failures come from bad context assembly, not from one magic prompt sentence.
+  - button "Open Next.js Dev Tools" [ref=e397] [cursor=pointer]:
+    - img [ref=e398]
+  - alert [ref=e401]

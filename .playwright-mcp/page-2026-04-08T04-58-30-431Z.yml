@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Freelancer" [ref=e4] [cursor=pointer]:
+        - /url: /en
+      - navigation [ref=e5]:
+        - link "Public listings" [ref=e6] [cursor=pointer]:
+          - /url: /en/listings
+        - link "Inbox" [ref=e7] [cursor=pointer]:
+          - /url: /en/app/inbox
+        - link "Admin" [ref=e8] [cursor=pointer]:
+          - /url: /en/admin
+        - link "JA" [ref=e10] [cursor=pointer]:
+          - /url: /ja
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - paragraph [ref=e15]: Web MVP
+            - heading "Find the right gig. Find the right worker." [level=1] [ref=e16]
+            - paragraph [ref=e17]: A bilingual marketplace for people who need flexible work and teams that need flexible talent.
+            - generic [ref=e18]:
+              - link "Browse listings" [ref=e19] [cursor=pointer]:
+                - /url: /en/listings
+              - link "Use demo sign-in" [ref=e20] [cursor=pointer]:
+                - /url: /en/sign-in
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: MVP scope
+            - list [ref=e23]:
+              - listitem [ref=e24]: Public search and listing detail pages
+              - listitem [ref=e25]: Demo seeker, hirer, and admin sessions
+              - listitem [ref=e26]: In-platform applications and inbox messaging
+              - listitem [ref=e27]: Admin moderation surfaces
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: Marketplace
+              - heading "Featured freelance opportunities" [level=2] [ref=e32]
+            - link "See all listings" [ref=e33] [cursor=pointer]:
+              - /url: /en/listings
+          - generic [ref=e34]:
+            - link "Video Editing hybrid Reliable Translator for enterprise team Help us build and launch our mobile app. This is a great opportunity for someone with Video editing expertise who can also handle Spreadsheets. EUR 204 / day Canada Vancouver" [ref=e35] [cursor=pointer]:
+              - /url: /en/listings/listing-14
+              - generic [ref=e36]:
+                - generic [ref=e37]: Video Editing
+                - generic [ref=e38]: hybrid
+              - heading "Reliable Translator for enterprise team" [level=3] [ref=e39]
+              - paragraph [ref=e40]: Help us build and launch our mobile app. This is a great opportunity for someone with Video editing expertise who can also handle Spreadsheets.
+              - generic [ref=e41]:
+                - generic [ref=e42]: EUR 204 / day
+                - generic [ref=e43]: Canada
+                - generic [ref=e44]: Vancouver
+            - link "Research hybrid Translator | mobile app | Singapore Help us build and launch our video series. This is a great opportunity for someone with Marketing expertise who can also handle Python. JPY 29983 / day United States Chicago" [ref=e45] [cursor=pointer]:
+              - /url: /en/listings/listing-69
+              - generic [ref=e46]:
+                - generic [ref=e47]: Research
+                - generic [ref=e48]: hybrid
+              - heading "Translator | mobile app | Singapore" [level=3] [ref=e49]
+              - paragraph [ref=e50]: Help us build and launch our video series. This is a great opportunity for someone with Marketing expertise who can also handle Python.
+              - generic [ref=e51]:
+                - generic [ref=e52]: JPY 29983 / day
+                - generic [ref=e53]: United States
+                - generic [ref=e54]: Chicago
+  - button "Open Next.js Dev Tools" [ref=e60] [cursor=pointer]:
+    - img [ref=e61]
+  - alert [ref=e64]

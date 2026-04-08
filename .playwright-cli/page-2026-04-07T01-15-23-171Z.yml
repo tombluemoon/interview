@@ -1,0 +1,80 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Admin
+        - heading "Content Management" [level=2] [ref=e7]
+        - paragraph [ref=e8]: "Keep the initial admin tooling intentionally small: table views, simple filters, and one editor form."
+      - navigation [ref=e9]:
+        - link "Questions" [ref=e10] [cursor=pointer]:
+          - /url: /admin/questions
+        - link "Categories" [ref=e11] [cursor=pointer]:
+          - /url: /admin/categories
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - heading "Categories" [level=1] [ref=e16]
+          - paragraph [ref=e17]: Version 1 only needs a simple list with lightweight edits.
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "Current Categories" [level=3] [ref=e20]
+            - generic [ref=e21]:
+              - generic [ref=e22]:
+                - generic [ref=e23]:
+                  - heading "AI" [level=3] [ref=e24]
+                  - generic [ref=e25]: 3 questions
+                - paragraph [ref=e26]: ai
+                - paragraph [ref=e27]: RAG, evaluation, deployment, and LLM application design.
+                - group [ref=e28]:
+                  - generic "Edit" [ref=e29] [cursor=pointer]
+              - generic [ref=e30]:
+                - generic [ref=e31]:
+                  - heading "Algorithms" [level=3] [ref=e32]
+                  - generic [ref=e33]: 1 questions
+                - paragraph [ref=e34]: algorithms
+                - paragraph [ref=e35]: Core coding and data structure questions.
+                - group [ref=e36]:
+                  - generic "Edit" [ref=e37] [cursor=pointer]
+              - generic [ref=e38]:
+                - generic [ref=e39]:
+                  - heading "Java Core" [level=3] [ref=e40]
+                  - generic [ref=e41]: 0 questions
+                - paragraph [ref=e42]: java-core
+                - paragraph [ref=e43]: JVM, concurrency, collections, and Spring basics.
+                - group [ref=e44]:
+                  - generic "Edit" [ref=e45] [cursor=pointer]
+              - generic [ref=e46]:
+                - generic [ref=e47]:
+                  - heading "SQL" [level=3] [ref=e48]
+                  - generic [ref=e49]: 1 questions
+                - paragraph [ref=e50]: sql
+                - paragraph [ref=e51]: Transactions, indexing, query tuning, and modeling.
+                - group [ref=e52]:
+                  - generic "Edit" [ref=e53] [cursor=pointer]
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - heading "System Design" [level=3] [ref=e56]
+                  - generic [ref=e57]: 1 questions
+                - paragraph [ref=e58]: system-design
+                - paragraph [ref=e59]: Backend architecture, scaling, and distributed systems.
+                - group [ref=e60]:
+                  - generic "Edit" [ref=e61] [cursor=pointer]
+          - generic [ref=e62]:
+            - heading "Create Category" [level=3] [ref=e63]
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - text: Name
+                - textbox "Name" [ref=e66]:
+                  - /placeholder: Behavioral
+              - generic [ref=e67]:
+                - text: Slug
+                - textbox "Slug" [ref=e68]:
+                  - /placeholder: Leave blank to auto-generate
+              - generic [ref=e69]:
+                - text: Description
+                - textbox "Description" [ref=e70]:
+                  - /placeholder: Short category explanation.
+              - button "Save Category" [ref=e72] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e78] [cursor=pointer]:
+    - img [ref=e79]
+  - alert [ref=e82]
