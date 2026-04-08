@@ -664,6 +664,98 @@ button {
   font-size: 1.1rem;
 }
 
+/* Markdown Editor Toolbar & Editor */
+.qb-md-editor-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.qb-md-editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qb-md-editor-header label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.qb-md-preview-btn {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.qb-md-preview-btn:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.qb-md-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 6px;
+  background: rgba(244, 241, 234, 0.5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  border-bottom: none;
+}
+
+.qb-md-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 30px;
+  padding: 0 8px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.qb-md-btn:hover {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.qb-md-help {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.qb-md-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  border: 1px solid var(--border);
+  background: white;
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.qb-md-preview {
+  padding: 16px;
+  background: rgba(255, 253, 248, 0.92);
+  border: 1px solid rgba(222, 212, 194, 0.6);
+  border-radius: var(--radius-sm);
+  min-height: 100px;
+}
+
 .question-list {
   list-style: none;
   margin: 18px 0 0;
